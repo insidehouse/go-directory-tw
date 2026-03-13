@@ -1,0 +1,80 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SchoolCard from '../../components/SchoolCard.astro';
+import schools from '../../data/schools.json';
+
+const adultSchools = (schools as any[]).filter((s) =>
+  (s.age_groups ?? []).includes('adults')
+);
+---
+
+<BaseLayout
+  title="成人圍棋教室"
+  description={`接受成人學員的圍棋教室與學習資源。共 ${adultSchools.length} 個教學地點，含線上學習平台推薦。`}
+>
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
+    <nav class="text-sm text-gray-500 mb-4">
+      <a href="/schools/" class="hover:text-primary-600 transition-colors">棋院教室</a>
+      <span class="mx-1">/</span>
+      <span class="text-gray-900">成人可學</span>
+    </nav>
+
+    <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+      <div>
+        <h1 class="text-3xl font-bold text-gray-900">成人圍棋教室</h1>
+        <p class="mt-1 text-gray-600">接受成人學員的圍棋棋院與教室</p>
+      </div>
+      <p class="text-sm text-gray-400">
+        共 {adultSchools.length} 個教學地點
+      </p>
+    </div>
+
+    <div class="mt-6 bg-amber-50 border border-amber-200 rounded-lg p-4">
+      <p class="text-sm text-amber-800">
+        大部分圍棋棋院以兒童教學為主，接受成人學員的選擇相對較少。以下列出已確認接受成人的教學地點。
+        如果找不到合適的實體教室，也可以考慮<a href="#online" class="font-medium underline hover:text-amber-900">線上學習平台</a>。
+      </p>
+    </div>
+
+    {adultSchools.length > 0 ? (
+      <div class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        {adultSchools.map((school: any) => (
+          <SchoolCard {...school} />
+        ))}
+      </div>
+    ) : (
+      <div class="mt-12 text-center py-16 bg-white rounded-lg border border-gray-200">
+        <p class="text-lg font-medium text-gray-900">資料收集中</p>
+        <p class="mt-2 text-sm text-gray-500">成人教學地點資料持續更新中。</p>
+      </div>
+    )}
+
+    <section id="online" class="mt-12 pt-8 border-t border-gray-200">
+      <h2 class="text-xl font-semibold text-gray-900">線上學習替代方案</h2>
+      <p class="mt-2 text-gray-600 text-sm">找不到附近的實體教室？以下線上平台適合成人自學或對弈。</p>
+
+      <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="bg-white rounded-lg border border-gray-200 p-5">
+          <h3 class="font-semibold text-gray-900">野狐圍棋（Fox Weiqi）</h3>
+          <p class="mt-1 text-sm text-gray-600">中國最大線上對弈平台，繁中支援，高手雲集。免費使用。</p>
+          <p class="mt-2 text-xs text-gray-400">foxwq.com</p>
+        </div>
+        <div class="bg-white rounded-lg border border-gray-200 p-5">
+          <h3 class="font-semibold text-gray-900">OGS（Online Go Server）</h3>
+          <p class="mt-1 text-sm text-gray-600">國際線上圍棋伺服器，介面友善，支援中文。免費使用。</p>
+          <p class="mt-2 text-xs text-gray-400">online-go.com</p>
+        </div>
+        <div class="bg-white rounded-lg border border-gray-200 p-5">
+          <h3 class="font-semibold text-gray-900">黑嘉嘉圍棋教室</h3>
+          <p class="mt-1 text-sm text-gray-600">台灣職業棋手黑嘉嘉創辦，提供系統化教學課程。付費制。</p>
+          <p class="mt-2 text-xs text-gray-400">heijiajia.com</p>
+        </div>
+        <div class="bg-white rounded-lg border border-gray-200 p-5">
+          <h3 class="font-semibold text-gray-900">KataGo</h3>
+          <p class="mt-1 text-sm text-gray-600">開源 AI 圍棋引擎，可在本機安裝用於覆盤分析。免費。</p>
+          <p class="mt-2 text-xs text-gray-400">github.com/lightvector/KataGo</p>
+        </div>
+      </div>
+    </section>
+  </div>
+</BaseLayout>

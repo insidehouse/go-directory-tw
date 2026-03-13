@@ -1,0 +1,124 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SchoolCard from '../../components/SchoolCard.astro';
+import schools from '../../data/schools.json';
+
+const cities = [...new Set(schools.map((s: any) => s.city))].filter(Boolean).sort();
+const citySlugMap: Record<string, string> = {};
+for (const s of schools as any[]) {
+  if (s.city && s.city_slug) citySlugMap[s.city] = s.city_slug;
+}
+---
+
+<BaseLayout title="棋院教室" description="台灣圍棋棋院、教室完整列表。依縣市、年齡層篩選，快速找到適合的圍棋學習場所。">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
+    <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+      <div>
+        <h1 class="text-3xl font-bold text-gray-900">棋院教室</h1>
+        <p class="mt-1 text-gray-600">全台圍棋棋院與教室列表</p>
+      </div>
+      <p class="text-sm text-gray-400" id="school-count">
+        共 {schools.length} 個教學地點
+      </p>
+    </div>
+
+    <!-- Filters -->
+    <div class="mt-6 flex flex-wrap gap-3 items-center" id="filters">
+      <select id="filter-city" class="rounded-md border border-gray-300 bg-white px-3 py-2 text-sm text-gray-700 shadow-sm focus:border-primary-500 focus:ring-1 focus:ring-primary-500">
+        <option value="">所有縣市</option>
+        {cities.map((c) => (
+          <option value={c}>{c}</option>
+        ))}
+      </select>
+
+      <select id="filter-age" class="rounded-md border border-gray-300 bg-white px-3 py-2 text-sm text-gray-700 shadow-sm focus:border-primary-500 focus:ring-1 focus:ring-primary-500">
+        <option value="">所有年齡層</option>
+        <option value="children">兒童</option>
+        <option value="adults">成人</option>
+      </select>
+
+      <button id="filter-reset" class="text-sm text-gray-500 hover:text-primary-600 transition-colors hidden">
+        清除篩選
+      </button>
+    </div>
+
+    <!-- City quick links -->
+    <div class="mt-4 flex flex-wrap gap-2">
+      {Object.entries(citySlugMap).map(([city, slug]) => {
+        const count = schools.filter((s: any) => s.city === city).length;
+        return (
+          <a
+            href={`/schools/${slug}/`}
+            class="inline-flex items-center gap-1 px-3 py-1 rounded-full text-xs font-medium bg-gray-100 text-gray-600 hover:bg-primary-50 hover:text-primary-700 transition-colors"
+          >
+            {city} <span class="text-gray-400">({count})</span>
+          </a>
+        );
+      })}
+      <a
+        href="/schools/adults/"
+        class="inline-flex items-center gap-1 px-3 py-1 rounded-full text-xs font-medium bg-amber-50 text-amber-700 hover:bg-amber-100 transition-colors"
+      >
+        成人可學
+      </a>
+    </div>
+
+    <!-- School grid -->
+    <div class="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4" id="school-grid">
+      {schools.map((school: any) => (
+        <div
+          class="school-item"
+          data-city={school.city}
+          data-age={school.age_groups?.join(',') ?? ''}
+        >
+          <SchoolCard {...school} />
+        </div>
+      ))}
+    </div>
+
+    <!-- No results -->
+    <div id="no-results" class="hidden mt-12 text-center py-16 bg-white rounded-lg border border-gray-200">
+      <p class="text-lg font-medium text-gray-900">沒有符合條件的結果</p>
+      <p class="mt-2 text-sm text-gray-500">請嘗試調整篩選條件</p>
+    </div>
+  </div>
+</BaseLayout>
+
+<script>
+  const citySelect = document.getElementById('filter-city') as HTMLSelectElement;
+  const ageSelect = document.getElementById('filter-age') as HTMLSelectElement;
+  const resetBtn = document.getElementById('filter-reset') as HTMLButtonElement;
+  const grid = document.getElementById('school-grid')!;
+  const noResults = document.getElementById('no-results')!;
+  const countEl = document.getElementById('school-count')!;
+  const items = grid.querySelectorAll('.school-item') as NodeListOf<HTMLElement>;
+
+  function applyFilters() {
+    const city = citySelect.value;
+    const age = ageSelect.value;
+    let visible = 0;
+
+    items.forEach((item) => {
+      const itemCity = item.dataset.city ?? '';
+      const itemAge = item.dataset.age ?? '';
+      const matchCity = !city || itemCity === city;
+      const matchAge = !age || itemAge.includes(age);
+      const show = matchCity && matchAge;
+      item.style.display = show ? '' : 'none';
+      if (show) visible++;
+    });
+
+    countEl.textContent = `共 ${visible} 個教學地點`;
+    noResults.classList.toggle('hidden', visible > 0);
+    grid.classList.toggle('hidden', visible === 0);
+    resetBtn.classList.toggle('hidden', !city && !age);
+  }
+
+  citySelect.addEventListener('change', applyFilters);
+  ageSelect.addEventListener('change', applyFilters);
+  resetBtn.addEventListener('click', () => {
+    citySelect.value = '';
+    ageSelect.value = '';
+    applyFilters();
+  });
+</script>
