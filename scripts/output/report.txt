@@ -1,0 +1,49 @@
+=== Merge Report ===
+Research records: 176
+Site records: 48
+Non-go filtered: 6
+Matched: 42
+Unmatched research (candidates): 128
+Unmatched site (no research match): 6
+
+Enrichments to apply: 36
+
+--- Candidates by city ---
+  新北: 22
+  台中: 19
+  高雄: 18
+  台北: 17
+  桃園: 16
+  新竹: 13
+  台南: 12
+  嘉義: 6
+
+--- Top 20 candidates (by rating) ---
+  [新竹] 黑嘉嘉圍棋-新竹巨城分校 — rating:5.0 reviews:904
+  [新北] 名人兒童圍棋板橋實踐分院 — rating:5.0 reviews:353
+  [桃園] 黑嘉嘉圍棋-桃園八德分校 — rating:5.0 reviews:274.0
+  [新竹] 黑嘉嘉圍棋-新竹竹北分校 — rating:5.0 reviews:244
+  [嘉義] 棋而思Cheers圍棋推廣中心 (東區本部) — rating:5.0 reviews:218
+  [桃園] 黑嘉嘉圍棋-桃園平鎮分校 — rating:5.0 reviews:183.0
+  [新北] 黑嘉嘉圍棋－新北汐止分校 — rating:5.0 reviews:169
+  [新北] 名人兒童圍棋新店中正分院 — rating:5.0 reviews:167
+  [桃園] 黑嘉嘉圍棋-桃園大有分校 — rating:5.0 reviews:164.0
+  [新北] 名人兒童圍棋土城青雲分院 — rating:5.0 reviews:162
+  [桃園] 黑嘉嘉圍棋-桃園中山分校 — rating:5.0 reviews:145.0
+  [高雄] 名人兒童圍棋鼓山大順分院 — rating:5.0 reviews:143.0
+  [新北] 名人兒童圍棋永和得和分院 — rating:5.0 reviews:110
+  [台北] 名人兒童圍棋台北長安分院 — rating:5.0 reviews:96
+  [新北] 名人兒童圍棋三重重新分院 — rating:5.0 reviews:87
+  [台中] 小豆苗藝術文理短期補習班《兒童藝術補習班》梧棲區美術教學 — rating:5.0 reviews:52.0
+  [台北] 智多星圍棋 (仁愛分校) — rating:5.0 reviews:51
+  [台北] 林聖賢 圍棋 技藝短期補習班《台北市圍棋》/文山區圍棋/兒童圍棋/成人圍棋/圍棋職業老師/棋盤遊戲 — rating:5.0 reviews:46
+  [嘉義] 棋而思Cheers圍棋推廣中心（西區分部） — rating:5.0 reviews:44
+  [桃園] 新銳圍棋 莊敬道場 — rating:5.0 reviews:40.0
+
+--- Unmatched site records (no research data found) ---
+  名人兒童棋院（長安分院） (台北 中山區)
+  名人兒童棋院（天母德行分院） (台北 士林區)
+  名人兒童棋院（忠孝分院） (台北 大安區)
+  名人兒童棋院（天母忠誠分院） (台北 士林區)
+  中央棋院（花蓮院） (花蓮 )
+  華聲少年圍棋學院（東區棋院） (台南 東區)

@@ -1,0 +1,467 @@
+[
+  {
+    "slug": "中華棋院暨兒童圍棋道場",
+    "name": "中華棋院暨兒童圍棋道場",
+    "research_name": "中華棋院",
+    "updates": {
+      "google_rating": 4.5,
+      "google_review_count": 16,
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJlfi1ZdOrQjQR4IiJkgXZAwU",
+      "lat": 25.033158099999998,
+      "lng": 121.54329449999999,
+      "place_id": "ChIJlfi1ZdOrQjQR4IiJkgXZAwU"
+    }
+  },
+  {
+    "slug": "名人兒童棋院-古亭總院",
+    "name": "名人兒童棋院（古亭總院）",
+    "research_name": "名人兒童圍棋台北古亭總院",
+    "updates": {
+      "google_rating": 4.9,
+      "google_review_count": 251,
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJN5RMH5CpQjQR62KLPrOhcTs",
+      "lat": 25.023695999999997,
+      "lng": 121.52523099999999,
+      "place_id": "ChIJN5RMH5CpQjQR62KLPrOhcTs"
+    }
+  },
+  {
+    "slug": "智多星圍棋教室",
+    "name": "智多星圍棋教室",
+    "research_name": "智多星兒童棋院",
+    "updates": {
+      "google_rating": 5.0,
+      "google_review_count": 78,
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJyS5M7jOqQjQRnMEc-GnEpC4",
+      "lat": 25.024414,
+      "lng": 121.553303,
+      "place_id": "ChIJyS5M7jOqQjQRnMEc-GnEpC4"
+    }
+  },
+  {
+    "slug": "海峰棋院",
+    "name": "海峰棋院",
+    "research_name": "海峰棋院",
+    "updates": {
+      "google_rating": 4.6,
+      "google_review_count": 27,
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJM76flzKqQjQRkekL1q_RHXI",
+      "lat": 25.028485,
+      "lng": 121.5491728,
+      "place_id": "ChIJM76flzKqQjQRkekL1q_RHXI"
+    }
+  },
+  {
+    "slug": "碁人中華兒童棋院-台北天母",
+    "name": "碁人中華兒童棋院（台北天母）",
+    "research_name": "碁人中華兒童棋院【天母分院】",
+    "updates": {
+      "google_rating": 5.0,
+      "google_review_count": 9,
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJZw-FnICuQjQRRPsd4DTMSoE",
+      "lat": 25.118252899999998,
+      "lng": 121.53328889999999,
+      "place_id": "ChIJZw-FnICuQjQRRPsd4DTMSoE"
+    }
+  },
+  {
+    "slug": "繽紛兒童棋院",
+    "name": "繽紛兒童棋院",
+    "research_name": "繽紛兒童圍棋教室",
+    "updates": {
+      "google_rating": 4.9,
+      "google_review_count": 8,
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJXwyzr1quQjQR8lIGr3V3MzA",
+      "lat": 25.137230799999998,
+      "lng": 121.5004628,
+      "place_id": "ChIJXwyzr1quQjQR8lIGr3V3MzA"
+    }
+  },
+  {
+    "slug": "長清兒童棋院-內湖院",
+    "name": "長清兒童棋院（內湖院）",
+    "research_name": "黑嘉嘉圍棋-台北內湖分校",
+    "updates": {
+      "google_rating": 4.8,
+      "google_review_count": 29,
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJFbghSI2sQjQR4qLCK6TsLws",
+      "lat": 25.0827071,
+      "lng": 121.5925068,
+      "place_id": "ChIJFbghSI2sQjQR4qLCK6TsLws"
+    }
+  },
+  {
+    "slug": "碁人中華兒童棋院-台北古亭",
+    "name": "碁人中華兒童棋院（台北古亭）",
+    "research_name": "黑嘉嘉圍棋-台北古亭",
+    "updates": {
+      "google_rating": 5.0,
+      "google_review_count": 21,
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJo3ClTZqpQjQRrhePBIuPVVA",
+      "lat": 25.028205999999997,
+      "lng": 121.52188199999999,
+      "place_id": "ChIJo3ClTZqpQjQRrhePBIuPVVA"
+    }
+  },
+  {
+    "slug": "長清兒童棋院-東門古亭院",
+    "name": "長清兒童棋院（東門(古亭)院）",
+    "research_name": "黑嘉嘉圍棋-台北東門分校",
+    "updates": {
+      "google_rating": 4.9,
+      "google_review_count": 30,
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ27zT_IGpQjQRFB7WUQpaFl0",
+      "lat": 25.0337958,
+      "lng": 121.5320905,
+      "place_id": "ChIJ27zT_IGpQjQRFB7WUQpaFl0"
+    }
+  },
+  {
+    "slug": "長清兒童棋院-大直院",
+    "name": "長清兒童棋院（大直院）",
+    "research_name": "黑嘉嘉圍棋－台北大直分校",
+    "updates": {
+      "google_rating": 4.4,
+      "google_review_count": 8,
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ-W8_RA-sQjQRZdjqJ7RMvco",
+      "lat": 25.0775784,
+      "lng": 121.55080969999999,
+      "place_id": "ChIJ-W8_RA-sQjQRZdjqJ7RMvco"
+    }
+  },
+  {
+    "slug": "長清兒童棋院-忠孝院",
+    "name": "長清兒童棋院（忠孝院）",
+    "research_name": "黑嘉嘉圍棋－台北忠孝分校",
+    "updates": {
+      "google_rating": 4.6,
+      "google_review_count": 35,
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJc_QM9sWrQjQRiPCKJ1F8gk0",
+      "lat": 25.041628,
+      "lng": 121.55488199999999,
+      "place_id": "ChIJc_QM9sWrQjQRiPCKJ1F8gk0"
+    }
+  },
+  {
+    "slug": "長清兒童棋院-木柵院",
+    "name": "長清兒童棋院（木柵院）",
+    "research_name": "黑嘉嘉圍棋－台北木柵分校",
+    "updates": {
+      "google_rating": 4.8,
+      "google_review_count": 22,
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJU5kxN94BaDQRIXtbULVU1W4",
+      "lat": 24.9814917,
+      "lng": 121.5609882,
+      "place_id": "ChIJU5kxN94BaDQRIXtbULVU1W4"
+    }
+  },
+  {
+    "slug": "中央棋院-板橋院",
+    "name": "中央棋院（板橋院）",
+    "research_name": "中央棋院-板橋分院(圍棋)",
+    "updates": {
+      "google_rating": 5.0,
+      "google_review_count": 21,
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJPwXC6X-pQjQR05usV8k5Org",
+      "lat": 25.013475099999997,
+      "lng": 121.4743724,
+      "place_id": "ChIJPwXC6X-pQjQR05usV8k5Org"
+    }
+  },
+  {
+    "slug": "碁人中華兒童棋院-新北北大樹林",
+    "name": "碁人中華兒童棋院（新北北大(樹林)）",
+    "research_name": "黑嘉嘉圍棋-三峽北大分校",
+    "updates": {
+      "google_rating": 5.0,
+      "google_review_count": 2,
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJcQfvInMcaDQR720gjor64ag",
+      "lat": 24.949987999999998,
+      "lng": 121.378338,
+      "place_id": "ChIJcQfvInMcaDQR720gjor64ag"
+    }
+  },
+  {
+    "slug": "中央棋院-內壢院",
+    "name": "中央棋院（內壢院）",
+    "research_name": "中央棋院-桃園內壢分院(圍棋)",
+    "updates": {
+      "google_rating": 5.0,
+      "google_review_count": 6.0,
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJY8c8vyEhaDQRbVva5SAf5-k",
+      "lat": 24.975369,
+      "lng": 121.248323,
+      "place_id": "ChIJY8c8vyEhaDQRbVva5SAf5-k"
+    }
+  },
+  {
+    "slug": "中央棋院-八德院",
+    "name": "中央棋院（八德院）",
+    "research_name": "中央棋院-桃園八德分院(圍棋)",
+    "updates": {
+      "google_rating": 5.0,
+      "google_review_count": 2.0,
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJzbYxHHMfaDQRK-FPTEWWLVE",
+      "lat": 24.9726391,
+      "lng": 121.29985169999999,
+      "place_id": "ChIJzbYxHHMfaDQRK-FPTEWWLVE"
+    }
+  },
+  {
+    "slug": "中央棋院-平鎮院",
+    "name": "中央棋院（平鎮院）",
+    "research_name": "中央棋院-桃園平鎮文化總院（圍棋）",
+    "updates": {
+      "google_rating": 5.0,
+      "google_review_count": 117.0,
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJMxg6K6UjaDQRZ0eHF_i-cng",
+      "lat": 24.9514393,
+      "lng": 121.2027986,
+      "place_id": "ChIJMxg6K6UjaDQRZ0eHF_i-cng"
+    }
+  },
+  {
+    "slug": "中央棋院-楊梅院",
+    "name": "中央棋院（楊梅院）",
+    "research_name": "中央棋院-桃園楊梅楊明分院(圍棋)",
+    "updates": {
+      "google_rating": 4.8,
+      "google_review_count": 83.0,
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJF5y1niIlaDQRyS5gHsFzxoQ",
+      "lat": 24.909415199999998,
+      "lng": 121.1588386,
+      "place_id": "ChIJF5y1niIlaDQRyS5gHsFzxoQ"
+    }
+  },
+  {
+    "slug": "中央棋院-為光院",
+    "name": "中央棋院（為光院）",
+    "research_name": "中央棋院-桃園為光分院(圍棋)",
+    "updates": {
+      "google_rating": 5.0,
+      "google_review_count": 77.0,
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJiwfbevgeaDQRllLQq5K1sd8",
+      "lat": 24.9987797,
+      "lng": 121.3177285,
+      "place_id": "ChIJiwfbevgeaDQRllLQq5K1sd8"
+    }
+  },
+  {
+    "slug": "中央棋院-藝文院",
+    "name": "中央棋院（藝文院）",
+    "research_name": "中央棋院-桃園藝文分院(圍棋)",
+    "updates": {
+      "google_rating": 5.0,
+      "google_review_count": 14.0,
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJC86J2DwfaDQRBrWQ9pE6OHg",
+      "lat": 25.0146007,
+      "lng": 121.2951727,
+      "place_id": "ChIJC86J2DwfaDQRBrWQ9pE6OHg"
+    }
+  },
+  {
+    "slug": "中央棋院-青埔院",
+    "name": "中央棋院（青埔院）",
+    "research_name": "中央棋院-桃園青埔分院(圍棋)",
+    "updates": {
+      "google_rating": 5.0,
+      "google_review_count": 40.0,
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ4akSPg4haDQRMT9yFpoLkJQ",
+      "lat": 25.0099828,
+      "lng": 121.214939,
+      "place_id": "ChIJ4akSPg4haDQRMT9yFpoLkJQ"
+    }
+  },
+  {
+    "slug": "碁人中華兒童棋院-新竹竹北",
+    "name": "碁人中華兒童棋院（新竹竹北）",
+    "research_name": "兒童棋院",
+    "updates": {
+      "google_rating": 5.0,
+      "google_review_count": 1.0,
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJu3Ql40kiaDQRYuGAvFegDWk",
+      "lat": 24.957157,
+      "lng": 121.223337,
+      "place_id": "ChIJu3Ql40kiaDQRYuGAvFegDWk"
+    }
+  },
+  {
+    "slug": "中央棋院-北門院",
+    "name": "中央棋院（北門院）",
+    "research_name": "中央棋院-新竹北門分院(圍棋)",
+    "updates": {
+      "google_rating": 5.0,
+      "google_review_count": 22,
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJDY25RtA1aDQRyKkVRwKAsxs",
+      "lat": 24.8118436,
+      "lng": 120.9606692,
+      "place_id": "ChIJDY25RtA1aDQRyKkVRwKAsxs"
+    }
+  },
+  {
+    "slug": "中央棋院-棋藝國",
+    "name": "中央棋院（棋藝國）",
+    "research_name": "中央棋院-新竹棋弈果分院(圍棋)",
+    "updates": {
+      "google_rating": 5.0,
+      "google_review_count": 18,
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJIVoWEq41aDQRM-sthcPZQE0",
+      "lat": 24.799456,
+      "lng": 120.981701,
+      "place_id": "ChIJIVoWEq41aDQRM-sthcPZQE0"
+    }
+  },
+  {
+    "slug": "中央棋院-竹北院",
+    "name": "中央棋院（竹北院）",
+    "research_name": "中央棋院-新竹竹北分院",
+    "updates": {
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJOXXhHIw3aDQRYwqoOHWbAT4",
+      "lat": 24.8436958,
+      "lng": 120.9961024,
+      "place_id": "ChIJOXXhHIw3aDQRYwqoOHWbAT4"
+    }
+  },
+  {
+    "slug": "方圓圍棋教室",
+    "name": "方圓圍棋教室",
+    "research_name": "方圓圍棋教室(國光教室)",
+    "updates": {
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ49qNGWY9aTQRa8QIGslJMbM",
+      "lat": 24.125163699999998,
+      "lng": 120.6791622,
+      "place_id": "ChIJ49qNGWY9aTQRa8QIGslJMbM"
+    }
+  },
+  {
+    "slug": "梁老師圍棋學院",
+    "name": "梁老師圍棋學院",
+    "research_name": "梁老師圍棋學院",
+    "updates": {
+      "google_rating": 5.0,
+      "google_review_count": 10.0,
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJRWJ1ZVM9aTQR50vKFOXjWPo",
+      "lat": 24.163515099999998,
+      "lng": 120.65473949999999,
+      "place_id": "ChIJRWJ1ZVM9aTQR50vKFOXjWPo"
+    }
+  },
+  {
+    "slug": "森圍棋藝術",
+    "name": "森圍棋藝術",
+    "research_name": "森圍棋藝術│成人.兒童.零基礎圍棋│北屯",
+    "updates": {
+      "google_rating": 5.0,
+      "google_review_count": 12.0,
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJjQYOwkkXaTQRwxUsagC7Hio",
+      "lat": 24.170793699999997,
+      "lng": 120.6945123,
+      "place_id": "ChIJjQYOwkkXaTQRwxUsagC7Hio",
+      "line_id": "@forest_school"
+    }
+  },
+  {
+    "slug": "蘇老師櫻花圍棋教室",
+    "name": "蘇老師櫻花圍棋教室",
+    "research_name": "蘇老師櫻花圍棋教室",
+    "updates": {
+      "google_rating": 4.7,
+      "google_review_count": 13.0,
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ9W_KFCcWaTQRl6oP6GdtMww",
+      "lat": 24.167505,
+      "lng": 120.66534399999999,
+      "place_id": "ChIJ9W_KFCcWaTQRl6oP6GdtMww"
+    }
+  },
+  {
+    "slug": "心弈圍棋苑",
+    "name": "心弈圍棋苑",
+    "research_name": "心弈圍棋苑 嘉市本苑",
+    "updates": {
+      "google_rating": 5.0,
+      "google_review_count": 94,
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJkz0MpIaXbjQR2AZ1sTfej6s",
+      "lat": 23.4716556,
+      "lng": 120.42369679999999,
+      "place_id": "ChIJkz0MpIaXbjQR2AZ1sTfej6s"
+    }
+  },
+  {
+    "slug": "棋飛圍棋",
+    "name": "棋飛圍棋",
+    "research_name": "棋飛圍棋教室",
+    "updates": {
+      "google_rating": 4.9,
+      "google_review_count": 13,
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJhegDmed3bjQRIdvm_TI-LDw",
+      "lat": 22.994106499999997,
+      "lng": 120.2336486,
+      "place_id": "ChIJhegDmed3bjQRIdvm_TI-LDw"
+    }
+  },
+  {
+    "slug": "華聲少年圍棋學院-中山棋院",
+    "name": "華聲少年圍棋學院（中山棋院）",
+    "research_name": "華聲少年圍棋學院",
+    "updates": {
+      "google_rating": 5.0,
+      "google_review_count": 34,
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJe_n325x2bjQR7mMxR7hIF80",
+      "lat": 22.9799749,
+      "lng": 120.21774359999999,
+      "place_id": "ChIJe_n325x2bjQR7mMxR7hIF80"
+    }
+  },
+  {
+    "slug": "名人兒童棋院-高雄新興中正分院",
+    "name": "名人兒童棋院（高雄新興中正分院）",
+    "research_name": "名人兒童圍棋高雄新興中正分院",
+    "updates": {
+      "google_rating": 5.0,
+      "google_review_count": 185.0,
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ7RoSdZQEbjQRru6W_vq4t2c",
+      "lat": 22.630717999999998,
+      "lng": 120.314831,
+      "place_id": "ChIJ7RoSdZQEbjQRru6W_vq4t2c"
+    }
+  },
+  {
+    "slug": "大師棋院",
+    "name": "大師棋院",
+    "research_name": "大師棋院(民生院區)",
+    "updates": {
+      "google_rating": 5.0,
+      "google_review_count": 9.0,
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ5YA08YcEbjQRn95xU184IqI",
+      "lat": 22.626379399999998,
+      "lng": 120.2979474,
+      "place_id": "ChIJ5YA08YcEbjQRn95xU184IqI"
+    }
+  },
+  {
+    "slug": "睿弈圍棋道場",
+    "name": "睿弈圍棋道場",
+    "research_name": "睿弈圍棋技藝文理短期補習班",
+    "updates": {
+      "google_rating": 4.4,
+      "google_review_count": 7.0,
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ-b4mGaoFbjQRyJGdQk90H54",
+      "lat": 22.666935199999998,
+      "lng": 120.2950949,
+      "place_id": "ChIJ-b4mGaoFbjQRyJGdQk90H54"
+    }
+  },
+  {
+    "slug": "碁林棋苑",
+    "name": "碁林棋苑",
+    "research_name": "碁林棋苑/高雄圍棋/高雄圍棋教室/鳳山圍棋/鳳山圍棋教室/兒童圍棋教室",
+    "updates": {
+      "google_rating": 4.3,
+      "google_review_count": 3.0,
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ5eiJIRUFbjQRTUPgzgeCyrg",
+      "lat": 22.6147436,
+      "lng": 120.338912,
+      "place_id": "ChIJ5eiJIRUFbjQRTUPgzgeCyrg"
+    }
+  }
+]

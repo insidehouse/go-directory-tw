@@ -11,6 +11,7 @@ interface Props {
   facebook_url?: string;
   google_rating?: number | null;
   google_review_count?: number;
+  google_maps_url?: string;
   age_groups?: string[];
   price_public?: boolean;
   price_range?: string | null;
@@ -28,6 +29,7 @@ const {
   facebook_url,
   google_rating,
   google_review_count,
+  google_maps_url,
   age_groups = [],
   price_public = false,
   price_range,
@@ -134,6 +136,19 @@ const ageLabels: Record<string, string> = {
         class="text-sm text-blue-600 hover:text-blue-700 transition-colors inline-flex items-center gap-1"
       >
         Facebook
+        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+        </svg>
+      </a>
+    )}
+    {google_maps_url && (
+      <a
+        href={google_maps_url}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="text-sm text-green-600 hover:text-green-700 transition-colors inline-flex items-center gap-1"
+      >
+        Google Maps
         <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
         </svg>

@@ -1,18 +1,18 @@
 [
   {
-    "slug": "海峰棋院",
-    "name": "海峰棋院",
+    "slug": "中華棋院暨兒童圍棋道場",
+    "name": "中華棋院暨兒童圍棋道場",
     "chain": "",
     "city": "台北",
     "city_slug": "taipei",
     "district": "大安區",
-    "address": "台北市大安區敦化南路二段105號9樓",
-    "phone": "(02) 2702-8898",
-    "website": "https://www.haifong.org/",
+    "address": "台北市大安區信義路三段202號4樓",
+    "phone": "(02) 2707-9738",
+    "website": "http://mindgo.com.tw/",
     "facebook_url": "",
-    "google_maps_url": "",
-    "google_rating": null,
-    "google_review_count": 0,
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJlfi1ZdOrQjQR4IiJkgXZAwU",
+    "google_rating": 4.5,
+    "google_review_count": 16,
     "age_groups": [
       "children",
       "adults"
@@ -21,254 +21,17 @@
     "price_range": null,
     "is_chain": false,
     "school_type": "academy",
-    "notes": "台灣唯一職業圍棋機構（2024年併入原台灣棋院）。主辦棋王賽、天元賽、國手賽、中環碁聖賽。",
+    "notes": "碁人中華兒童棋院的前身/關聯機構。",
     "data_sources": [
-      "web_research"
+      "web_research",
+      "outscraper"
     ],
-    "last_verified": "2026-02-07"
-  },
-  {
-    "slug": "長清兒童棋院-東門古亭院",
-    "name": "長清兒童棋院（東門(古亭)院）",
-    "chain": "長清兒童棋院",
-    "city": "台北",
-    "city_slug": "taipei",
-    "district": "中正區",
-    "address": "台北市中正區信義路二段271號3樓",
-    "phone": "(02) 2391-1100",
-    "website": "https://www.kidsgo.com.tw/",
-    "facebook_url": "",
-    "google_maps_url": "",
-    "google_rating": null,
-    "google_review_count": 0,
-    "age_groups": [
-      "children"
-    ],
-    "price_public": false,
-    "price_range": null,
-    "is_chain": true,
-    "school_type": "academy",
-    "notes": "創立1996年，2,000+學生，5個分院。以圍棋作為兒童教育工具。",
-    "data_sources": [
-      "web_research"
-    ],
-    "last_verified": "2026-02-07"
-  },
-  {
-    "slug": "長清兒童棋院-忠孝院",
-    "name": "長清兒童棋院（忠孝院）",
-    "chain": "長清兒童棋院",
-    "city": "台北",
-    "city_slug": "taipei",
-    "district": "大安區",
-    "address": "台北市大安區忠孝東路四段293號4樓",
-    "phone": "(02) 2731-5000",
-    "website": "https://www.kidsgo.com.tw/",
-    "facebook_url": "",
-    "google_maps_url": "",
-    "google_rating": null,
-    "google_review_count": 0,
-    "age_groups": [
-      "children"
-    ],
-    "price_public": false,
-    "price_range": null,
-    "is_chain": true,
-    "school_type": "academy",
-    "notes": "創立1996年，2,000+學生，5個分院。以圍棋作為兒童教育工具。",
-    "data_sources": [
-      "web_research"
-    ],
-    "last_verified": "2026-02-07"
-  },
-  {
-    "slug": "長清兒童棋院-大直院",
-    "name": "長清兒童棋院（大直院）",
-    "chain": "長清兒童棋院",
-    "city": "台北",
-    "city_slug": "taipei",
-    "district": "中山區",
-    "address": "台北市中山區明水路397巷19弄26號1樓",
-    "phone": "(02) 2533-7533",
-    "website": "https://www.kidsgo.com.tw/",
-    "facebook_url": "",
-    "google_maps_url": "",
-    "google_rating": null,
-    "google_review_count": 0,
-    "age_groups": [
-      "children"
-    ],
-    "price_public": false,
-    "price_range": null,
-    "is_chain": true,
-    "school_type": "academy",
-    "notes": "創立1996年，2,000+學生，5個分院。以圍棋作為兒童教育工具。",
-    "data_sources": [
-      "web_research"
-    ],
-    "last_verified": "2026-02-07"
-  },
-  {
-    "slug": "長清兒童棋院-內湖院",
-    "name": "長清兒童棋院（內湖院）",
-    "chain": "長清兒童棋院",
-    "city": "台北",
-    "city_slug": "taipei",
-    "district": "內湖區",
-    "address": "台北市內湖區成功路四段62號3樓",
-    "phone": "(02) 8791-7890",
-    "website": "https://www.kidsgo.com.tw/",
-    "facebook_url": "",
-    "google_maps_url": "",
-    "google_rating": null,
-    "google_review_count": 0,
-    "age_groups": [
-      "children"
-    ],
-    "price_public": false,
-    "price_range": null,
-    "is_chain": true,
-    "school_type": "academy",
-    "notes": "創立1996年，2,000+學生，5個分院。以圍棋作為兒童教育工具。",
-    "data_sources": [
-      "web_research"
-    ],
-    "last_verified": "2026-02-07"
-  },
-  {
-    "slug": "長清兒童棋院-木柵院",
-    "name": "長清兒童棋院（木柵院）",
-    "chain": "長清兒童棋院",
-    "city": "台北",
-    "city_slug": "taipei",
-    "district": "文山區",
-    "address": "台北市文山區木新路3段161號2樓",
-    "phone": "(02) 2937-7807",
-    "website": "https://www.kidsgo.com.tw/",
-    "facebook_url": "",
-    "google_maps_url": "",
-    "google_rating": null,
-    "google_review_count": 0,
-    "age_groups": [
-      "children"
-    ],
-    "price_public": false,
-    "price_range": null,
-    "is_chain": true,
-    "school_type": "academy",
-    "notes": "創立1996年，2,000+學生，5個分院。以圍棋作為兒童教育工具。",
-    "data_sources": [
-      "web_research"
-    ],
-    "last_verified": "2026-02-07"
-  },
-  {
-    "slug": "碁人中華兒童棋院-台北古亭",
-    "name": "碁人中華兒童棋院（台北古亭）",
-    "chain": "碁人中華兒童棋院",
-    "city": "台北",
-    "city_slug": "taipei",
-    "district": "中正區",
-    "address": "台北市中正區杭州南路二段107號2樓",
-    "phone": "(02) 2321-4057",
-    "website": "https://www.goer.com.tw/",
-    "facebook_url": "",
-    "google_maps_url": "",
-    "google_rating": null,
-    "google_review_count": 0,
-    "age_groups": [
-      "children"
-    ],
-    "price_public": true,
-    "price_range": "單堂 NT$500；6堂套裝 NT$2,400",
-    "is_chain": true,
-    "school_type": "academy",
-    "notes": "原中華棋院暨兒童圍棋道場之現代化品牌。4個分院。",
-    "data_sources": [
-      "web_research"
-    ],
-    "last_verified": "2026-02-07"
-  },
-  {
-    "slug": "碁人中華兒童棋院-台北天母",
-    "name": "碁人中華兒童棋院（台北天母）",
-    "chain": "碁人中華兒童棋院",
-    "city": "台北",
-    "city_slug": "taipei",
-    "district": "",
-    "address": "台北市天母東路55號2樓",
-    "phone": "(02) 2874-3398",
-    "website": "https://www.goer.com.tw/",
-    "facebook_url": "",
-    "google_maps_url": "",
-    "google_rating": null,
-    "google_review_count": 0,
-    "age_groups": [
-      "children"
-    ],
-    "price_public": true,
-    "price_range": "單堂 NT$500；6堂套裝 NT$2,400",
-    "is_chain": true,
-    "school_type": "academy",
-    "notes": "原中華棋院暨兒童圍棋道場之現代化品牌。4個分院。",
-    "data_sources": [
-      "web_research"
-    ],
-    "last_verified": "2026-02-07"
-  },
-  {
-    "slug": "碁人中華兒童棋院-新竹竹北",
-    "name": "碁人中華兒童棋院（新竹竹北）",
-    "chain": "碁人中華兒童棋院",
-    "city": "新竹",
-    "city_slug": "hsinchu",
-    "district": "竹北市",
-    "address": "新竹縣竹北市六家五路一段252號1樓",
-    "phone": "(03) 550-5760",
-    "website": "https://www.goer.com.tw/",
-    "facebook_url": "",
-    "google_maps_url": "",
-    "google_rating": null,
-    "google_review_count": 0,
-    "age_groups": [
-      "children"
-    ],
-    "price_public": true,
-    "price_range": "單堂 NT$500；6堂套裝 NT$2,400",
-    "is_chain": true,
-    "school_type": "academy",
-    "notes": "原中華棋院暨兒童圍棋道場之現代化品牌。4個分院。",
-    "data_sources": [
-      "web_research"
-    ],
-    "last_verified": "2026-02-07"
-  },
-  {
-    "slug": "碁人中華兒童棋院-新北北大樹林",
-    "name": "碁人中華兒童棋院（新北北大(樹林)）",
-    "chain": "碁人中華兒童棋院",
-    "city": "新北",
-    "city_slug": "new-taipei",
-    "district": "樹林區",
-    "address": "新北市樹林區學府路288號",
-    "phone": "(02) 3501-7364",
-    "website": "https://www.goer.com.tw/",
-    "facebook_url": "",
-    "google_maps_url": "",
-    "google_rating": null,
-    "google_review_count": 0,
-    "age_groups": [
-      "children"
-    ],
-    "price_public": true,
-    "price_range": "單堂 NT$500；6堂套裝 NT$2,400",
-    "is_chain": true,
-    "school_type": "academy",
-    "notes": "原中華棋院暨兒童圍棋道場之現代化品牌。4個分院。",
-    "data_sources": [
-      "web_research"
-    ],
-    "last_verified": "2026-02-07"
+    "last_verified": "2026-03-13",
+    "lat": 25.033158099999998,
+    "lng": 121.54329449999999,
+    "place_id": "ChIJlfi1ZdOrQjQR4IiJkgXZAwU",
+    "has_trial": false,
+    "line_id": ""
   },
   {
     "slug": "名人兒童棋院-古亭總院",
@@ -281,9 +44,9 @@
     "phone": "(02) 2362-3225",
     "website": "https://www.mingren.com.tw/",
     "facebook_url": "",
-    "google_maps_url": "",
-    "google_rating": null,
-    "google_review_count": 0,
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJN5RMH5CpQjQR62KLPrOhcTs",
+    "google_rating": 4.9,
+    "google_review_count": 251,
     "age_groups": [
       "children"
     ],
@@ -293,36 +56,15 @@
     "school_type": "academy",
     "notes": "6個分院（台北5+高雄1）。",
     "data_sources": [
-      "web_research"
+      "web_research",
+      "outscraper"
     ],
-    "last_verified": "2026-02-07"
-  },
-  {
-    "slug": "名人兒童棋院-長安分院",
-    "name": "名人兒童棋院（長安分院）",
-    "chain": "名人兒童棋院",
-    "city": "台北",
-    "city_slug": "taipei",
-    "district": "中山區",
-    "address": "台北市中山區",
-    "phone": "(02) 2362-3225",
-    "website": "https://www.mingren.com.tw/",
-    "facebook_url": "",
-    "google_maps_url": "",
-    "google_rating": null,
-    "google_review_count": 0,
-    "age_groups": [
-      "children"
-    ],
-    "price_public": false,
-    "price_range": null,
-    "is_chain": true,
-    "school_type": "academy",
-    "notes": "6個分院（台北5+高雄1）。",
-    "data_sources": [
-      "web_research"
-    ],
-    "last_verified": "2026-02-07"
+    "last_verified": "2026-03-13",
+    "lat": 25.023695999999997,
+    "lng": 121.52523099999999,
+    "place_id": "ChIJN5RMH5CpQjQR62KLPrOhcTs",
+    "has_trial": false,
+    "line_id": ""
   },
   {
     "slug": "名人兒童棋院-天母德行分院",
@@ -349,34 +91,12 @@
     "data_sources": [
       "web_research"
     ],
-    "last_verified": "2026-02-07"
-  },
-  {
-    "slug": "名人兒童棋院-忠孝分院",
-    "name": "名人兒童棋院（忠孝分院）",
-    "chain": "名人兒童棋院",
-    "city": "台北",
-    "city_slug": "taipei",
-    "district": "大安區",
-    "address": "台北市大安區",
-    "phone": "(02) 2362-3225",
-    "website": "https://www.mingren.com.tw/",
-    "facebook_url": "",
-    "google_maps_url": "",
-    "google_rating": null,
-    "google_review_count": 0,
-    "age_groups": [
-      "children"
-    ],
-    "price_public": false,
-    "price_range": null,
-    "is_chain": true,
-    "school_type": "academy",
-    "notes": "6個分院（台北5+高雄1）。",
-    "data_sources": [
-      "web_research"
-    ],
-    "last_verified": "2026-02-07"
+    "last_verified": "2026-02-07",
+    "lat": null,
+    "lng": null,
+    "place_id": "",
+    "has_trial": false,
+    "line_id": ""
   },
   {
     "slug": "名人兒童棋院-天母忠誠分院",
@@ -403,17 +123,22 @@
     "data_sources": [
       "web_research"
     ],
-    "last_verified": "2026-02-07"
+    "last_verified": "2026-02-07",
+    "lat": null,
+    "lng": null,
+    "place_id": "",
+    "has_trial": false,
+    "line_id": ""
   },
   {
-    "slug": "名人兒童棋院-高雄新興中正分院",
-    "name": "名人兒童棋院（高雄新興中正分院）",
+    "slug": "名人兒童棋院-忠孝分院",
+    "name": "名人兒童棋院（忠孝分院）",
     "chain": "名人兒童棋院",
-    "city": "高雄",
-    "city_slug": "kaohsiung",
-    "district": "新興區",
-    "address": "高雄市新興區中正二路222號3樓之1",
-    "phone": "(07) 223-6680",
+    "city": "台北",
+    "city_slug": "taipei",
+    "district": "大安區",
+    "address": "台北市大安區",
+    "phone": "(02) 2362-3225",
     "website": "https://www.mingren.com.tw/",
     "facebook_url": "",
     "google_maps_url": "",
@@ -430,18 +155,55 @@
     "data_sources": [
       "web_research"
     ],
-    "last_verified": "2026-02-07"
+    "last_verified": "2026-02-07",
+    "lat": null,
+    "lng": null,
+    "place_id": "",
+    "has_trial": false,
+    "line_id": ""
   },
   {
-    "slug": "中央棋院-板橋院",
-    "name": "中央棋院（板橋院）",
-    "chain": "中央棋院",
-    "city": "新北",
-    "city_slug": "new-taipei",
-    "district": "板橋區",
-    "address": "新北市板橋區板新路20號",
-    "phone": "0968-723-208",
-    "website": "https://www.centralgo.com.tw/",
+    "slug": "名人兒童棋院（忠孝分院）",
+    "name": "名人兒童棋院（忠孝分院）",
+    "chain": "名人兒童棋院",
+    "city": "台北",
+    "city_slug": "taipei",
+    "district": "大安區",
+    "address": "臺北市大安區復興南路一段200號8樓",
+    "phone": "+886 2 8771 5036",
+    "website": "http://www.mingren.com.tw/",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ23Jv2tCrQjQRKLKO5tEqcVE",
+    "google_rating": 4.8,
+    "google_review_count": 47,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": true,
+    "school_type": "classroom",
+    "notes": "",
+    "data_sources": [
+      "outscraper"
+    ],
+    "last_verified": "2026-02-10",
+    "lat": 25.0397231,
+    "lng": 121.5434452,
+    "place_id": "ChIJ23Jv2tCrQjQRKLKO5tEqcVE",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "名人兒童棋院-長安分院",
+    "name": "名人兒童棋院（長安分院）",
+    "chain": "名人兒童棋院",
+    "city": "台北",
+    "city_slug": "taipei",
+    "district": "中山區",
+    "address": "台北市中山區",
+    "phone": "(02) 2362-3225",
+    "website": "https://www.mingren.com.tw/",
     "facebook_url": "",
     "google_maps_url": "",
     "google_rating": null,
@@ -453,308 +215,80 @@
     "price_range": null,
     "is_chain": true,
     "school_type": "academy",
-    "notes": "全台分院數最多的連鎖棋院（12+分院），主要覆蓋桃園、新竹、新北、花蓮。",
+    "notes": "6個分院（台北5+高雄1）。",
     "data_sources": [
       "web_research"
     ],
-    "last_verified": "2026-02-07"
+    "last_verified": "2026-02-07",
+    "lat": null,
+    "lng": null,
+    "place_id": "",
+    "has_trial": false,
+    "line_id": ""
   },
   {
-    "slug": "中央棋院-為光院",
-    "name": "中央棋院（為光院）",
-    "chain": "中央棋院",
-    "city": "桃園",
-    "city_slug": "taoyuan",
-    "district": "桃園區",
-    "address": "桃園市桃園區自強路133號",
-    "phone": "0970-204-771",
-    "website": "https://www.centralgo.com.tw/",
+    "slug": "名人兒童棋院（長安分院）",
+    "name": "名人兒童棋院（長安分院）",
+    "chain": "名人兒童棋院",
+    "city": "台北",
+    "city_slug": "taipei",
+    "district": "中山區",
+    "address": "臺北市中山區吉林路36號4樓",
+    "phone": "+886 2 2567 2468",
+    "website": "https://www.facebook.com/mingren2468/%3Fref%3Dpages_you_manage",
     "facebook_url": "",
-    "google_maps_url": "",
-    "google_rating": null,
-    "google_review_count": 0,
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJO_e5v2apQjQRygVK1KVe_0c",
+    "google_rating": 5.0,
+    "google_review_count": 96,
     "age_groups": [
       "children"
     ],
     "price_public": false,
     "price_range": null,
     "is_chain": true,
-    "school_type": "academy",
-    "notes": "全台分院數最多的連鎖棋院（12+分院），主要覆蓋桃園、新竹、新北、花蓮。",
+    "school_type": "classroom",
+    "notes": "",
     "data_sources": [
-      "web_research"
+      "outscraper"
     ],
-    "last_verified": "2026-02-07"
+    "last_verified": "2026-02-10",
+    "lat": 25.0516562,
+    "lng": 121.5299417,
+    "place_id": "ChIJO_e5v2apQjQRygVK1KVe_0c",
+    "has_trial": false,
+    "line_id": ""
   },
   {
-    "slug": "中央棋院-藝文院",
-    "name": "中央棋院（藝文院）",
-    "chain": "中央棋院",
-    "city": "桃園",
-    "city_slug": "taoyuan",
-    "district": "桃園區",
-    "address": "桃園市桃園區中埔一街129號2F",
-    "phone": "(03) 301-9593",
-    "website": "https://www.centralgo.com.tw/",
-    "facebook_url": "",
-    "google_maps_url": "",
-    "google_rating": null,
-    "google_review_count": 0,
-    "age_groups": [
-      "children"
-    ],
-    "price_public": false,
-    "price_range": null,
-    "is_chain": true,
-    "school_type": "academy",
-    "notes": "全台分院數最多的連鎖棋院（12+分院），主要覆蓋桃園、新竹、新北、花蓮。",
-    "data_sources": [
-      "web_research"
-    ],
-    "last_verified": "2026-02-07"
-  },
-  {
-    "slug": "中央棋院-青埔院",
-    "name": "中央棋院（青埔院）",
-    "chain": "中央棋院",
-    "city": "桃園",
-    "city_slug": "taoyuan",
-    "district": "中壢區",
-    "address": "桃園市中壢區致祥一街222號",
-    "phone": "0908-187-789",
-    "website": "https://www.centralgo.com.tw/",
-    "facebook_url": "",
-    "google_maps_url": "",
-    "google_rating": null,
-    "google_review_count": 0,
-    "age_groups": [
-      "children"
-    ],
-    "price_public": false,
-    "price_range": null,
-    "is_chain": true,
-    "school_type": "academy",
-    "notes": "全台分院數最多的連鎖棋院（12+分院），主要覆蓋桃園、新竹、新北、花蓮。",
-    "data_sources": [
-      "web_research"
-    ],
-    "last_verified": "2026-02-07"
-  },
-  {
-    "slug": "中央棋院-內壢院",
-    "name": "中央棋院（內壢院）",
-    "chain": "中央棋院",
-    "city": "桃園",
-    "city_slug": "taoyuan",
-    "district": "中壢區",
-    "address": "桃園市中壢區復華街262號",
-    "phone": "0933-423-348",
-    "website": "https://www.centralgo.com.tw/",
-    "facebook_url": "",
-    "google_maps_url": "",
-    "google_rating": null,
-    "google_review_count": 0,
-    "age_groups": [
-      "children"
-    ],
-    "price_public": false,
-    "price_range": null,
-    "is_chain": true,
-    "school_type": "academy",
-    "notes": "全台分院數最多的連鎖棋院（12+分院），主要覆蓋桃園、新竹、新北、花蓮。",
-    "data_sources": [
-      "web_research"
-    ],
-    "last_verified": "2026-02-07"
-  },
-  {
-    "slug": "中央棋院-平鎮院",
-    "name": "中央棋院（平鎮院）",
-    "chain": "中央棋院",
-    "city": "桃園",
-    "city_slug": "taoyuan",
-    "district": "平鎮區",
-    "address": "桃園市平鎮區文化街236巷7弄2號",
-    "phone": "(03) 492-7109",
-    "website": "https://www.centralgo.com.tw/",
-    "facebook_url": "",
-    "google_maps_url": "",
-    "google_rating": null,
-    "google_review_count": 0,
-    "age_groups": [
-      "children"
-    ],
-    "price_public": false,
-    "price_range": null,
-    "is_chain": true,
-    "school_type": "academy",
-    "notes": "全台分院數最多的連鎖棋院（12+分院），主要覆蓋桃園、新竹、新北、花蓮。",
-    "data_sources": [
-      "web_research"
-    ],
-    "last_verified": "2026-02-07"
-  },
-  {
-    "slug": "中央棋院-楊梅院",
-    "name": "中央棋院（楊梅院）",
-    "chain": "中央棋院",
-    "city": "桃園",
-    "city_slug": "taoyuan",
-    "district": "楊梅區",
-    "address": "桃園市楊梅區中山北路一段390巷16號",
-    "phone": "(03) 478-9008",
-    "website": "https://www.centralgo.com.tw/",
-    "facebook_url": "",
-    "google_maps_url": "",
-    "google_rating": null,
-    "google_review_count": 0,
-    "age_groups": [
-      "children"
-    ],
-    "price_public": false,
-    "price_range": null,
-    "is_chain": true,
-    "school_type": "academy",
-    "notes": "全台分院數最多的連鎖棋院（12+分院），主要覆蓋桃園、新竹、新北、花蓮。",
-    "data_sources": [
-      "web_research"
-    ],
-    "last_verified": "2026-02-07"
-  },
-  {
-    "slug": "中央棋院-八德院",
-    "name": "中央棋院（八德院）",
-    "chain": "中央棋院",
-    "city": "桃園",
-    "city_slug": "taoyuan",
-    "district": "八德區",
-    "address": "桃園市八德區大福街110號",
-    "phone": "0968-723-208",
-    "website": "https://www.centralgo.com.tw/",
-    "facebook_url": "",
-    "google_maps_url": "",
-    "google_rating": null,
-    "google_review_count": 0,
-    "age_groups": [
-      "children"
-    ],
-    "price_public": false,
-    "price_range": null,
-    "is_chain": true,
-    "school_type": "academy",
-    "notes": "全台分院數最多的連鎖棋院（12+分院），主要覆蓋桃園、新竹、新北、花蓮。",
-    "data_sources": [
-      "web_research"
-    ],
-    "last_verified": "2026-02-07"
-  },
-  {
-    "slug": "中央棋院-北門院",
-    "name": "中央棋院（北門院）",
-    "chain": "中央棋院",
-    "city": "新竹",
-    "city_slug": "hsinchu",
-    "district": "北區",
-    "address": "新竹市北區國光街70號",
-    "phone": "0937-594-937",
-    "website": "https://www.centralgo.com.tw/",
-    "facebook_url": "",
-    "google_maps_url": "",
-    "google_rating": null,
-    "google_review_count": 0,
-    "age_groups": [
-      "children"
-    ],
-    "price_public": false,
-    "price_range": null,
-    "is_chain": true,
-    "school_type": "academy",
-    "notes": "全台分院數最多的連鎖棋院（12+分院），主要覆蓋桃園、新竹、新北、花蓮。",
-    "data_sources": [
-      "web_research"
-    ],
-    "last_verified": "2026-02-07"
-  },
-  {
-    "slug": "中央棋院-棋藝國",
-    "name": "中央棋院（棋藝國）",
-    "chain": "中央棋院",
-    "city": "新竹",
-    "city_slug": "hsinchu",
-    "district": "東區",
-    "address": "新竹市東區博愛街128號",
-    "phone": "(03) 573-7912",
-    "website": "https://www.centralgo.com.tw/",
-    "facebook_url": "",
-    "google_maps_url": "",
-    "google_rating": null,
-    "google_review_count": 0,
-    "age_groups": [
-      "children"
-    ],
-    "price_public": false,
-    "price_range": null,
-    "is_chain": true,
-    "school_type": "academy",
-    "notes": "全台分院數最多的連鎖棋院（12+分院），主要覆蓋桃園、新竹、新北、花蓮。",
-    "data_sources": [
-      "web_research"
-    ],
-    "last_verified": "2026-02-07"
-  },
-  {
-    "slug": "中央棋院-竹北院",
-    "name": "中央棋院（竹北院）",
-    "chain": "中央棋院",
-    "city": "新竹",
-    "city_slug": "hsinchu",
-    "district": "竹北市",
-    "address": "新竹縣竹北市新社里新民街330號1樓",
-    "phone": "0968-723-208",
-    "website": "https://www.centralgo.com.tw/",
-    "facebook_url": "",
-    "google_maps_url": "",
-    "google_rating": null,
-    "google_review_count": 0,
-    "age_groups": [
-      "children"
-    ],
-    "price_public": false,
-    "price_range": null,
-    "is_chain": true,
-    "school_type": "academy",
-    "notes": "全台分院數最多的連鎖棋院（12+分院），主要覆蓋桃園、新竹、新北、花蓮。",
-    "data_sources": [
-      "web_research"
-    ],
-    "last_verified": "2026-02-07"
-  },
-  {
-    "slug": "中央棋院-花蓮院",
-    "name": "中央棋院（花蓮院）",
-    "chain": "中央棋院",
-    "city": "花蓮",
-    "city_slug": "hualien",
+    "slug": "智多星圍棋（仁愛分校）",
+    "name": "智多星圍棋（仁愛分校）",
+    "chain": "智多星圍棋",
+    "city": "台北",
+    "city_slug": "taipei",
     "district": "",
-    "address": "花蓮市和平路356號",
-    "phone": "0968-723-208",
-    "website": "https://www.centralgo.com.tw/",
+    "address": "1樓, No. 34號安和路一段90巷大安區臺北市106",
+    "phone": "+886 2 2755 7092",
+    "website": "https://gostar.tw/",
     "facebook_url": "",
-    "google_maps_url": "",
-    "google_rating": null,
-    "google_review_count": 0,
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJZbeNhv6rQjQRHbZYmsoPFrw",
+    "google_rating": 5.0,
+    "google_review_count": 51,
     "age_groups": [
       "children"
     ],
     "price_public": false,
     "price_range": null,
     "is_chain": true,
-    "school_type": "academy",
-    "notes": "全台分院數最多的連鎖棋院（12+分院），主要覆蓋桃園、新竹、新北、花蓮。",
+    "school_type": "classroom",
+    "notes": "",
     "data_sources": [
-      "web_research"
+      "outscraper"
     ],
-    "last_verified": "2026-02-07"
+    "last_verified": "2026-02-10",
+    "lat": 25.0346343,
+    "lng": 121.5503734,
+    "place_id": "ChIJZbeNhv6rQjQRHbZYmsoPFrw",
+    "has_trial": false,
+    "line_id": ""
   },
   {
     "slug": "智多星圍棋教室",
@@ -767,9 +301,9 @@
     "phone": "(02) 2733-7092",
     "website": "https://www.gostar.tw/",
     "facebook_url": "",
-    "google_maps_url": "",
-    "google_rating": null,
-    "google_review_count": 0,
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJyS5M7jOqQjQRnMEc-GnEpC4",
+    "google_rating": 5.0,
+    "google_review_count": 78,
     "age_groups": [
       "children"
     ],
@@ -779,9 +313,179 @@
     "school_type": "classroom",
     "notes": "六張犁院。",
     "data_sources": [
-      "web_research"
+      "web_research",
+      "outscraper"
     ],
-    "last_verified": "2026-02-07"
+    "last_verified": "2026-03-13",
+    "lat": 25.024414,
+    "lng": 121.553303,
+    "place_id": "ChIJyS5M7jOqQjQRnMEc-GnEpC4",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "棋品空間",
+    "name": "棋品空間",
+    "chain": "",
+    "city": "台北",
+    "city_slug": "taipei",
+    "district": "信義區",
+    "address": "臺北市信義區崇德街38巷7號5樓",
+    "phone": "+886 2 2518 5508",
+    "website": "https://gocafe.space/",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ1-ClB5KrQjQRutfjl_bon30",
+    "google_rating": 4.8,
+    "google_review_count": 30,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": false,
+    "school_type": "classroom",
+    "notes": "",
+    "data_sources": [
+      "outscraper"
+    ],
+    "last_verified": "2026-02-10",
+    "lat": 25.0238759,
+    "lng": 121.554075,
+    "place_id": "ChIJ1-ClB5KrQjQRutfjl_bon30",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "棋聖模範棋院",
+    "name": "棋聖模範棋院",
+    "chain": "",
+    "city": "台北",
+    "city_slug": "taipei",
+    "district": "大安區",
+    "address": "臺北市大安區復興南路二段200號3樓",
+    "phone": "+886 2 2754 8848",
+    "website": "https://www.facebook.com/%25E6%25A3%258B%25E8%2581%2596%25E6%25A8%25A1%25E7%25AF%2584%25E6%25A3%258B%25E9%2599%25A2-728738673950354/%3Fref%3Dbookmarks",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJoY2fDyyqQjQRtdpCWjVV4dI",
+    "google_rating": 4.5,
+    "google_review_count": 22,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": false,
+    "school_type": "academy",
+    "notes": "",
+    "data_sources": [
+      "outscraper"
+    ],
+    "last_verified": "2026-02-10",
+    "lat": 25.0268351,
+    "lng": 121.54323869999999,
+    "place_id": "ChIJoY2fDyyqQjQRtdpCWjVV4dI",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "海峰棋院",
+    "name": "海峰棋院",
+    "chain": "",
+    "city": "台北",
+    "city_slug": "taipei",
+    "district": "大安區",
+    "address": "台北市大安區敦化南路二段105號9樓",
+    "phone": "(02) 2702-8898",
+    "website": "https://www.haifong.org/",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJM76flzKqQjQRkekL1q_RHXI",
+    "google_rating": 4.6,
+    "google_review_count": 27,
+    "age_groups": [
+      "children",
+      "adults"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": false,
+    "school_type": "academy",
+    "notes": "台灣唯一職業圍棋機構（2024年併入原台灣棋院）。主辦棋王賽、天元賽、國手賽、中環碁聖賽。",
+    "data_sources": [
+      "web_research",
+      "outscraper"
+    ],
+    "last_verified": "2026-03-13",
+    "lat": 25.028485,
+    "lng": 121.5491728,
+    "place_id": "ChIJM76flzKqQjQRkekL1q_RHXI",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "碁人中華兒童棋院-台北古亭",
+    "name": "碁人中華兒童棋院（台北古亭）",
+    "chain": "碁人中華兒童棋院",
+    "city": "台北",
+    "city_slug": "taipei",
+    "district": "中正區",
+    "address": "台北市中正區杭州南路二段107號2樓",
+    "phone": "(02) 2321-4057",
+    "website": "https://www.goer.com.tw/",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJo3ClTZqpQjQRrhePBIuPVVA",
+    "google_rating": 5.0,
+    "google_review_count": 21,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": true,
+    "price_range": "單堂 NT$500；6堂套裝 NT$2,400",
+    "is_chain": true,
+    "school_type": "academy",
+    "notes": "原中華棋院暨兒童圍棋道場之現代化品牌。4個分院。",
+    "data_sources": [
+      "web_research",
+      "outscraper"
+    ],
+    "last_verified": "2026-03-13",
+    "lat": 25.028205999999997,
+    "lng": 121.52188199999999,
+    "place_id": "ChIJo3ClTZqpQjQRrhePBIuPVVA",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "碁人中華兒童棋院-台北天母",
+    "name": "碁人中華兒童棋院（台北天母）",
+    "chain": "碁人中華兒童棋院",
+    "city": "台北",
+    "city_slug": "taipei",
+    "district": "",
+    "address": "台北市天母東路55號2樓",
+    "phone": "(02) 2874-3398",
+    "website": "https://www.goer.com.tw/",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJZw-FnICuQjQRRPsd4DTMSoE",
+    "google_rating": 5.0,
+    "google_review_count": 9,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": true,
+    "price_range": "單堂 NT$500；6堂套裝 NT$2,400",
+    "is_chain": true,
+    "school_type": "academy",
+    "notes": "原中華棋院暨兒童圍棋道場之現代化品牌。4個分院。",
+    "data_sources": [
+      "web_research",
+      "outscraper"
+    ],
+    "last_verified": "2026-03-13",
+    "lat": 25.118252899999998,
+    "lng": 121.53328889999999,
+    "place_id": "ChIJZw-FnICuQjQRRPsd4DTMSoE",
+    "has_trial": false,
+    "line_id": ""
   },
   {
     "slug": "繽紛兒童棋院",
@@ -794,9 +498,9 @@
     "phone": "(02) 2898-3519",
     "website": "https://www.godokoro.com/",
     "facebook_url": "",
-    "google_maps_url": "",
-    "google_rating": null,
-    "google_review_count": 0,
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJXwyzr1quQjQR8lIGr3V3MzA",
+    "google_rating": 4.9,
+    "google_review_count": 8,
     "age_groups": [
       "children"
     ],
@@ -806,9 +510,533 @@
     "school_type": "classroom",
     "notes": "",
     "data_sources": [
-      "web_research"
+      "web_research",
+      "outscraper"
     ],
-    "last_verified": "2026-02-07"
+    "last_verified": "2026-03-13",
+    "lat": 25.137230799999998,
+    "lng": 121.5004628,
+    "place_id": "ChIJXwyzr1quQjQR8lIGr3V3MzA",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "長清兒童棋院-內湖院",
+    "name": "長清兒童棋院（內湖院）",
+    "chain": "長清兒童棋院",
+    "city": "台北",
+    "city_slug": "taipei",
+    "district": "內湖區",
+    "address": "台北市內湖區成功路四段62號3樓",
+    "phone": "(02) 8791-7890",
+    "website": "https://www.kidsgo.com.tw/",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJFbghSI2sQjQR4qLCK6TsLws",
+    "google_rating": 4.8,
+    "google_review_count": 29,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": true,
+    "school_type": "academy",
+    "notes": "創立1996年，2,000+學生，5個分院。以圍棋作為兒童教育工具。",
+    "data_sources": [
+      "web_research",
+      "outscraper"
+    ],
+    "last_verified": "2026-03-13",
+    "lat": 25.0827071,
+    "lng": 121.5925068,
+    "place_id": "ChIJFbghSI2sQjQR4qLCK6TsLws",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "長清兒童棋院-大直院",
+    "name": "長清兒童棋院（大直院）",
+    "chain": "長清兒童棋院",
+    "city": "台北",
+    "city_slug": "taipei",
+    "district": "中山區",
+    "address": "台北市中山區明水路397巷19弄26號1樓",
+    "phone": "(02) 2533-7533",
+    "website": "https://www.kidsgo.com.tw/",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ-W8_RA-sQjQRZdjqJ7RMvco",
+    "google_rating": 4.4,
+    "google_review_count": 8,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": true,
+    "school_type": "academy",
+    "notes": "創立1996年，2,000+學生，5個分院。以圍棋作為兒童教育工具。",
+    "data_sources": [
+      "web_research",
+      "outscraper"
+    ],
+    "last_verified": "2026-03-13",
+    "lat": 25.0775784,
+    "lng": 121.55080969999999,
+    "place_id": "ChIJ-W8_RA-sQjQRZdjqJ7RMvco",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "長清兒童棋院-忠孝院",
+    "name": "長清兒童棋院（忠孝院）",
+    "chain": "長清兒童棋院",
+    "city": "台北",
+    "city_slug": "taipei",
+    "district": "大安區",
+    "address": "台北市大安區忠孝東路四段293號4樓",
+    "phone": "(02) 2731-5000",
+    "website": "https://www.kidsgo.com.tw/",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJc_QM9sWrQjQRiPCKJ1F8gk0",
+    "google_rating": 4.6,
+    "google_review_count": 35,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": true,
+    "school_type": "academy",
+    "notes": "創立1996年，2,000+學生，5個分院。以圍棋作為兒童教育工具。",
+    "data_sources": [
+      "web_research",
+      "outscraper"
+    ],
+    "last_verified": "2026-03-13",
+    "lat": 25.041628,
+    "lng": 121.55488199999999,
+    "place_id": "ChIJc_QM9sWrQjQRiPCKJ1F8gk0",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "長清兒童棋院-木柵院",
+    "name": "長清兒童棋院（木柵院）",
+    "chain": "長清兒童棋院",
+    "city": "台北",
+    "city_slug": "taipei",
+    "district": "文山區",
+    "address": "台北市文山區木新路3段161號2樓",
+    "phone": "(02) 2937-7807",
+    "website": "https://www.kidsgo.com.tw/",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJU5kxN94BaDQRIXtbULVU1W4",
+    "google_rating": 4.8,
+    "google_review_count": 22,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": true,
+    "school_type": "academy",
+    "notes": "創立1996年，2,000+學生，5個分院。以圍棋作為兒童教育工具。",
+    "data_sources": [
+      "web_research",
+      "outscraper"
+    ],
+    "last_verified": "2026-03-13",
+    "lat": 24.9814917,
+    "lng": 121.5609882,
+    "place_id": "ChIJU5kxN94BaDQRIXtbULVU1W4",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "長清兒童棋院-東門古亭院",
+    "name": "長清兒童棋院（東門(古亭)院）",
+    "chain": "長清兒童棋院",
+    "city": "台北",
+    "city_slug": "taipei",
+    "district": "中正區",
+    "address": "台北市中正區信義路二段271號3樓",
+    "phone": "(02) 2391-1100",
+    "website": "https://www.kidsgo.com.tw/",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ27zT_IGpQjQRFB7WUQpaFl0",
+    "google_rating": 4.9,
+    "google_review_count": 30,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": true,
+    "school_type": "academy",
+    "notes": "創立1996年，2,000+學生，5個分院。以圍棋作為兒童教育工具。",
+    "data_sources": [
+      "web_research",
+      "outscraper"
+    ],
+    "last_verified": "2026-03-13",
+    "lat": 25.0337958,
+    "lng": 121.5320905,
+    "place_id": "ChIJ27zT_IGpQjQRFB7WUQpaFl0",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "三重棋院（小小林圍棋）",
+    "name": "三重棋院（小小林圍棋）",
+    "chain": "",
+    "city": "新北",
+    "city_slug": "newtaipei",
+    "district": "三重區",
+    "address": "新北市三重區重新路二段23號B1",
+    "phone": "+886 2 8983 6398",
+    "website": "https://lin.ee/O3lsNTw",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJR2tzFb2pQjQR2HCUnyq_Kwo",
+    "google_rating": 5.0,
+    "google_review_count": 24,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": false,
+    "school_type": "academy",
+    "notes": "",
+    "data_sources": [
+      "outscraper"
+    ],
+    "last_verified": "2026-02-10",
+    "lat": 25.062478199999997,
+    "lng": 121.4979887,
+    "place_id": "ChIJR2tzFb2pQjQR2HCUnyq_Kwo",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "上善若水圍棋教室",
+    "name": "上善若水圍棋教室",
+    "chain": "",
+    "city": "新北",
+    "city_slug": "newtaipei",
+    "district": "中和區",
+    "address": "新北市中和區圓通路20號",
+    "phone": "+886 955 800 570",
+    "website": "https://gogohappy123.weebly.com/",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJFzzw6ZIDaDQRuRPsqodgbVo",
+    "google_rating": 4.9,
+    "google_review_count": 40,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": false,
+    "school_type": "classroom",
+    "notes": "",
+    "data_sources": [
+      "outscraper"
+    ],
+    "last_verified": "2026-02-10",
+    "lat": 24.9980661,
+    "lng": 121.5013113,
+    "place_id": "ChIJFzzw6ZIDaDQRuRPsqodgbVo",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "中央棋院-板橋院",
+    "name": "中央棋院（板橋院）",
+    "chain": "中央棋院",
+    "city": "新北",
+    "city_slug": "new-taipei",
+    "district": "板橋區",
+    "address": "新北市板橋區板新路20號",
+    "phone": "0968-723-208",
+    "website": "https://www.centralgo.com.tw/",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJPwXC6X-pQjQR05usV8k5Org",
+    "google_rating": 5.0,
+    "google_review_count": 21,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": true,
+    "school_type": "academy",
+    "notes": "全台分院數最多的連鎖棋院（12+分院），主要覆蓋桃園、新竹、新北、花蓮。",
+    "data_sources": [
+      "web_research",
+      "outscraper"
+    ],
+    "last_verified": "2026-03-13",
+    "lat": 25.013475099999997,
+    "lng": 121.4743724,
+    "place_id": "ChIJPwXC6X-pQjQR05usV8k5Org",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "佑林棋院",
+    "name": "佑林棋院",
+    "chain": "",
+    "city": "新北",
+    "city_slug": "newtaipei",
+    "district": "樹林區",
+    "address": "新北市樹林區中山路一段58巷7號1樓",
+    "phone": "+886 2 8687 2792",
+    "website": null,
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJHwmAGxYdaDQRMR_nPI_UhzI",
+    "google_rating": 4.6,
+    "google_review_count": 20,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": false,
+    "school_type": "academy",
+    "notes": "",
+    "data_sources": [
+      "outscraper"
+    ],
+    "last_verified": "2026-02-10",
+    "lat": 24.9922337,
+    "lng": 121.42313089999999,
+    "place_id": "ChIJHwmAGxYdaDQRMR_nPI_UhzI",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "只想下棋兒童棋院",
+    "name": "只想下棋兒童棋院",
+    "chain": "",
+    "city": "新北",
+    "city_slug": "newtaipei",
+    "district": "蘆洲區",
+    "address": "新北市蘆洲區長安街285巷24號1樓",
+    "phone": "+886 2 8283 5188",
+    "website": "https://zh-tw.facebook.com/Justgo.center",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJyxlOh7GoQjQRc3Kx6KgKBko",
+    "google_rating": 4.7,
+    "google_review_count": 18,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": false,
+    "school_type": "academy",
+    "notes": "",
+    "data_sources": [
+      "outscraper"
+    ],
+    "last_verified": "2026-02-10",
+    "lat": 25.084083999999997,
+    "lng": 121.45696269999999,
+    "place_id": "ChIJyxlOh7GoQjQRc3Kx6KgKBko",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "名人兒童棋院（三重重新分院）",
+    "name": "名人兒童棋院（三重重新分院）",
+    "chain": "名人兒童棋院",
+    "city": "新北",
+    "city_slug": "newtaipei",
+    "district": "三重區",
+    "address": "新北市三重區重新路四段6-1號2樓",
+    "phone": "+886 2 2970 1176",
+    "website": "https://www.mingren.com.tw/classes/ntpc/38",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJQeGnReKoQjQRTgK7iSc6BAo",
+    "google_rating": 5.0,
+    "google_review_count": 87,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": true,
+    "school_type": "classroom",
+    "notes": "",
+    "data_sources": [
+      "outscraper"
+    ],
+    "last_verified": "2026-02-10",
+    "lat": 25.058109299999998,
+    "lng": 121.48925799999999,
+    "place_id": "ChIJQeGnReKoQjQRTgK7iSc6BAo",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "名人兒童棋院（中和景安分院）",
+    "name": "名人兒童棋院（中和景安分院）",
+    "chain": "名人兒童棋院",
+    "city": "新北",
+    "city_slug": "newtaipei",
+    "district": "中和區",
+    "address": "新北市中和區景安路71號2樓",
+    "phone": "+886 2 2947 1778",
+    "website": "http://www.mingren.com.tw/",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJE6cYn9ipQjQRwffUPRZT5yc",
+    "google_rating": 4.8,
+    "google_review_count": 120,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": true,
+    "school_type": "classroom",
+    "notes": "",
+    "data_sources": [
+      "outscraper"
+    ],
+    "last_verified": "2026-02-10",
+    "lat": 24.997691,
+    "lng": 121.50687099999999,
+    "place_id": "ChIJE6cYn9ipQjQRwffUPRZT5yc",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "名人兒童棋院（土城青雲分院）",
+    "name": "名人兒童棋院（土城青雲分院）",
+    "chain": "名人兒童棋院",
+    "city": "新北",
+    "city_slug": "newtaipei",
+    "district": "土城區",
+    "address": "新北市土城區青雲路70-2號",
+    "phone": "+886 2 2274 1051",
+    "website": "http://www.mingren.com.tw/",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJyy2EeLgCaDQRmYaYshwnUJ0",
+    "google_rating": 5.0,
+    "google_review_count": 162,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": true,
+    "school_type": "classroom",
+    "notes": "",
+    "data_sources": [
+      "outscraper"
+    ],
+    "last_verified": "2026-02-10",
+    "lat": 24.987401,
+    "lng": 121.459363,
+    "place_id": "ChIJyy2EeLgCaDQRmYaYshwnUJ0",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "名人兒童棋院（新店中正分院）",
+    "name": "名人兒童棋院（新店中正分院）",
+    "chain": "名人兒童棋院",
+    "city": "新北",
+    "city_slug": "newtaipei",
+    "district": "新店區",
+    "address": "新北市新店區中正路188號6樓",
+    "phone": "+886 2 2917 9276",
+    "website": "http://www.mingren.com.tw/",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJEbXNOPQBaDQRfMmKfmKttIA",
+    "google_rating": 5.0,
+    "google_review_count": 167,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": true,
+    "school_type": "classroom",
+    "notes": "",
+    "data_sources": [
+      "outscraper"
+    ],
+    "last_verified": "2026-02-10",
+    "lat": 24.972371799999998,
+    "lng": 121.54081869999999,
+    "place_id": "ChIJEbXNOPQBaDQRfMmKfmKttIA",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "名人兒童棋院（板橋實踐分院）",
+    "name": "名人兒童棋院（板橋實踐分院）",
+    "chain": "名人兒童棋院",
+    "city": "新北",
+    "city_slug": "newtaipei",
+    "district": "板橋區",
+    "address": "新北市板橋區實踐路132號五樓",
+    "phone": "+886 2 2955 9729",
+    "website": "http://www.mingren.com.tw/",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ2ZK8Z6ECaDQRNkOEBTtgRhc",
+    "google_rating": 5.0,
+    "google_review_count": 353,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": true,
+    "school_type": "classroom",
+    "notes": "",
+    "data_sources": [
+      "outscraper"
+    ],
+    "last_verified": "2026-02-10",
+    "lat": 25.00267,
+    "lng": 121.464292,
+    "place_id": "ChIJ2ZK8Z6ECaDQRNkOEBTtgRhc",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "名人兒童棋院（永和得和分院）",
+    "name": "名人兒童棋院（永和得和分院）",
+    "chain": "名人兒童棋院",
+    "city": "新北",
+    "city_slug": "newtaipei",
+    "district": "永和區",
+    "address": "新北市永和區得和路110號4樓",
+    "phone": "+886 2 2946 5600",
+    "website": "http://www.mingren.com.tw/",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJqWFONeGpQjQRuJNqikoY1kQ",
+    "google_rating": 5.0,
+    "google_review_count": 110,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": true,
+    "school_type": "classroom",
+    "notes": "",
+    "data_sources": [
+      "outscraper"
+    ],
+    "last_verified": "2026-02-10",
+    "lat": 25.0000189,
+    "lng": 121.5183751,
+    "place_id": "ChIJqWFONeGpQjQRuJNqikoY1kQ",
+    "has_trial": false,
+    "line_id": ""
   },
   {
     "slug": "益園圍棋教室",
@@ -835,22 +1063,871 @@
     "data_sources": [
       "web_research"
     ],
-    "last_verified": "2026-02-07"
+    "last_verified": "2026-02-07",
+    "lat": null,
+    "lng": null,
+    "place_id": "",
+    "has_trial": false,
+    "line_id": ""
   },
   {
-    "slug": "森圍棋藝術",
-    "name": "森圍棋藝術",
+    "slug": "碁人中華兒童棋院-新北北大樹林",
+    "name": "碁人中華兒童棋院（新北北大(樹林)）",
+    "chain": "碁人中華兒童棋院",
+    "city": "新北",
+    "city_slug": "new-taipei",
+    "district": "樹林區",
+    "address": "新北市樹林區學府路288號",
+    "phone": "(02) 3501-7364",
+    "website": "https://www.goer.com.tw/",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJcQfvInMcaDQR720gjor64ag",
+    "google_rating": 5.0,
+    "google_review_count": 2,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": true,
+    "price_range": "單堂 NT$500；6堂套裝 NT$2,400",
+    "is_chain": true,
+    "school_type": "academy",
+    "notes": "原中華棋院暨兒童圍棋道場之現代化品牌。4個分院。",
+    "data_sources": [
+      "web_research",
+      "outscraper"
+    ],
+    "last_verified": "2026-03-13",
+    "lat": 24.949987999999998,
+    "lng": 121.378338,
+    "place_id": "ChIJcQfvInMcaDQR720gjor64ag",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "黑嘉嘉圍棋（新北汐止分校）",
+    "name": "黑嘉嘉圍棋（新北汐止分校）",
+    "chain": "黑嘉嘉圍棋",
+    "city": "新北",
+    "city_slug": "newtaipei",
+    "district": "汐止區",
+    "address": "新北市汐止區大同路二段240號9樓之一",
+    "phone": "+886 2 2648 2728",
+    "website": "http://www.kidsgo.com.tw/",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJe6WCiSJTXTQRx-X76VGnhe4",
+    "google_rating": 5.0,
+    "google_review_count": 169,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": true,
+    "school_type": "classroom",
+    "notes": "",
+    "data_sources": [
+      "outscraper"
+    ],
+    "last_verified": "2026-02-10",
+    "lat": 25.06549,
+    "lng": 121.65409299999999,
+    "place_id": "ChIJe6WCiSJTXTQRx-X76VGnhe4",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "中央棋院-內壢院",
+    "name": "中央棋院（內壢院）",
+    "chain": "中央棋院",
+    "city": "桃園",
+    "city_slug": "taoyuan",
+    "district": "中壢區",
+    "address": "桃園市中壢區復華街262號",
+    "phone": "0933-423-348",
+    "website": "https://www.centralgo.com.tw/",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJY8c8vyEhaDQRbVva5SAf5-k",
+    "google_rating": 5.0,
+    "google_review_count": 6.0,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": true,
+    "school_type": "academy",
+    "notes": "全台分院數最多的連鎖棋院（12+分院），主要覆蓋桃園、新竹、新北、花蓮。",
+    "data_sources": [
+      "web_research",
+      "outscraper"
+    ],
+    "last_verified": "2026-03-13",
+    "lat": 24.975369,
+    "lng": 121.248323,
+    "place_id": "ChIJY8c8vyEhaDQRbVva5SAf5-k",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "中央棋院-八德院",
+    "name": "中央棋院（八德院）",
+    "chain": "中央棋院",
+    "city": "桃園",
+    "city_slug": "taoyuan",
+    "district": "八德區",
+    "address": "桃園市八德區大福街110號",
+    "phone": "0968-723-208",
+    "website": "https://www.centralgo.com.tw/",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJzbYxHHMfaDQRK-FPTEWWLVE",
+    "google_rating": 5.0,
+    "google_review_count": 2.0,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": true,
+    "school_type": "academy",
+    "notes": "全台分院數最多的連鎖棋院（12+分院），主要覆蓋桃園、新竹、新北、花蓮。",
+    "data_sources": [
+      "web_research",
+      "outscraper"
+    ],
+    "last_verified": "2026-03-13",
+    "lat": 24.9726391,
+    "lng": 121.29985169999999,
+    "place_id": "ChIJzbYxHHMfaDQRK-FPTEWWLVE",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "中央棋院-平鎮院",
+    "name": "中央棋院（平鎮院）",
+    "chain": "中央棋院",
+    "city": "桃園",
+    "city_slug": "taoyuan",
+    "district": "平鎮區",
+    "address": "桃園市平鎮區文化街236巷7弄2號",
+    "phone": "(03) 492-7109",
+    "website": "https://www.centralgo.com.tw/",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJMxg6K6UjaDQRZ0eHF_i-cng",
+    "google_rating": 5.0,
+    "google_review_count": 117.0,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": true,
+    "school_type": "academy",
+    "notes": "全台分院數最多的連鎖棋院（12+分院），主要覆蓋桃園、新竹、新北、花蓮。",
+    "data_sources": [
+      "web_research",
+      "outscraper"
+    ],
+    "last_verified": "2026-03-13",
+    "lat": 24.9514393,
+    "lng": 121.2027986,
+    "place_id": "ChIJMxg6K6UjaDQRZ0eHF_i-cng",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "中央棋院-楊梅院",
+    "name": "中央棋院（楊梅院）",
+    "chain": "中央棋院",
+    "city": "桃園",
+    "city_slug": "taoyuan",
+    "district": "楊梅區",
+    "address": "桃園市楊梅區中山北路一段390巷16號",
+    "phone": "(03) 478-9008",
+    "website": "https://www.centralgo.com.tw/",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJF5y1niIlaDQRyS5gHsFzxoQ",
+    "google_rating": 4.8,
+    "google_review_count": 83.0,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": true,
+    "school_type": "academy",
+    "notes": "全台分院數最多的連鎖棋院（12+分院），主要覆蓋桃園、新竹、新北、花蓮。",
+    "data_sources": [
+      "web_research",
+      "outscraper"
+    ],
+    "last_verified": "2026-03-13",
+    "lat": 24.909415199999998,
+    "lng": 121.1588386,
+    "place_id": "ChIJF5y1niIlaDQRyS5gHsFzxoQ",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "中央棋院-為光院",
+    "name": "中央棋院（為光院）",
+    "chain": "中央棋院",
+    "city": "桃園",
+    "city_slug": "taoyuan",
+    "district": "桃園區",
+    "address": "桃園市桃園區自強路133號",
+    "phone": "0970-204-771",
+    "website": "https://www.centralgo.com.tw/",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJiwfbevgeaDQRllLQq5K1sd8",
+    "google_rating": 5.0,
+    "google_review_count": 77.0,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": true,
+    "school_type": "academy",
+    "notes": "全台分院數最多的連鎖棋院（12+分院），主要覆蓋桃園、新竹、新北、花蓮。",
+    "data_sources": [
+      "web_research",
+      "outscraper"
+    ],
+    "last_verified": "2026-03-13",
+    "lat": 24.9987797,
+    "lng": 121.3177285,
+    "place_id": "ChIJiwfbevgeaDQRllLQq5K1sd8",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "中央棋院-藝文院",
+    "name": "中央棋院（藝文院）",
+    "chain": "中央棋院",
+    "city": "桃園",
+    "city_slug": "taoyuan",
+    "district": "桃園區",
+    "address": "桃園市桃園區中埔一街129號2F",
+    "phone": "(03) 301-9593",
+    "website": "https://www.centralgo.com.tw/",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJC86J2DwfaDQRBrWQ9pE6OHg",
+    "google_rating": 5.0,
+    "google_review_count": 14.0,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": true,
+    "school_type": "academy",
+    "notes": "全台分院數最多的連鎖棋院（12+分院），主要覆蓋桃園、新竹、新北、花蓮。",
+    "data_sources": [
+      "web_research",
+      "outscraper"
+    ],
+    "last_verified": "2026-03-13",
+    "lat": 25.0146007,
+    "lng": 121.2951727,
+    "place_id": "ChIJC86J2DwfaDQRBrWQ9pE6OHg",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "中央棋院-青埔院",
+    "name": "中央棋院（青埔院）",
+    "chain": "中央棋院",
+    "city": "桃園",
+    "city_slug": "taoyuan",
+    "district": "中壢區",
+    "address": "桃園市中壢區致祥一街222號",
+    "phone": "0908-187-789",
+    "website": "https://www.centralgo.com.tw/",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ4akSPg4haDQRMT9yFpoLkJQ",
+    "google_rating": 5.0,
+    "google_review_count": 40.0,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": true,
+    "school_type": "academy",
+    "notes": "全台分院數最多的連鎖棋院（12+分院），主要覆蓋桃園、新竹、新北、花蓮。",
+    "data_sources": [
+      "web_research",
+      "outscraper"
+    ],
+    "last_verified": "2026-03-13",
+    "lat": 25.0099828,
+    "lng": 121.214939,
+    "place_id": "ChIJ4akSPg4haDQRMT9yFpoLkJQ",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "新銳圍棋莊敬道場",
+    "name": "新銳圍棋莊敬道場",
+    "chain": "",
+    "city": "桃園",
+    "city_slug": "taoyuan",
+    "district": "桃園區",
+    "address": "桃園市桃園區敬二街5號2F",
+    "phone": "+886 3 317 7775",
+    "website": null,
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJYVLCcrkfaDQRlUdWjYKfILQ",
+    "google_rating": 5.0,
+    "google_review_count": 40.0,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": false,
+    "school_type": "academy",
+    "notes": "",
+    "data_sources": [
+      "outscraper"
+    ],
+    "last_verified": "2026-02-10",
+    "lat": 25.022006899999997,
+    "lng": 121.2934677,
+    "place_id": "ChIJYVLCcrkfaDQRlUdWjYKfILQ",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "黑嘉嘉圍棋（桃園中山分校）",
+    "name": "黑嘉嘉圍棋（桃園中山分校）",
+    "chain": "黑嘉嘉圍棋",
+    "city": "桃園",
+    "city_slug": "taoyuan",
+    "district": "桃園區",
+    "address": "桃園市桃園區國聖一街196號",
+    "phone": "+886 3 360 1701",
+    "website": "https://www.facebook.com/share/1ExBeHMrt7/%3Fmibextid%3DJRoKGi",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJKUWOMj4faDQRGn-4w4JEDKo",
+    "google_rating": 5.0,
+    "google_review_count": 145.0,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": true,
+    "school_type": "classroom",
+    "notes": "",
+    "data_sources": [
+      "outscraper"
+    ],
+    "last_verified": "2026-02-10",
+    "lat": 24.9840266,
+    "lng": 121.28845179999999,
+    "place_id": "ChIJKUWOMj4faDQRGn-4w4JEDKo",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "黑嘉嘉圍棋（桃園中正分校）",
+    "name": "黑嘉嘉圍棋（桃園中正分校）",
+    "chain": "黑嘉嘉圍棋",
+    "city": "桃園",
+    "city_slug": "taoyuan",
+    "district": "桃園區",
+    "address": "桃園市桃園區南平路421號2樓",
+    "phone": "+886 3 315 0489",
+    "website": "https://reurl.cc/Db4WDO",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJPZSajrofaDQRh0q9s-BF0_8",
+    "google_rating": 4.9,
+    "google_review_count": 89.0,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": true,
+    "school_type": "classroom",
+    "notes": "",
+    "data_sources": [
+      "outscraper"
+    ],
+    "last_verified": "2026-02-10",
+    "lat": 25.017063399999998,
+    "lng": 121.29598209999999,
+    "place_id": "ChIJPZSajrofaDQRh0q9s-BF0_8",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "黑嘉嘉圍棋（桃園八德分校）",
+    "name": "黑嘉嘉圍棋（桃園八德分校）",
+    "chain": "黑嘉嘉圍棋",
+    "city": "桃園",
+    "city_slug": "taoyuan",
+    "district": "八德區",
+    "address": "桃園市八德區廣福路24號2 樓",
+    "phone": "+886 3 361 1771",
+    "website": "https://www.facebook.com/profile.php%3Fid%3D61558734477089%26mibextid%3DLQQJ4d",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJW_2A89IYaDQRZlzn8AFkOtQ",
+    "google_rating": 5.0,
+    "google_review_count": 274.0,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": true,
+    "school_type": "classroom",
+    "notes": "",
+    "data_sources": [
+      "outscraper"
+    ],
+    "last_verified": "2026-02-10",
+    "lat": 24.958828699999998,
+    "lng": 121.29859019999999,
+    "place_id": "ChIJW_2A89IYaDQRZlzn8AFkOtQ",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "黑嘉嘉圍棋（桃園南崁分校）",
+    "name": "黑嘉嘉圍棋（桃園南崁分校）",
+    "chain": "黑嘉嘉圍棋",
+    "city": "桃園",
+    "city_slug": "taoyuan",
+    "district": "蘆竹區",
+    "address": "4桃園市蘆竹區仁愛路三段一號4樓",
+    "phone": "+886 3 312 0489",
+    "website": "https://www.facebook.com/profile.php%3Fid%3D61558752924570",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJY8wlrHugQjQR52Rs9buYYV4",
+    "google_rating": 4.9,
+    "google_review_count": 74.0,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": true,
+    "school_type": "classroom",
+    "notes": "",
+    "data_sources": [
+      "outscraper"
+    ],
+    "last_verified": "2026-02-10",
+    "lat": 25.053312899999998,
+    "lng": 121.3001475,
+    "place_id": "ChIJY8wlrHugQjQR52Rs9buYYV4",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "黑嘉嘉圍棋（桃園大有分校）",
+    "name": "黑嘉嘉圍棋（桃園大有分校）",
+    "chain": "黑嘉嘉圍棋",
+    "city": "桃園",
+    "city_slug": "taoyuan",
+    "district": "桃園區",
+    "address": "桃園市桃園區大有路487號3樓-1",
+    "phone": "+886 3 315 1058",
+    "website": "https://www.facebook.com/wisdom.go/%3Fref%3Daymt_homepage_panel",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJs1bDDE8eaDQRB9FN2yoJakc",
+    "google_rating": 5.0,
+    "google_review_count": 164.0,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": true,
+    "school_type": "classroom",
+    "notes": "",
+    "data_sources": [
+      "outscraper"
+    ],
+    "last_verified": "2026-02-10",
+    "lat": 25.012793,
+    "lng": 121.3183076,
+    "place_id": "ChIJs1bDDE8eaDQRB9FN2yoJakc",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "黑嘉嘉圍棋（桃園平鎮分校）",
+    "name": "黑嘉嘉圍棋（桃園平鎮分校）",
+    "chain": "黑嘉嘉圍棋",
+    "city": "桃園",
+    "city_slug": "taoyuan",
+    "district": "平鎮區",
+    "address": "桃園市平鎮區文化街220號",
+    "phone": "+886 3 491 0886",
+    "website": "https://www.facebook.com/share/q63tD87yH4Em7FNk/%3Fmibextid%3DLQQJ4d",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJjVUh0rojaDQRhfazqyZeLiY",
+    "google_rating": 5.0,
+    "google_review_count": 183.0,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": true,
+    "school_type": "classroom",
+    "notes": "",
+    "data_sources": [
+      "outscraper"
+    ],
+    "last_verified": "2026-02-10",
+    "lat": 24.951759199999998,
+    "lng": 121.20316869999999,
+    "place_id": "ChIJjVUh0rojaDQRhfazqyZeLiY",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "中央棋院-北門院",
+    "name": "中央棋院（北門院）",
+    "chain": "中央棋院",
+    "city": "新竹",
+    "city_slug": "hsinchu",
+    "district": "北區",
+    "address": "新竹市北區國光街70號",
+    "phone": "0937-594-937",
+    "website": "https://www.centralgo.com.tw/",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJDY25RtA1aDQRyKkVRwKAsxs",
+    "google_rating": 5.0,
+    "google_review_count": 22,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": true,
+    "school_type": "academy",
+    "notes": "全台分院數最多的連鎖棋院（12+分院），主要覆蓋桃園、新竹、新北、花蓮。",
+    "data_sources": [
+      "web_research",
+      "outscraper"
+    ],
+    "last_verified": "2026-03-13",
+    "lat": 24.8118436,
+    "lng": 120.9606692,
+    "place_id": "ChIJDY25RtA1aDQRyKkVRwKAsxs",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "中央棋院-棋藝國",
+    "name": "中央棋院（棋藝國）",
+    "chain": "中央棋院",
+    "city": "新竹",
+    "city_slug": "hsinchu",
+    "district": "東區",
+    "address": "新竹市東區博愛街128號",
+    "phone": "(03) 573-7912",
+    "website": "https://www.centralgo.com.tw/",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJIVoWEq41aDQRM-sthcPZQE0",
+    "google_rating": 5.0,
+    "google_review_count": 18,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": true,
+    "school_type": "academy",
+    "notes": "全台分院數最多的連鎖棋院（12+分院），主要覆蓋桃園、新竹、新北、花蓮。",
+    "data_sources": [
+      "web_research",
+      "outscraper"
+    ],
+    "last_verified": "2026-03-13",
+    "lat": 24.799456,
+    "lng": 120.981701,
+    "place_id": "ChIJIVoWEq41aDQRM-sthcPZQE0",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "中央棋院-竹北院",
+    "name": "中央棋院（竹北院）",
+    "chain": "中央棋院",
+    "city": "新竹",
+    "city_slug": "hsinchu",
+    "district": "竹北市",
+    "address": "新竹縣竹北市新社里新民街330號1樓",
+    "phone": "0968-723-208",
+    "website": "https://www.centralgo.com.tw/",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJOXXhHIw3aDQRYwqoOHWbAT4",
+    "google_rating": null,
+    "google_review_count": 0,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": true,
+    "school_type": "academy",
+    "notes": "全台分院數最多的連鎖棋院（12+分院），主要覆蓋桃園、新竹、新北、花蓮。",
+    "data_sources": [
+      "web_research",
+      "outscraper"
+    ],
+    "last_verified": "2026-03-13",
+    "lat": 24.8436958,
+    "lng": 120.9961024,
+    "place_id": "ChIJOXXhHIw3aDQRYwqoOHWbAT4",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "中華民國圍棋協會",
+    "name": "中華民國圍棋協會",
+    "chain": "",
+    "city": "新竹",
+    "city_slug": "hsinchu",
+    "district": "",
+    "address": "新竹市東區仁愛街2號",
+    "phone": "+886 3 531 6324",
+    "website": "http://www.facebook.com/HsinChuGo",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJYSEdlcM1aDQR8SfS-6otbFo",
+    "google_rating": 4.7,
+    "google_review_count": 29,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": false,
+    "school_type": "academy",
+    "notes": "",
+    "data_sources": [
+      "outscraper"
+    ],
+    "last_verified": "2026-02-10",
+    "lat": 24.806538,
+    "lng": 120.971998,
+    "place_id": "ChIJYSEdlcM1aDQR8SfS-6otbFo",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "圍棋協會新竹推廣中心（新竹兒童棋院）",
+    "name": "圍棋協會新竹推廣中心（新竹兒童棋院）",
+    "chain": "",
+    "city": "新竹",
+    "city_slug": "hsinchu",
+    "district": "",
+    "address": "新竹市東區仁愛街2號",
+    "phone": "+886 3 531 6324",
+    "website": "http://www.facebook.com/HsinChuGo",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJYSEdlcM1aDQR8SfS-6otbFo",
+    "google_rating": 4.7,
+    "google_review_count": 29,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": false,
+    "school_type": "academy",
+    "notes": "",
+    "data_sources": [
+      "outscraper"
+    ],
+    "last_verified": "2026-02-10",
+    "lat": 24.806538,
+    "lng": 120.971998,
+    "place_id": "ChIJYSEdlcM1aDQR8SfS-6otbFo",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "碁人中華兒童棋院-新竹竹北",
+    "name": "碁人中華兒童棋院（新竹竹北）",
+    "chain": "碁人中華兒童棋院",
+    "city": "新竹",
+    "city_slug": "hsinchu",
+    "district": "竹北市",
+    "address": "新竹縣竹北市六家五路一段252號1樓",
+    "phone": "(03) 550-5760",
+    "website": "https://www.goer.com.tw/",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJu3Ql40kiaDQRYuGAvFegDWk",
+    "google_rating": 5.0,
+    "google_review_count": 1.0,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": true,
+    "price_range": "單堂 NT$500；6堂套裝 NT$2,400",
+    "is_chain": true,
+    "school_type": "academy",
+    "notes": "原中華棋院暨兒童圍棋道場之現代化品牌。4個分院。",
+    "data_sources": [
+      "web_research",
+      "outscraper"
+    ],
+    "last_verified": "2026-03-13",
+    "lat": 24.957157,
+    "lng": 121.223337,
+    "place_id": "ChIJu3Ql40kiaDQRYuGAvFegDWk",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "碁人圍棋（竹北分校）",
+    "name": "碁人圍棋（竹北分校）",
+    "chain": "碁人圍棋",
+    "city": "新竹",
+    "city_slug": "hsinchu",
+    "district": "竹北市",
+    "address": "新竹縣竹北市六家五路一段252號1樓",
+    "phone": "+886 3 550 5760",
+    "website": "http://www.goer.com.tw/",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJbWC9BxE3aDQRWLIhYyBtL4U",
+    "google_rating": 4.9,
+    "google_review_count": 48,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": true,
+    "school_type": "classroom",
+    "notes": "",
+    "data_sources": [
+      "outscraper"
+    ],
+    "last_verified": "2026-02-10",
+    "lat": 24.8076869,
+    "lng": 121.0282132,
+    "place_id": "ChIJbWC9BxE3aDQRWLIhYyBtL4U",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "竹北兒童棋院",
+    "name": "竹北兒童棋院",
+    "chain": "",
+    "city": "新竹",
+    "city_slug": "hsinchu",
+    "district": "竹北市",
+    "address": "新竹縣竹北市光明三路186號2F",
+    "phone": "+886 935 889 670",
+    "website": "https://happygo1968.blogspot.com/",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ_bRO8Y83aDQR5zVc52smFmU",
+    "google_rating": 5.0,
+    "google_review_count": 11,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": false,
+    "school_type": "academy",
+    "notes": "",
+    "data_sources": [
+      "outscraper"
+    ],
+    "last_verified": "2026-02-10",
+    "lat": 24.8317595,
+    "lng": 121.00591499999999,
+    "place_id": "ChIJ_bRO8Y83aDQR5zVc52smFmU",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "黑嘉嘉圍棋（新竹巨城分校）",
+    "name": "黑嘉嘉圍棋（新竹巨城分校）",
+    "chain": "黑嘉嘉圍棋",
+    "city": "新竹",
+    "city_slug": "hsinchu",
+    "district": "",
+    "address": "新竹市東區民族路150號2樓",
+    "phone": "+886 3 532 2168",
+    "website": "https://www.heijiajia.com.tw/",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJZeaqzj41aDQRxptAE5iecK0",
+    "google_rating": 5.0,
+    "google_review_count": 904,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": true,
+    "school_type": "classroom",
+    "notes": "",
+    "data_sources": [
+      "outscraper"
+    ],
+    "last_verified": "2026-02-10",
+    "lat": 24.808268299999998,
+    "lng": 120.97824019999999,
+    "place_id": "ChIJZeaqzj41aDQRxptAE5iecK0",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "黑嘉嘉圍棋（新竹竹北分校）",
+    "name": "黑嘉嘉圍棋（新竹竹北分校）",
+    "chain": "黑嘉嘉圍棋",
+    "city": "新竹",
+    "city_slug": "hsinchu",
+    "district": "竹北市",
+    "address": "新竹縣竹北市勝利二路85號2樓",
+    "phone": "+886 3 550 1066",
+    "website": "https://www.heijiajia.com.tw/",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJayn1u-Q2aDQRnkos5DvNRP8",
+    "google_rating": 5.0,
+    "google_review_count": 244,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": true,
+    "school_type": "classroom",
+    "notes": "",
+    "data_sources": [
+      "outscraper"
+    ],
+    "last_verified": "2026-02-10",
+    "lat": 24.822757,
+    "lng": 121.02668299999999,
+    "place_id": "ChIJayn1u-Q2aDQRnkos5DvNRP8",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "卓奕佳貝圍棋教育中心",
+    "name": "卓奕佳貝圍棋教育中心",
     "chain": "",
     "city": "台中",
     "city_slug": "taichung",
     "district": "北屯區",
-    "address": "台中市北屯區文心路四段936號三樓之2",
-    "phone": "",
-    "website": "https://www.forestgoschool.com/",
+    "address": "臺中市北屯區軍功東街91號軍功國小正門",
+    "phone": "+886 982 187 596",
+    "website": "https://www.facebook.com/sakura195948/",
     "facebook_url": "",
-    "google_maps_url": "",
-    "google_rating": null,
-    "google_review_count": 0,
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJTeyM8mIZaTQRsSG09ryMRw0",
+    "google_rating": 5.0,
+    "google_review_count": 12.0,
     "age_groups": [
       "children"
     ],
@@ -860,281 +1937,46 @@
     "school_type": "classroom",
     "notes": "",
     "data_sources": [
-      "web_research"
+      "outscraper"
     ],
-    "last_verified": "2026-02-07"
+    "last_verified": "2026-02-10",
+    "lat": 24.172311999999998,
+    "lng": 120.7194323,
+    "place_id": "ChIJTeyM8mIZaTQRsSG09ryMRw0",
+    "has_trial": false,
+    "line_id": ""
   },
   {
-    "slug": "傑克圍棋教室",
-    "name": "傑克圍棋教室",
-    "chain": "",
-    "city": "高雄",
-    "city_slug": "kaohsiung",
-    "district": "左營區",
-    "address": "高雄市左營區立大路292號",
-    "phone": "07-350-6586",
-    "website": "",
-    "facebook_url": "",
-    "google_maps_url": "",
-    "google_rating": null,
-    "google_review_count": 0,
-    "age_groups": [
-      "children"
-    ],
-    "price_public": false,
-    "price_range": null,
-    "is_chain": false,
-    "school_type": "classroom",
-    "notes": "",
-    "data_sources": [
-      "web_research"
-    ],
-    "last_verified": "2026-02-07"
-  },
-  {
-    "slug": "碁林棋苑",
-    "name": "碁林棋苑",
-    "chain": "",
-    "city": "高雄",
-    "city_slug": "kaohsiung",
-    "district": "鳳山區",
-    "address": "高雄市鳳山區新強路329號",
-    "phone": "0939-875558",
-    "website": "https://www.chilingogo.com/",
-    "facebook_url": "",
-    "google_maps_url": "",
-    "google_rating": null,
-    "google_review_count": 0,
-    "age_groups": [
-      "children"
-    ],
-    "price_public": false,
-    "price_range": null,
-    "is_chain": false,
-    "school_type": "classroom",
-    "notes": "",
-    "data_sources": [
-      "web_research"
-    ],
-    "last_verified": "2026-02-07"
-  },
-  {
-    "slug": "華聲少年圍棋學院-中山棋院",
-    "name": "華聲少年圍棋學院（中山棋院）",
-    "chain": "華聲少年圍棋學院",
-    "city": "台南",
-    "city_slug": "tainan",
-    "district": "中西區",
-    "address": "台南市中西區中山路70號2樓",
-    "phone": "(06) 229-0231",
-    "website": "http://www.whasheng.com.tw/",
-    "facebook_url": "",
-    "google_maps_url": "",
-    "google_rating": null,
-    "google_review_count": 0,
-    "age_groups": [
-      "children"
-    ],
-    "price_public": false,
-    "price_range": null,
-    "is_chain": true,
-    "school_type": "academy",
-    "notes": "台南最大圍棋學院，2個分院。營業時間：週二至週五 13:30-21:30，週六 9:30-21:30。",
-    "data_sources": [
-      "web_research"
-    ],
-    "last_verified": "2026-02-07"
-  },
-  {
-    "slug": "華聲少年圍棋學院-東區棋院",
-    "name": "華聲少年圍棋學院（東區棋院）",
-    "chain": "華聲少年圍棋學院",
-    "city": "台南",
-    "city_slug": "tainan",
-    "district": "東區",
-    "address": "台南市東區",
-    "phone": "(06) 229-0231",
-    "website": "http://www.whasheng.com.tw/",
-    "facebook_url": "",
-    "google_maps_url": "",
-    "google_rating": null,
-    "google_review_count": 0,
-    "age_groups": [
-      "children"
-    ],
-    "price_public": false,
-    "price_range": null,
-    "is_chain": true,
-    "school_type": "academy",
-    "notes": "台南最大圍棋學院，2個分院。營業時間：週二至週五 13:30-21:30，週六 9:30-21:30。",
-    "data_sources": [
-      "web_research"
-    ],
-    "last_verified": "2026-02-07"
-  },
-  {
-    "slug": "棋飛圍棋",
-    "name": "棋飛圍棋",
-    "chain": "",
-    "city": "台南",
-    "city_slug": "tainan",
-    "district": "東區",
-    "address": "台南市東區怡東路87號",
-    "phone": "0975-528607",
-    "website": "",
-    "facebook_url": "",
-    "google_maps_url": "",
-    "google_rating": null,
-    "google_review_count": 0,
-    "age_groups": [
-      "children"
-    ],
-    "price_public": false,
-    "price_range": null,
-    "is_chain": false,
-    "school_type": "classroom",
-    "notes": "沈老師。",
-    "data_sources": [
-      "web_research"
-    ],
-    "last_verified": "2026-02-07"
-  },
-  {
-    "slug": "心弈圍棋苑",
-    "name": "心弈圍棋苑",
-    "chain": "",
-    "city": "嘉義",
-    "city_slug": "chiayi",
-    "district": "",
-    "address": "",
-    "phone": "",
-    "website": "https://www.sinyilovego.com/",
-    "facebook_url": "",
-    "google_maps_url": "",
-    "google_rating": null,
-    "google_review_count": 0,
-    "age_groups": [
-      "children"
-    ],
-    "price_public": false,
-    "price_range": null,
-    "is_chain": false,
-    "school_type": "classroom",
-    "notes": "",
-    "data_sources": [
-      "web_research"
-    ],
-    "last_verified": "2026-02-07"
-  },
-  {
-    "slug": "棋而思cheers圍棋教室",
-    "name": "棋而思Cheers圍棋教室",
-    "chain": "",
-    "city": "嘉義",
-    "city_slug": "chiayi",
-    "district": "",
-    "address": "",
-    "phone": "",
-    "website": "https://www.cheersgo.com.tw/",
-    "facebook_url": "",
-    "google_maps_url": "",
-    "google_rating": null,
-    "google_review_count": 0,
-    "age_groups": [
-      "children"
-    ],
-    "price_public": false,
-    "price_range": null,
-    "is_chain": false,
-    "school_type": "classroom",
-    "notes": "",
-    "data_sources": [
-      "web_research"
-    ],
-    "last_verified": "2026-02-07"
-  },
-  {
-    "slug": "中華棋院暨兒童圍棋道場",
-    "name": "中華棋院暨兒童圍棋道場",
-    "chain": "",
-    "city": "台北",
-    "city_slug": "taipei",
-    "district": "大安區",
-    "address": "台北市大安區信義路三段202號4樓",
-    "phone": "(02) 2707-9738",
-    "website": "http://mindgo.com.tw/",
-    "facebook_url": "",
-    "google_maps_url": "",
-    "google_rating": null,
-    "google_review_count": 0,
-    "age_groups": [
-      "children",
-      "adults"
-    ],
-    "price_public": false,
-    "price_range": null,
-    "is_chain": false,
-    "school_type": "academy",
-    "notes": "碁人中華兒童棋院的前身/關聯機構。",
-    "data_sources": [
-      "web_research"
-    ],
-    "last_verified": "2026-02-07"
-  },
-  {
-    "slug": "梁老師圍棋學院",
-    "name": "梁老師圍棋學院",
+    "slug": "太平棋院",
+    "name": "太平棋院",
     "chain": "",
     "city": "台中",
     "city_slug": "taichung",
-    "district": "西屯區",
-    "address": "台中市西屯區",
-    "phone": "0955-506-255",
-    "website": "https://liangs-go.com",
+    "district": "太平區",
+    "address": "臺中市太平區新興二街60號1樓",
+    "phone": "",
+    "website": "https://www.facebook.com/share/16jqthkv46/%3Fmibextid%3DwwXIfr",
     "facebook_url": "",
-    "google_maps_url": "",
-    "google_rating": null,
-    "google_review_count": 0,
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJIwe8q8kXaTQRdNCxMtTsjc4",
+    "google_rating": 4.9,
+    "google_review_count": 59.0,
     "age_groups": [
       "children"
     ],
     "price_public": false,
     "price_range": null,
     "is_chain": false,
-    "school_type": "classroom",
-    "notes": "台中西屯區兒童圍棋教學。",
+    "school_type": "academy",
+    "notes": "",
     "data_sources": [
-      "web_research"
+      "outscraper"
     ],
-    "last_verified": "2026-02-09"
-  },
-  {
-    "slug": "蘇老師櫻花圍棋教室",
-    "name": "蘇老師櫻花圍棋教室",
-    "chain": "",
-    "city": "台中",
-    "city_slug": "taichung",
-    "district": "西屯區",
-    "address": "台中市西屯區",
-    "phone": "(04) 2317-2146",
-    "website": "https://sakurago.weebly.com",
-    "facebook_url": "",
-    "google_maps_url": "",
-    "google_rating": null,
-    "google_review_count": 0,
-    "age_groups": [
-      "children",
-      "adults"
-    ],
-    "price_public": false,
-    "price_range": null,
-    "is_chain": false,
-    "school_type": "classroom",
-    "notes": "台中西屯區，接受成人學員。",
-    "data_sources": [
-      "web_research"
-    ],
-    "last_verified": "2026-02-09"
+    "last_verified": "2026-02-10",
+    "lat": 24.161756999999998,
+    "lng": 120.705715,
+    "place_id": "ChIJIwe8q8kXaTQRdNCxMtTsjc4",
+    "has_trial": false,
+    "line_id": ""
   },
   {
     "slug": "方圓圍棋教室",
@@ -1147,7 +1989,7 @@
     "phone": "",
     "website": "",
     "facebook_url": "https://www.facebook.com/fangyuanGo",
-    "google_maps_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ49qNGWY9aTQRa8QIGslJMbM",
     "google_rating": null,
     "google_review_count": 0,
     "age_groups": [
@@ -1159,9 +2001,145 @@
     "school_type": "classroom",
     "notes": "台中地區圍棋教室，僅有Facebook粉專。",
     "data_sources": [
-      "web_research"
+      "web_research",
+      "outscraper"
     ],
-    "last_verified": "2026-02-09"
+    "last_verified": "2026-03-13",
+    "lat": 24.125163699999998,
+    "lng": 120.6791622,
+    "place_id": "ChIJ49qNGWY9aTQRa8QIGslJMbM",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "梁老師圍棋學院",
+    "name": "梁老師圍棋學院",
+    "chain": "",
+    "city": "台中",
+    "city_slug": "taichung",
+    "district": "西屯區",
+    "address": "台中市西屯區",
+    "phone": "0955-506-255",
+    "website": "https://liangs-go.com",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJRWJ1ZVM9aTQR50vKFOXjWPo",
+    "google_rating": 5.0,
+    "google_review_count": 10.0,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": false,
+    "school_type": "classroom",
+    "notes": "台中西屯區兒童圍棋教學。",
+    "data_sources": [
+      "web_research",
+      "outscraper"
+    ],
+    "last_verified": "2026-03-13",
+    "lat": 24.163515099999998,
+    "lng": 120.65473949999999,
+    "place_id": "ChIJRWJ1ZVM9aTQR50vKFOXjWPo",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "森圍棋藝術",
+    "name": "森圍棋藝術",
+    "chain": "",
+    "city": "台中",
+    "city_slug": "taichung",
+    "district": "北屯區",
+    "address": "台中市北屯區文心路四段936號三樓之2",
+    "phone": "",
+    "website": "https://www.forestgoschool.com/",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJjQYOwkkXaTQRwxUsagC7Hio",
+    "google_rating": 5.0,
+    "google_review_count": 12.0,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": false,
+    "school_type": "classroom",
+    "notes": "",
+    "data_sources": [
+      "web_research",
+      "outscraper"
+    ],
+    "last_verified": "2026-03-13",
+    "lat": 24.170793699999997,
+    "lng": 120.6945123,
+    "place_id": "ChIJjQYOwkkXaTQRwxUsagC7Hio",
+    "has_trial": false,
+    "line_id": "@forest_school"
+  },
+  {
+    "slug": "洪門棋院",
+    "name": "洪門棋院",
+    "chain": "",
+    "city": "台中",
+    "city_slug": "taichung",
+    "district": "",
+    "address": "臺中市北區篤行路290號",
+    "phone": "+886 928 667 335",
+    "website": null,
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJg360FGE9aTQRookxgeVSk3M",
+    "google_rating": 5.0,
+    "google_review_count": 4,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": false,
+    "school_type": "academy",
+    "notes": "",
+    "data_sources": [
+      "outscraper"
+    ],
+    "last_verified": "2026-02-10",
+    "lat": 24.1544416,
+    "lng": 120.6737239,
+    "place_id": "ChIJg360FGE9aTQRookxgeVSk3M",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "葉大明老師圍棋",
+    "name": "葉大明老師圍棋",
+    "chain": "",
+    "city": "台中",
+    "city_slug": "taichung",
+    "district": "",
+    "address": "臺中市西區三民西路63號",
+    "phone": "+886 4 2375 9308",
+    "website": "https://www.facebook.com/IGOYEH/",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJDzpSD4s9aTQRI0ArQhJUiCs",
+    "google_rating": 4.7,
+    "google_review_count": 18.0,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": false,
+    "school_type": "classroom",
+    "notes": "",
+    "data_sources": [
+      "outscraper"
+    ],
+    "last_verified": "2026-02-10",
+    "lat": 24.131048,
+    "lng": 120.66651519999999,
+    "place_id": "ChIJDzpSD4s9aTQRI0ArQhJUiCs",
+    "has_trial": false,
+    "line_id": ""
   },
   {
     "slug": "葉老師圍棋專業教學中心",
@@ -1188,22 +2166,254 @@
     "data_sources": [
       "web_research"
     ],
-    "last_verified": "2026-02-09"
+    "last_verified": "2026-02-09",
+    "lat": null,
+    "lng": null,
+    "place_id": "",
+    "has_trial": false,
+    "line_id": ""
   },
   {
-    "slug": "大師棋院",
-    "name": "大師棋院",
+    "slug": "蘇老師櫻花圍棋教室",
+    "name": "蘇老師櫻花圍棋教室",
     "chain": "",
-    "city": "高雄",
-    "city_slug": "kaohsiung",
+    "city": "台中",
+    "city_slug": "taichung",
+    "district": "西屯區",
+    "address": "台中市西屯區",
+    "phone": "(04) 2317-2146",
+    "website": "https://sakurago.weebly.com",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ9W_KFCcWaTQRl6oP6GdtMww",
+    "google_rating": 4.7,
+    "google_review_count": 13.0,
+    "age_groups": [
+      "children",
+      "adults"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": false,
+    "school_type": "classroom",
+    "notes": "台中西屯區，接受成人學員。",
+    "data_sources": [
+      "web_research",
+      "outscraper"
+    ],
+    "last_verified": "2026-03-13",
+    "lat": 24.167505,
+    "lng": 120.66534399999999,
+    "place_id": "ChIJ9W_KFCcWaTQRl6oP6GdtMww",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "黑嘉嘉圍棋（台中西區分校）",
+    "name": "黑嘉嘉圍棋（台中西區分校）",
+    "chain": "黑嘉嘉圍棋",
+    "city": "台中",
+    "city_slug": "taichung",
     "district": "",
-    "address": "高雄市",
+    "address": "臺中市西區自治街3-3號",
+    "phone": "+886 4 2375 7866",
+    "website": null,
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJWyjo7gI9aTQRGY7Hjg8x5Mk",
+    "google_rating": 4.6,
+    "google_review_count": 10.0,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": true,
+    "school_type": "classroom",
+    "notes": "",
+    "data_sources": [
+      "outscraper"
+    ],
+    "last_verified": "2026-02-10",
+    "lat": 24.1369079,
+    "lng": 120.67307459999999,
+    "place_id": "ChIJWyjo7gI9aTQRGY7Hjg8x5Mk",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "心弈圍棋苑",
+    "name": "心弈圍棋苑",
+    "chain": "",
+    "city": "嘉義",
+    "city_slug": "chiayi",
+    "district": "",
+    "address": "",
     "phone": "",
-    "website": "",
+    "website": "https://www.sinyilovego.com/",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJkz0MpIaXbjQR2AZ1sTfej6s",
+    "google_rating": 5.0,
+    "google_review_count": 94,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": false,
+    "school_type": "classroom",
+    "notes": "",
+    "data_sources": [
+      "web_research",
+      "outscraper"
+    ],
+    "last_verified": "2026-03-13",
+    "lat": 23.4716556,
+    "lng": 120.42369679999999,
+    "place_id": "ChIJkz0MpIaXbjQR2AZ1sTfej6s",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "心弈圍棋苑（嘉科分苑）",
+    "name": "心弈圍棋苑（嘉科分苑）",
+    "chain": "",
+    "city": "嘉義",
+    "city_slug": "chiayi",
+    "district": "朴子市",
+    "address": "3嘉義縣朴子市1763號（168縣道上",
+    "phone": "+886 937 759 522",
+    "website": "https://www.sinyilovego.com/",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ-aUduk-bbjQRVLcr7Uawb-U",
+    "google_rating": 5.0,
+    "google_review_count": 33,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": false,
+    "school_type": "classroom",
+    "notes": "",
+    "data_sources": [
+      "outscraper"
+    ],
+    "last_verified": "2026-02-10",
+    "lat": 23.462385599999998,
+    "lng": 120.27749949999999,
+    "place_id": "ChIJ-aUduk-bbjQRVLcr7Uawb-U",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "棋而思cheers圍棋教室",
+    "name": "棋而思Cheers圍棋教室",
+    "chain": "",
+    "city": "嘉義",
+    "city_slug": "chiayi",
+    "district": "",
+    "address": "",
+    "phone": "",
+    "website": "https://www.cheersgo.com.tw/",
     "facebook_url": "",
     "google_maps_url": "",
     "google_rating": null,
     "google_review_count": 0,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": false,
+    "school_type": "classroom",
+    "notes": "",
+    "data_sources": [
+      "web_research"
+    ],
+    "last_verified": "2026-02-07",
+    "lat": null,
+    "lng": null,
+    "place_id": "",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "棋而思圍棋推廣中心（東區本部）",
+    "name": "棋而思圍棋推廣中心（東區本部）",
+    "chain": "棋而思圍棋",
+    "city": "嘉義",
+    "city_slug": "chiayi",
+    "district": "",
+    "address": "嘉義市東區嘉北街12巷13號",
+    "phone": "+886 5 274 0188",
+    "website": "http://www.cheersgo.com.tw/",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ_1luLsaVbjQRf6VveOal-0Q",
+    "google_rating": 5.0,
+    "google_review_count": 218,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": true,
+    "school_type": "classroom",
+    "notes": "",
+    "data_sources": [
+      "outscraper"
+    ],
+    "last_verified": "2026-02-10",
+    "lat": 23.4941787,
+    "lng": 120.4557925,
+    "place_id": "ChIJ_1luLsaVbjQRf6VveOal-0Q",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "棋而思圍棋推廣中心（西區分部）",
+    "name": "棋而思圍棋推廣中心（西區分部）",
+    "chain": "棋而思圍棋",
+    "city": "嘉義",
+    "city_slug": "chiayi",
+    "district": "",
+    "address": "嘉義市西區新榮路72-1號",
+    "phone": "+886 5 274 0188",
+    "website": "http://www.cheersgo.com.tw/news/details.php%3Fid%3D29046",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJYxmyV7KVbjQRvjyhrixle7U",
+    "google_rating": 5.0,
+    "google_review_count": 44,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": true,
+    "school_type": "classroom",
+    "notes": "",
+    "data_sources": [
+      "outscraper"
+    ],
+    "last_verified": "2026-02-10",
+    "lat": 23.4747147,
+    "lng": 120.4447084,
+    "place_id": "ChIJYxmyV7KVbjQRvjyhrixle7U",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "同心圓兒童棋院",
+    "name": "同心圓兒童棋院",
+    "chain": "",
+    "city": "台南",
+    "city_slug": "tainan",
+    "district": "新營區",
+    "address": "臺南市新營區復興路620巷36-5號",
+    "phone": "+886 930 827 489",
+    "website": null,
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJt2qqY4KFbjQR3cU4zfmE6Uw",
+    "google_rating": 4.8,
+    "google_review_count": 22,
     "age_groups": [
       "children"
     ],
@@ -1211,21 +2421,188 @@
     "price_range": null,
     "is_chain": false,
     "school_type": "academy",
-    "notes": "高雄多元棋類教學機構，含圍棋課程。",
+    "notes": "",
+    "data_sources": [
+      "outscraper"
+    ],
+    "last_verified": "2026-02-10",
+    "lat": 23.306948,
+    "lng": 120.2965464,
+    "place_id": "ChIJt2qqY4KFbjQR3cU4zfmE6Uw",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "棋飛圍棋",
+    "name": "棋飛圍棋",
+    "chain": "",
+    "city": "台南",
+    "city_slug": "tainan",
+    "district": "東區",
+    "address": "台南市東區怡東路87號",
+    "phone": "0975-528607",
+    "website": "",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJhegDmed3bjQRIdvm_TI-LDw",
+    "google_rating": 4.9,
+    "google_review_count": 13,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": false,
+    "school_type": "classroom",
+    "notes": "沈老師。",
+    "data_sources": [
+      "web_research",
+      "outscraper"
+    ],
+    "last_verified": "2026-03-13",
+    "lat": 22.994106499999997,
+    "lng": 120.2336486,
+    "place_id": "ChIJhegDmed3bjQRIdvm_TI-LDw",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "碁世界圍棋",
+    "name": "碁世界圍棋",
+    "chain": "",
+    "city": "台南",
+    "city_slug": "tainan",
+    "district": "中西區",
+    "address": "臺南市中西區中山路176號3樓",
+    "phone": "+886 6 223 3128",
+    "website": "http://goworldtw.blogspot.tw/",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ6Yb5iWJ2bjQR1quLvVRlCQI",
+    "google_rating": 4.1,
+    "google_review_count": 16,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": false,
+    "school_type": "classroom",
+    "notes": "",
+    "data_sources": [
+      "outscraper"
+    ],
+    "last_verified": "2026-02-10",
+    "lat": 22.996169,
+    "lng": 120.21118779999999,
+    "place_id": "ChIJ6Yb5iWJ2bjQR1quLvVRlCQI",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "立光圍棋碁院",
+    "name": "立光圍棋碁院",
+    "chain": "",
+    "city": "台南",
+    "city_slug": "tainan",
+    "district": "安南區",
+    "address": "臺南市安南區環館五路121號",
+    "phone": "+886 952 623 567",
+    "website": null,
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJxevWhT95bjQRYchq8xAvFrQ",
+    "google_rating": 5.0,
+    "google_review_count": 20,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": false,
+    "school_type": "classroom",
+    "notes": "",
+    "data_sources": [
+      "outscraper"
+    ],
+    "last_verified": "2026-02-10",
+    "lat": 23.065792599999998,
+    "lng": 120.2299345,
+    "place_id": "ChIJxevWhT95bjQRYchq8xAvFrQ",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "華聲少年圍棋學院-中山棋院",
+    "name": "華聲少年圍棋學院（中山棋院）",
+    "chain": "華聲少年圍棋學院",
+    "city": "台南",
+    "city_slug": "tainan",
+    "district": "中西區",
+    "address": "台南市中西區中山路70號2樓",
+    "phone": "(06) 229-0231",
+    "website": "http://www.whasheng.com.tw/",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJe_n325x2bjQR7mMxR7hIF80",
+    "google_rating": 5.0,
+    "google_review_count": 34,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": true,
+    "school_type": "academy",
+    "notes": "台南最大圍棋學院，2個分院。營業時間：週二至週五 13:30-21:30，週六 9:30-21:30。",
+    "data_sources": [
+      "web_research",
+      "outscraper"
+    ],
+    "last_verified": "2026-03-13",
+    "lat": 22.9799749,
+    "lng": 120.21774359999999,
+    "place_id": "ChIJe_n325x2bjQR7mMxR7hIF80",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "華聲少年圍棋學院-東區棋院",
+    "name": "華聲少年圍棋學院（東區棋院）",
+    "chain": "華聲少年圍棋學院",
+    "city": "台南",
+    "city_slug": "tainan",
+    "district": "東區",
+    "address": "台南市東區",
+    "phone": "(06) 229-0231",
+    "website": "http://www.whasheng.com.tw/",
+    "facebook_url": "",
+    "google_maps_url": "",
+    "google_rating": null,
+    "google_review_count": 0,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": true,
+    "school_type": "academy",
+    "notes": "台南最大圍棋學院，2個分院。營業時間：週二至週五 13:30-21:30，週六 9:30-21:30。",
     "data_sources": [
       "web_research"
     ],
-    "last_verified": "2026-02-09"
+    "last_verified": "2026-02-07",
+    "lat": null,
+    "lng": null,
+    "place_id": "",
+    "has_trial": false,
+    "line_id": ""
   },
   {
-    "slug": "睿弈圍棋道場",
-    "name": "睿弈圍棋道場",
+    "slug": "傑克圍棋教室",
+    "name": "傑克圍棋教室",
     "chain": "",
     "city": "高雄",
     "city_slug": "kaohsiung",
-    "district": "鼓山區",
-    "address": "高雄市鼓山區華豐街59號",
-    "phone": "(07) 553-1391",
+    "district": "左營區",
+    "address": "高雄市左營區立大路292號",
+    "phone": "07-350-6586",
     "website": "",
     "facebook_url": "",
     "google_maps_url": "",
@@ -1238,26 +2615,96 @@
     "price_range": null,
     "is_chain": false,
     "school_type": "classroom",
-    "notes": "高雄鼓山區圍棋道場。",
+    "notes": "",
     "data_sources": [
       "web_research"
     ],
-    "last_verified": "2026-02-09"
+    "last_verified": "2026-02-07",
+    "lat": null,
+    "lng": null,
+    "place_id": "",
+    "has_trial": false,
+    "line_id": ""
   },
   {
-    "slug": "大局觀圍棋",
-    "name": "大局觀圍棋",
+    "slug": "名人兒童棋院-高雄新興中正分院",
+    "name": "名人兒童棋院（高雄新興中正分院）",
+    "chain": "名人兒童棋院",
+    "city": "高雄",
+    "city_slug": "kaohsiung",
+    "district": "新興區",
+    "address": "高雄市新興區中正二路222號3樓之1",
+    "phone": "(07) 223-6680",
+    "website": "https://www.mingren.com.tw/",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ7RoSdZQEbjQRru6W_vq4t2c",
+    "google_rating": 5.0,
+    "google_review_count": 185.0,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": true,
+    "school_type": "academy",
+    "notes": "6個分院（台北5+高雄1）。",
+    "data_sources": [
+      "web_research",
+      "outscraper"
+    ],
+    "last_verified": "2026-03-13",
+    "lat": 22.630717999999998,
+    "lng": 120.314831,
+    "place_id": "ChIJ7RoSdZQEbjQRru6W_vq4t2c",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "名人兒童棋院（鼓山大順分院）",
+    "name": "名人兒童棋院（鼓山大順分院）",
+    "chain": "名人兒童棋院",
+    "city": "高雄",
+    "city_slug": "kaohsiung",
+    "district": "鼓山區",
+    "address": "高雄市鼓山區大順一路1029號",
+    "phone": "+886 7 552 2560",
+    "website": "https://www.facebook.com/mingren2560",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJEQkpoE0FbjQR-h2Gwf-8dM8",
+    "google_rating": 5.0,
+    "google_review_count": 143.0,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": true,
+    "school_type": "classroom",
+    "notes": "",
+    "data_sources": [
+      "outscraper"
+    ],
+    "last_verified": "2026-02-10",
+    "lat": 22.6541498,
+    "lng": 120.29569629999999,
+    "place_id": "ChIJEQkpoE0FbjQR-h2Gwf-8dM8",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "士洪圍棋教室",
+    "name": "士洪圍棋教室",
     "chain": "",
     "city": "高雄",
     "city_slug": "kaohsiung",
     "district": "",
-    "address": "高雄市",
-    "phone": "",
-    "website": "",
-    "facebook_url": "https://www.facebook.com/wiki.khh",
-    "google_maps_url": "",
-    "google_rating": null,
-    "google_review_count": 0,
+    "address": "No. 333-8, 民權二路前鎮區高雄市806",
+    "phone": "+886 7 537 1200",
+    "website": "https://www.facebook.com/%25E5%25A3%25AB%25E6%25B4%25AA%25E5%259C%258D%25E6%25A3%258B%25E6%2596%2587%25E7%2590%2586%25E8%25A3%259C%25E7%25BF%2592%25E7%258F%25AD-511075645638927/",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJB9jUmWMDbjQRImgZAKNremc",
+    "google_rating": 5.0,
+    "google_review_count": 12.0,
     "age_groups": [
       "children"
     ],
@@ -1265,11 +2712,16 @@
     "price_range": null,
     "is_chain": false,
     "school_type": "classroom",
-    "notes": "高雄地區圍棋教室。",
+    "notes": "",
     "data_sources": [
-      "web_research"
+      "outscraper"
     ],
-    "last_verified": "2026-02-09"
+    "last_verified": "2026-02-10",
+    "lat": 22.609466899999997,
+    "lng": 120.3124802,
+    "place_id": "ChIJB9jUmWMDbjQRImgZAKNremc",
+    "has_trial": false,
+    "line_id": ""
   },
   {
     "slug": "士洪圍棋文理補習班",
@@ -1296,6 +2748,238 @@
     "data_sources": [
       "web_research"
     ],
-    "last_verified": "2026-02-09"
+    "last_verified": "2026-02-09",
+    "lat": null,
+    "lng": null,
+    "place_id": "",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "大局觀圍棋",
+    "name": "大局觀圍棋",
+    "chain": "",
+    "city": "高雄",
+    "city_slug": "kaohsiung",
+    "district": "",
+    "address": "高雄市",
+    "phone": "",
+    "website": "",
+    "facebook_url": "https://www.facebook.com/wiki.khh",
+    "google_maps_url": "",
+    "google_rating": null,
+    "google_review_count": 0,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": false,
+    "school_type": "classroom",
+    "notes": "高雄地區圍棋教室。",
+    "data_sources": [
+      "web_research"
+    ],
+    "last_verified": "2026-02-09",
+    "lat": null,
+    "lng": null,
+    "place_id": "",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "大師棋院",
+    "name": "大師棋院",
+    "chain": "",
+    "city": "高雄",
+    "city_slug": "kaohsiung",
+    "district": "",
+    "address": "高雄市",
+    "phone": "",
+    "website": "",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ5YA08YcEbjQRn95xU184IqI",
+    "google_rating": 5.0,
+    "google_review_count": 9.0,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": false,
+    "school_type": "academy",
+    "notes": "高雄多元棋類教學機構，含圍棋課程。",
+    "data_sources": [
+      "web_research",
+      "outscraper"
+    ],
+    "last_verified": "2026-03-13",
+    "lat": 22.626379399999998,
+    "lng": 120.2979474,
+    "place_id": "ChIJ5YA08YcEbjQRn95xU184IqI",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "棋樂圍棋",
+    "name": "棋樂圍棋",
+    "chain": "",
+    "city": "高雄",
+    "city_slug": "kaohsiung",
+    "district": "三民區",
+    "address": "高雄市三民區大豐二路102號",
+    "phone": "+886 988 760 342",
+    "website": "https://www.facebook.com/profile.php%3Fid%3D100089920664394",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ-Zm-j2QFbjQRUsxRyMV0cfg",
+    "google_rating": 4.9,
+    "google_review_count": 14.0,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": false,
+    "school_type": "classroom",
+    "notes": "",
+    "data_sources": [
+      "outscraper"
+    ],
+    "last_verified": "2026-02-10",
+    "lat": 22.6459159,
+    "lng": 120.3285695,
+    "place_id": "ChIJ-Zm-j2QFbjQRUsxRyMV0cfg",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "睿弈圍棋道場",
+    "name": "睿弈圍棋道場",
+    "chain": "",
+    "city": "高雄",
+    "city_slug": "kaohsiung",
+    "district": "鼓山區",
+    "address": "高雄市鼓山區華豐街59號",
+    "phone": "(07) 553-1391",
+    "website": "",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ-b4mGaoFbjQRyJGdQk90H54",
+    "google_rating": 4.4,
+    "google_review_count": 7.0,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": false,
+    "school_type": "classroom",
+    "notes": "高雄鼓山區圍棋道場。",
+    "data_sources": [
+      "web_research",
+      "outscraper"
+    ],
+    "last_verified": "2026-03-13",
+    "lat": 22.666935199999998,
+    "lng": 120.2950949,
+    "place_id": "ChIJ-b4mGaoFbjQRyJGdQk90H54",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "碁林棋苑",
+    "name": "碁林棋苑",
+    "chain": "",
+    "city": "高雄",
+    "city_slug": "kaohsiung",
+    "district": "鳳山區",
+    "address": "高雄市鳳山區新強路329號",
+    "phone": "0939-875558",
+    "website": "https://www.chilingogo.com/",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ5eiJIRUFbjQRTUPgzgeCyrg",
+    "google_rating": 4.3,
+    "google_review_count": 3.0,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": false,
+    "school_type": "classroom",
+    "notes": "",
+    "data_sources": [
+      "web_research",
+      "outscraper"
+    ],
+    "last_verified": "2026-03-13",
+    "lat": 22.6147436,
+    "lng": 120.338912,
+    "place_id": "ChIJ5eiJIRUFbjQRTUPgzgeCyrg",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "黑嘉嘉圍棋（高雄左營分校）",
+    "name": "黑嘉嘉圍棋（高雄左營分校）",
+    "chain": "黑嘉嘉圍棋",
+    "city": "高雄",
+    "city_slug": "kaohsiung",
+    "district": "左營區",
+    "address": "高雄市左營區修明街132號",
+    "phone": "+886 7 550 6263",
+    "website": "https://www.facebook.com/profile.php%3Fid%3D61558411977610",
+    "facebook_url": "",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJkTYZSwAFbjQR-9GZCaYXhSY",
+    "google_rating": 5.0,
+    "google_review_count": 29.0,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": true,
+    "school_type": "classroom",
+    "notes": "",
+    "data_sources": [
+      "outscraper"
+    ],
+    "last_verified": "2026-02-10",
+    "lat": 22.6594628,
+    "lng": 120.30404329999999,
+    "place_id": "ChIJkTYZSwAFbjQR-9GZCaYXhSY",
+    "has_trial": false,
+    "line_id": ""
+  },
+  {
+    "slug": "中央棋院-花蓮院",
+    "name": "中央棋院（花蓮院）",
+    "chain": "中央棋院",
+    "city": "花蓮",
+    "city_slug": "hualien",
+    "district": "",
+    "address": "花蓮市和平路356號",
+    "phone": "0968-723-208",
+    "website": "https://www.centralgo.com.tw/",
+    "facebook_url": "",
+    "google_maps_url": "",
+    "google_rating": null,
+    "google_review_count": 0,
+    "age_groups": [
+      "children"
+    ],
+    "price_public": false,
+    "price_range": null,
+    "is_chain": true,
+    "school_type": "academy",
+    "notes": "全台分院數最多的連鎖棋院（12+分院），主要覆蓋桃園、新竹、新北、花蓮。",
+    "data_sources": [
+      "web_research"
+    ],
+    "last_verified": "2026-02-07",
+    "lat": null,
+    "lng": null,
+    "place_id": "",
+    "has_trial": false,
+    "line_id": ""
   }
 ]
