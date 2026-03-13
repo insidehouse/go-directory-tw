@@ -1,0 +1,92 @@
+[
+  {
+    "name": "棋王賽",
+    "organizer": "海峰棋院",
+    "frequency": "每年",
+    "level": "職業",
+    "description": "台灣最高等級職業圍棋賽事之一，冠軍獎金 TWD 100 萬元。",
+    "url": "https://www.haifong.org/",
+    "notes": ""
+  },
+  {
+    "name": "天元賽",
+    "organizer": "海峰棋院",
+    "frequency": "每年",
+    "level": "職業",
+    "description": "歷史悠久的台灣職業圍棋頭銜賽。",
+    "url": "https://www.haifong.org/",
+    "notes": ""
+  },
+  {
+    "name": "國手賽",
+    "organizer": "海峰棋院",
+    "frequency": "每年",
+    "level": "職業",
+    "description": "台灣職業圍棋三大頭銜賽之一。",
+    "url": "https://www.haifong.org/",
+    "notes": ""
+  },
+  {
+    "name": "中環碁聖賽",
+    "organizer": "海峰棋院 / 中環集團",
+    "frequency": "每年",
+    "level": "職業",
+    "description": "由中環集團贊助的職業圍棋賽事。",
+    "url": "https://www.haifong.org/",
+    "notes": ""
+  },
+  {
+    "name": "全國圍棋段位賽",
+    "organizer": "中華民國圍棋協會",
+    "frequency": "每年多次",
+    "level": "業餘",
+    "description": "全國規模最大的業餘段位認定賽事，各地區分別舉辦。參加者可取得業餘段位證書。",
+    "url": "",
+    "notes": "通常在各縣市圍棋會場舉辦"
+  },
+  {
+    "name": "全國圍棋升段賽",
+    "organizer": "中華民國圍棋協會",
+    "frequency": "每年多次",
+    "level": "業餘",
+    "description": "業餘棋手升段認定賽事，從 1 段到 7 段。",
+    "url": "",
+    "notes": "需持有現有段位證書方可報名"
+  },
+  {
+    "name": "職業棋士資格考試（院生考試）",
+    "organizer": "海峰棋院",
+    "frequency": "每年",
+    "level": "職業入段",
+    "description": "台灣成為職業棋士的唯一途徑。通過者取得職業初段資格。",
+    "url": "https://www.haifong.org/",
+    "notes": "競爭極為激烈，每年僅錄取少數名額"
+  },
+  {
+    "name": "全國學生圍棋比賽",
+    "organizer": "教育部 / 各縣市政府",
+    "frequency": "每年",
+    "level": "學生",
+    "description": "面向國小、國中、高中學生的全國性圍棋賽事。",
+    "url": "",
+    "notes": "各縣市可能有獨立的學生賽事"
+  },
+  {
+    "name": "各縣市圍棋錦標賽",
+    "organizer": "各縣市體育會圍棋委員會",
+    "frequency": "每年",
+    "level": "業餘",
+    "description": "各縣市自行舉辦的地方圍棋賽事，通常設有不同組別（段位組、級位組、兒童組）。",
+    "url": "",
+    "notes": "台北、新北、台中、高雄等大城市賽事較頻繁"
+  },
+  {
+    "name": "棋院盃 / 各棋院內部賽",
+    "organizer": "各圍棋棋院",
+    "frequency": "不定期",
+    "level": "學員",
+    "description": "各棋院自行舉辦的內部比賽或聯誼賽，適合初學者體驗比賽氛圍。",
+    "url": "",
+    "notes": "詢問就讀棋院即可報名"
+  }
+]

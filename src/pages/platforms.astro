@@ -1,0 +1,132 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import platforms from '../data/platforms.json';
+
+const types = ['對弈', '教學', 'AI 工具'];
+const grouped = types.map((type) => ({
+  type,
+  items: (platforms as any[]).filter((p) => p.type === type),
+}));
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: '線上圍棋平台推薦',
+  description: '精選線上圍棋對弈、教學與 AI 分析平台。',
+  numberOfItems: platforms.length,
+  itemListElement: (platforms as any[]).map((p, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    item: {
+      '@type': 'WebApplication',
+      name: p.name,
+      url: p.url,
+      description: p.description,
+      applicationCategory: 'GameApplication',
+      offers: { '@type': 'Offer', price: p.pricing === '免費' ? '0' : '', priceCurrency: 'TWD' },
+    },
+  })),
+};
+---
+
+<BaseLayout
+  title="線上圍棋平台"
+  description="精選線上圍棋對弈、教學與 AI 分析平台。野狐圍棋、OGS、弈城、KataGo 等完整介紹與比較。"
+  schema={schema}
+>
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
+    <nav class="text-sm text-gray-500 mb-4">
+      <a href="/" class="hover:text-primary-600 transition-colors">首頁</a>
+      <span class="mx-1">/</span>
+      <span class="text-gray-900">線上平台</span>
+    </nav>
+
+    <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+      <div>
+        <h1 class="text-3xl font-bold text-gray-900">線上圍棋平台</h1>
+        <p class="mt-1 text-gray-600">精選對弈、教學與 AI 分析工具，隨時隨地精進棋力</p>
+      </div>
+      <p class="text-sm text-gray-400">共 {platforms.length} 個平台</p>
+    </div>
+
+    {grouped.map(({ type, items }) => (
+      <section class="mt-10">
+        <h2 class="text-xl font-semibold text-gray-900 flex items-center gap-2">
+          {type === '對弈' && (
+            <svg class="w-5 h-5 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+            </svg>
+          )}
+          {type === '教學' && (
+            <svg class="w-5 h-5 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+            </svg>
+          )}
+          {type === 'AI 工具' && (
+            <svg class="w-5 h-5 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            </svg>
+          )}
+          {type}平台
+        </h2>
+
+        <div class="mt-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          {items.map((p: any) => (
+            <div class="bg-white rounded-lg border border-gray-200 p-5 hover:shadow-md transition-shadow">
+              <div class="flex items-start justify-between gap-2">
+                <h3 class="font-semibold text-gray-900">{p.name}</h3>
+                {p.chinese_support && (
+                  <span class="shrink-0 inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-green-50 text-green-700">
+                    中文
+                  </span>
+                )}
+              </div>
+              <p class="mt-2 text-sm text-gray-600">{p.description}</p>
+              <div class="mt-3 flex flex-wrap gap-1.5">
+                <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-primary-50 text-primary-700">
+                  {p.pricing}
+                </span>
+                <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-600">
+                  {p.level}
+                </span>
+              </div>
+              <div class="mt-3 text-xs text-gray-400">
+                {(p.platforms as string[]).join(' / ')}
+              </div>
+              <div class="mt-3 pt-3 border-t border-gray-100">
+                <a
+                  href={p.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-sm text-primary-600 hover:text-primary-700 transition-colors inline-flex items-center gap-1"
+                >
+                  前往平台
+                  <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+    ))}
+
+    <section class="mt-12 bg-gray-50 rounded-lg p-6">
+      <h2 class="text-lg font-semibold text-gray-900">如何選擇？</h2>
+      <ul class="mt-3 space-y-2 text-sm text-gray-700">
+        <li><strong>初學者</strong>：推薦 OGS（介面友善）或黑嘉嘉圍棋教室（系統化教學）</li>
+        <li><strong>想跟高手對弈</strong>：野狐圍棋（職業棋手最多）或弈城圍棋</li>
+        <li><strong>覆盤分析</strong>：KaTrain + KataGo（免費 AI 分析，比付費工具更強）</li>
+        <li><strong>國際交流</strong>：OGS 或 KGS（英語社群活躍）</li>
+      </ul>
+    </section>
+
+    <div class="mt-8 text-center">
+      <p class="text-sm text-gray-500">
+        找不到附近的實體教室？先從線上平台開始吧！或者看看
+        <a href="/schools/adults/" class="text-primary-600 hover:text-primary-700 font-medium">成人可學的教室</a>。
+      </p>
+    </div>
+  </div>
+</BaseLayout>

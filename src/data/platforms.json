@@ -1,1 +1,102 @@
-[]
+[
+  {
+    "name": "野狐圍棋（Fox Weiqi）",
+    "url": "https://www.foxwq.com/",
+    "type": "對弈",
+    "description": "中國最大線上對弈平台，職業棋手常駐，支援繁體中文。適合各級棋力玩家。",
+    "pricing": "免費",
+    "chinese_support": true,
+    "level": "入門到職業",
+    "platforms": ["Windows", "Mac", "iOS", "Android"]
+  },
+  {
+    "name": "OGS（Online Go Server）",
+    "url": "https://online-go.com/",
+    "type": "對弈",
+    "description": "國際線上圍棋伺服器，介面簡潔友善，支援即時對弈和通信棋。開源社群維護。",
+    "pricing": "免費（進階功能付費）",
+    "chinese_support": true,
+    "level": "入門到高段",
+    "platforms": ["Web"]
+  },
+  {
+    "name": "弈城圍棋（Tygem）",
+    "url": "https://www.tygem.com/",
+    "type": "對弈",
+    "description": "韓國主要線上對弈平台，台灣、中國棋手眾多，對弈品質高。",
+    "pricing": "免費",
+    "chinese_support": true,
+    "level": "中級到職業",
+    "platforms": ["Windows", "iOS", "Android"]
+  },
+  {
+    "name": "黑嘉嘉圍棋教室",
+    "url": "https://www.heijiajia.com/",
+    "type": "教學",
+    "description": "台灣職業棋手黑嘉嘉創辦，提供系統化線上教學課程，從入門到進階。",
+    "pricing": "付費（月費制）",
+    "chinese_support": true,
+    "level": "入門到中級",
+    "platforms": ["iOS", "Android"]
+  },
+  {
+    "name": "棋城圍棋",
+    "url": "https://www.qicheng.com/",
+    "type": "教學",
+    "description": "線上圍棋教學平台，提供做題、課程、AI 對弈等功能。",
+    "pricing": "免費 + 付費課程",
+    "chinese_support": true,
+    "level": "入門到中級",
+    "platforms": ["Web", "iOS", "Android"]
+  },
+  {
+    "name": "KGS Go Server",
+    "url": "https://www.gokgs.com/",
+    "type": "對弈",
+    "description": "老牌國際圍棋伺服器，有豐富的教學房間和棋譜回顧功能。社群氛圍友善。",
+    "pricing": "免費",
+    "chinese_support": false,
+    "level": "入門到高段",
+    "platforms": ["Web", "Java"]
+  },
+  {
+    "name": "Pandanet（IGS）",
+    "url": "https://pandanet-igs.com/",
+    "type": "對弈",
+    "description": "日本營運的國際圍棋伺服器，常有職業棋手指導棋活動。",
+    "pricing": "免費（付費會員有更多功能）",
+    "chinese_support": false,
+    "level": "中級到職業",
+    "platforms": ["Windows", "Mac", "iOS", "Android"]
+  },
+  {
+    "name": "KataGo",
+    "url": "https://github.com/lightvector/KataGo",
+    "type": "AI 工具",
+    "description": "開源超強 AI 圍棋引擎，可搭配 KaTrain 或 Sabaki 使用。適合覆盤分析和自我訓練。",
+    "pricing": "免費（開源）",
+    "chinese_support": false,
+    "level": "中級到職業",
+    "platforms": ["Windows", "Mac", "Linux"]
+  },
+  {
+    "name": "KaTrain",
+    "url": "https://github.com/sanderland/katrain",
+    "type": "AI 工具",
+    "description": "KataGo 的圖形介面，提供即時 AI 分析、教學模式和自動讓子調整。最佳覆盤工具之一。",
+    "pricing": "免費（開源）",
+    "chinese_support": false,
+    "level": "入門到職業",
+    "platforms": ["Windows", "Mac", "Linux"]
+  },
+  {
+    "name": "Sabaki",
+    "url": "https://sabaki.yichuanshen.de/",
+    "type": "AI 工具",
+    "description": "現代化 SGF 棋譜編輯器，可整合 KataGo 等引擎進行 AI 分析。",
+    "pricing": "免費（開源）",
+    "chinese_support": false,
+    "level": "中級到職業",
+    "platforms": ["Windows", "Mac", "Linux"]
+  }
+]

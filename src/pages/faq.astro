@@ -1,0 +1,116 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import schools from '../data/schools.json';
+
+const totalSchools = schools.length;
+
+const faqs = [
+  {
+    q: '圍棋課一堂多少錢？',
+    a: `台灣圍棋團體班一般行情為每月 TWD 2,000-4,000（每週一堂）。個別指導費用為每小時 TWD 800-2,000。多數棋院提供免費體驗課，建議先預約體驗再決定。都會區（台北、新竹）費用偏高。`,
+  },
+  {
+    q: '小孩幾歲可以開始學圍棋？',
+    a: '最常見的入門年齡是 6-7 歲（國小一、二年級）。部分棋院提供 4-5 歲的幼幼啟蒙班。8-12 歲是學習效率最高的階段。重點是孩子是否有興趣，建議先上體驗課觀察反應。',
+  },
+  {
+    q: '圍棋段位怎麼分？',
+    a: '業餘段位分為級位（25 級到 1 級，數字越小越強）和段位（1 段到 7 段）。初學者從 25 級開始，需通過段位賽才能取得段位證書。職業段位從初段到九段，需通過海峰棋院的職業資格考試。',
+  },
+  {
+    q: '學到業餘 1 段大概需要多久？',
+    a: '以每週上課 1-2 次的頻率，一般需要 1-3 年。天賦好且勤奮的孩子，可能在 1 年內達到。成人學棋因理解力較強，進步速度不一定比兒童慢。',
+  },
+  {
+    q: '線上學圍棋好還是實體教室好？',
+    a: '兒童建議以實體教室為主——有老師面對面指導、與同學互動，學習效果更好。成人或附近沒有教室的人，可以使用線上平台（如 OGS、野狐圍棋）自學和對弈。最佳方式是兩者結合。',
+  },
+  {
+    q: '圍棋對小孩有什麼好處？',
+    a: '學圍棋可以訓練專注力（一盤棋 30-60 分鐘）、邏輯思考（分析局勢、制定策略）、受挫力（學會面對輸棋）、計算能力，以及社交能力（與同學對弈、參加比賽）。部分學校也將圍棋段位列為升學才藝加分。',
+  },
+  {
+    q: '台灣有哪些大型圍棋比賽可以參加？',
+    a: '業餘棋手可參加全國段位賽和升段賽（由中華民國圍棋協會主辦）、各縣市錦標賽，以及棋院內部賽。學生另有全國學生圍棋比賽。職業賽事包括棋王賽、天元賽、國手賽等。',
+  },
+  {
+    q: '我是成人，還能學圍棋嗎？',
+    a: `當然可以！雖然大部分棋院以兒童教學為主，但仍有部分教室接受成人學員。我們網站列出了接受成人的教學地點。如果附近沒有合適教室，線上平台也是很好的選擇。`,
+  },
+  {
+    q: '圍棋教室都教些什麼？',
+    a: '入門班通常教基本規則、吃子技巧、簡單死活題。進階班涉及布局（開局策略）、中盤戰鬥、收官（終盤計算）、覆盤（檢討棋局）。多數棋院也會安排學員之間的對弈練習。',
+  },
+  {
+    q: '需要自己買棋具嗎？',
+    a: '不需要。棋院上課時會提供棋具。如果想在家練習，一套基本的棋盤（含黑白棋子）大約 TWD 300-1,000。也可以使用手機或電腦上的圍棋 APP 練習。',
+  },
+  {
+    q: '連鎖棋院和獨立棋院有什麼差別？',
+    a: '連鎖品牌（如長清、名人、黑嘉嘉）有標準化教材和教學流程，品質較穩定。獨立棋院則依老師個人風格教學，可能更有特色但品質差異較大。兩者都有優秀的教學。建議透過體驗課親身感受。',
+  },
+  {
+    q: '圍棋和象棋有什麼不同？',
+    a: '圍棋的規則比象棋簡單（只有「圍地」和「提子」），但策略更複雜。象棋的每顆棋子有不同走法，圍棋的每顆棋子都一樣。圍棋重視「大局觀」和「形勢判斷」，象棋重視「戰術計算」和「殺法」。兩者各有魅力。',
+  },
+];
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map((faq) => ({
+    '@type': 'Question',
+    name: faq.q,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: faq.a,
+    },
+  })),
+};
+---
+
+<BaseLayout
+  title="常見問題"
+  description="圍棋學習常見問題：學費多少？幾歲能學？段位怎麼分？線上好還是實體好？一次解答所有疑問。"
+  schema={faqSchema}
+>
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
+    <nav class="text-sm text-gray-500 mb-4">
+      <a href="/" class="hover:text-primary-600 transition-colors">首頁</a>
+      <span class="mx-1">/</span>
+      <span class="text-gray-900">常見問題</span>
+    </nav>
+
+    <h1 class="text-3xl font-bold text-gray-900">常見問題</h1>
+    <p class="mt-2 text-gray-600">關於學圍棋最常被問到的問題，一次解答。</p>
+
+    <div class="mt-8 space-y-6">
+      {faqs.map((faq, i) => (
+        <details class="group bg-white rounded-lg border border-gray-200 overflow-hidden" open={i === 0}>
+          <summary class="flex items-center justify-between cursor-pointer px-5 py-4 hover:bg-gray-50 transition-colors">
+            <h2 class="text-base font-medium text-gray-900 pr-4">{faq.q}</h2>
+            <svg
+              class="w-5 h-5 text-gray-400 shrink-0 transition-transform group-open:rotate-180"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </summary>
+          <div class="px-5 pb-4 text-sm text-gray-700 leading-relaxed">
+            {faq.a}
+          </div>
+        </details>
+      ))}
+    </div>
+
+    <div class="mt-12 bg-gray-50 rounded-lg p-6 text-center">
+      <p class="text-gray-700">還有其他問題？</p>
+      <p class="mt-2 text-sm text-gray-500">
+        查看<a href="/guide/" class="text-primary-600 hover:text-primary-700 font-medium">學棋指南</a>了解更多，
+        或直接<a href="/schools/" class="text-primary-600 hover:text-primary-700 font-medium">找到附近的棋院</a>諮詢。
+      </p>
+    </div>
+  </div>
+</BaseLayout>

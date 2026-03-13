@@ -1,0 +1,257 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import schools from '../data/schools.json';
+
+const totalSchools = schools.length;
+const totalCities = new Set((schools as any[]).map((s) => s.city)).size;
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: '學圍棋指南：從零開始的完整入門教學',
+  description: '想學圍棋但不知道從哪裡開始？這篇指南涵蓋學棋年齡、教室選擇、費用行情、線上資源等所有入門資訊。',
+  author: { '@type': 'Organization', name: '台灣圍棋目錄' },
+  publisher: { '@type': 'Organization', name: '台灣圍棋目錄' },
+  datePublished: '2026-03-13',
+  dateModified: '2026-03-13',
+};
+---
+
+<BaseLayout
+  title="學圍棋指南"
+  description="想學圍棋但不知道從哪裡開始？完整入門指南：學棋年齡、教室選擇、費用行情、線上資源一次掌握。"
+  schema={schema}
+>
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
+    <nav class="text-sm text-gray-500 mb-4">
+      <a href="/" class="hover:text-primary-600 transition-colors">首頁</a>
+      <span class="mx-1">/</span>
+      <span class="text-gray-900">學棋指南</span>
+    </nav>
+
+    <h1 class="text-3xl font-bold text-gray-900">學圍棋指南</h1>
+    <p class="mt-2 text-gray-600">從零開始的完整入門指南，幫助你或孩子踏出學棋的第一步。</p>
+
+    <article class="mt-8 prose prose-gray max-w-none">
+      <nav class="not-prose bg-gray-50 rounded-lg p-5 mb-8">
+        <p class="text-sm font-medium text-gray-500 mb-2">目錄</p>
+        <ol class="text-sm space-y-1 text-primary-600">
+          <li><a href="#what-is-go" class="hover:text-primary-700">1. 圍棋是什麼？</a></li>
+          <li><a href="#age" class="hover:text-primary-700">2. 幾歲可以學圍棋？</a></li>
+          <li><a href="#benefits" class="hover:text-primary-700">3. 學圍棋的好處</a></li>
+          <li><a href="#choose-school" class="hover:text-primary-700">4. 怎麼選圍棋教室？</a></li>
+          <li><a href="#cost" class="hover:text-primary-700">5. 學費行情參考</a></li>
+          <li><a href="#online-vs-offline" class="hover:text-primary-700">6. 線上 vs 實體教學</a></li>
+          <li><a href="#dan-system" class="hover:text-primary-700">7. 段位制度說明</a></li>
+          <li><a href="#get-started" class="hover:text-primary-700">8. 開始行動</a></li>
+        </ol>
+      </nav>
+
+      <section id="what-is-go">
+        <h2>1. 圍棋是什麼？</h2>
+        <p>
+          圍棋是一種源自中國、有超過 4,000 年歷史的策略棋類遊戲。兩位玩家分別使用黑子和白子，輪流在 19×19 的棋盤上落子，目標是圈圍比對手更多的領地。
+        </p>
+        <p>
+          圍棋的規則極為簡單（只需 5 分鐘就能學會），但變化無窮。棋盤上的合法局面數量超過宇宙中的原子數，因此圍棋被認為是人類發明過最複雜的棋類遊戲。
+        </p>
+        <p>
+          在台灣，圍棋是相當受歡迎的兒童才藝項目，同時也有活躍的職業棋士體系。2016 年 AlphaGo 擊敗世界冠軍後，圍棋更受到全球矚目。
+        </p>
+      </section>
+
+      <section id="age">
+        <h2>2. 幾歲可以學圍棋？</h2>
+        <p>一般建議如下：</p>
+        <ul>
+          <li><strong>4-5 歲</strong>：可以開始接觸，但需要特別設計的啟蒙課程。部分棋院有專門的「幼幼班」。</li>
+          <li><strong>6-7 歲</strong>（國小低年級）：最常見的入門年齡。多數棋院的兒童班從此階段開始。</li>
+          <li><strong>8-12 歲</strong>：學習效率最高的階段，理解力和專注力都足夠。</li>
+          <li><strong>國中以上 / 成人</strong>：完全可以學，但接受成人的棋院選擇較少。可考慮<a href="/platforms/">線上平台</a>輔助。</li>
+        </ul>
+        <p>
+          重點不在於「幾歲開始」，而是孩子是否有興趣。建議先帶孩子去棋院上一堂體驗課，觀察反應再決定。
+        </p>
+      </section>
+
+      <section id="benefits">
+        <h2>3. 學圍棋的好處</h2>
+        <ul>
+          <li><strong>專注力訓練</strong>：一盤棋 30-60 分鐘，自然培養持續專注的能力。</li>
+          <li><strong>邏輯思考</strong>：每一手棋都需要分析局勢、評估利弊，訓練結構化思維。</li>
+          <li><strong>受挫力</strong>：勝負是圍棋的一部分，學會面對失敗並從中學習。</li>
+          <li><strong>計算能力</strong>：終盤計算、形勢判斷都涉及數學思維。</li>
+          <li><strong>社交能力</strong>：與同學對弈、參加比賽，自然建立社交圈。</li>
+          <li><strong>升學加分</strong>：部分學校將圍棋段位列為才藝加分項目。</li>
+        </ul>
+      </section>
+
+      <section id="choose-school">
+        <h2>4. 怎麼選圍棋教室？</h2>
+        <p>選擇棋院時，建議考慮以下因素：</p>
+
+        <h3>距離與交通</h3>
+        <p>圍棋課通常每週 1-2 次，持續數月到數年。選擇離家或學校近的棋院，才能長期維持。</p>
+
+        <h3>師資與教學方式</h3>
+        <p>
+          台灣圍棋教學主要有幾種體系：連鎖品牌（如長清、名人、黑嘉嘉）有標準化教材；獨立棋院則依老師個人風格教學。
+          建議先上體驗課，觀察老師能否引起孩子興趣。
+        </p>
+
+        <h3>班級規模</h3>
+        <p>小班制（6-10 人）互動較多，大班制（15-20 人）學費較低。初學階段建議選小班。</p>
+
+        <h3>段位實績</h3>
+        <p>如果孩子有升段目標，可詢問棋院學員的升段成績。但對初學者來說，興趣培養比成績重要。</p>
+
+        <div class="not-prose mt-4 bg-primary-50 rounded-lg p-4">
+          <p class="text-sm text-primary-800">
+            我們收錄了全台 {totalCities} 個縣市、{totalSchools} 個教學地點。
+            <a href="/schools/" class="font-medium underline hover:text-primary-900">瀏覽棋院列表</a>
+            找到離你最近的教室。
+          </p>
+        </div>
+      </section>
+
+      <section id="cost">
+        <h2>5. 學費行情參考</h2>
+        <p>以下為台灣圍棋教室的一般行情（TWD），實際費用因地區和棋院而異：</p>
+
+        <div class="not-prose overflow-x-auto">
+          <table class="min-w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
+            <thead class="bg-gray-50">
+              <tr>
+                <th class="px-4 py-3 text-left font-medium text-gray-600">項目</th>
+                <th class="px-4 py-3 text-left font-medium text-gray-600">費用範圍</th>
+                <th class="px-4 py-3 text-left font-medium text-gray-600">備註</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-gray-100">
+              <tr>
+                <td class="px-4 py-3 text-gray-900">團體班（每月 4 堂）</td>
+                <td class="px-4 py-3 text-gray-700">TWD 2,000 - 4,000</td>
+                <td class="px-4 py-3 text-gray-500">最常見的上課方式</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-3 text-gray-900">個別指導（每小時）</td>
+                <td class="px-4 py-3 text-gray-700">TWD 800 - 2,000</td>
+                <td class="px-4 py-3 text-gray-500">進階學員較常使用</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-3 text-gray-900">體驗課</td>
+                <td class="px-4 py-3 text-gray-700">免費 - TWD 300</td>
+                <td class="px-4 py-3 text-gray-500">多數棋院提供免費體驗</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-3 text-gray-900">教材費</td>
+                <td class="px-4 py-3 text-gray-700">TWD 200 - 500</td>
+                <td class="px-4 py-3 text-gray-500">部分含在學費中</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-3 text-gray-900">段位考試報名費</td>
+                <td class="px-4 py-3 text-gray-700">TWD 500 - 1,000</td>
+                <td class="px-4 py-3 text-gray-500">由圍棋協會收取</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p class="mt-4">
+          台北、新竹等都會區費用偏高；連鎖品牌的定價通常較統一且透明。
+        </p>
+      </section>
+
+      <section id="online-vs-offline">
+        <h2>6. 線上 vs 實體教學</h2>
+
+        <div class="not-prose overflow-x-auto">
+          <table class="min-w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
+            <thead class="bg-gray-50">
+              <tr>
+                <th class="px-4 py-3 text-left font-medium text-gray-600"></th>
+                <th class="px-4 py-3 text-left font-medium text-gray-600">實體教室</th>
+                <th class="px-4 py-3 text-left font-medium text-gray-600">線上平台</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-gray-100">
+              <tr>
+                <td class="px-4 py-3 font-medium text-gray-900">適合對象</td>
+                <td class="px-4 py-3 text-gray-700">兒童、初學者</td>
+                <td class="px-4 py-3 text-gray-700">成人、有基礎者</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-3 font-medium text-gray-900">社交互動</td>
+                <td class="px-4 py-3 text-gray-700">面對面，社交性強</td>
+                <td class="px-4 py-3 text-gray-700">較弱，但有線上社群</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-3 font-medium text-gray-900">時間彈性</td>
+                <td class="px-4 py-3 text-gray-700">固定時間</td>
+                <td class="px-4 py-3 text-gray-700">隨時可學</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-3 font-medium text-gray-900">費用</td>
+                <td class="px-4 py-3 text-gray-700">TWD 2,000-4,000/月</td>
+                <td class="px-4 py-3 text-gray-700">多數免費</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-3 font-medium text-gray-900">教學品質</td>
+                <td class="px-4 py-3 text-gray-700">有老師即時指導</td>
+                <td class="px-4 py-3 text-gray-700">靠 AI 分析或自學</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p class="mt-4">
+          <strong>建議</strong>：兒童學棋以實體教室為主，線上為輔。成人如果附近沒有合適教室，可以從
+          <a href="/platforms/">線上平台</a>開始。
+        </p>
+      </section>
+
+      <section id="dan-system">
+        <h2>7. 段位制度說明</h2>
+        <p>台灣圍棋的段位分為業餘和職業兩個系統：</p>
+
+        <h3>業餘段位</h3>
+        <ul>
+          <li><strong>級位</strong>：25 級（最弱）到 1 級，數字越小越強。初學者通常從 25 級開始。</li>
+          <li><strong>段位</strong>：1 段到 7 段（最強），需通過段位賽認定。業餘 6 段以上極為罕見。</li>
+        </ul>
+
+        <h3>職業段位</h3>
+        <ul>
+          <li>初段到九段，需通過海峰棋院的職業資格考試才能取得。</li>
+          <li>台灣目前約有 100 多位現役職業棋士。</li>
+        </ul>
+
+        <p>
+          業餘 1 段大約需要 1-3 年的學習（每週上課 1-2 次）。天賦好且勤奮的孩子，可能在 1 年內達到。
+        </p>
+      </section>
+
+      <section id="get-started">
+        <h2>8. 開始行動</h2>
+        <p>準備好了嗎？以下是建議的起步方式：</p>
+        <ol>
+          <li><strong>找教室</strong>：在<a href="/schools/">棋院列表</a>中搜尋你附近的圍棋教室。</li>
+          <li><strong>預約體驗</strong>：打電話預約一堂免費體驗課。</li>
+          <li><strong>準備用品</strong>：通常棋院會提供棋具，不需自備。</li>
+          <li><strong>保持耐心</strong>：圍棋入門簡單但精通困難，享受過程比追求成績重要。</li>
+        </ol>
+      </section>
+    </article>
+
+    <div class="mt-12 bg-primary-50 rounded-lg p-6 text-center">
+      <h2 class="text-lg font-semibold text-primary-900">找到離你最近的圍棋教室</h2>
+      <p class="mt-1 text-sm text-primary-700">全台 {totalCities} 個縣市、{totalSchools} 個教學地點</p>
+      <a
+        href="/schools/"
+        class="mt-4 inline-flex items-center px-5 py-2.5 rounded-lg bg-primary-600 text-white text-sm font-medium hover:bg-primary-700 transition-colors"
+      >
+        瀏覽棋院教室
+      </a>
+    </div>
+  </div>
+</BaseLayout>
