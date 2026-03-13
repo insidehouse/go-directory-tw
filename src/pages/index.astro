@@ -4,9 +4,22 @@ import schools from '../data/schools.json';
 
 const totalLocations = schools.length;
 const totalCities = new Set((schools as any[]).map((s) => s.city)).size;
+
+const websiteSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: '台灣圍棋目錄',
+  url: 'https://go-directory-tw.pages.dev',
+  description: '台灣圍棋棋院、教室、比賽、線上平台完整目錄。',
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: 'https://go-directory-tw.pages.dev/schools/?q={search_term_string}',
+    'query-input': 'required name=search_term_string',
+  },
+};
 ---
 
-<BaseLayout title="首頁" description="台灣圍棋棋院、教室、比賽、線上平台完整目錄。幫助家長和棋友快速找到適合的圍棋學習資源。">
+<BaseLayout title="首頁" description="台灣圍棋棋院、教室、比賽、線上平台完整目錄。幫助家長和棋友快速找到適合的圍棋學習資源。" schema={websiteSchema}>
   <section class="bg-gradient-to-b from-primary-50 to-white">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 py-16 sm:py-24">
       <div class="text-center">

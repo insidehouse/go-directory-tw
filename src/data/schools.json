@@ -238,7 +238,7 @@
     "website": "https://www.facebook.com/mingren2468/%3Fref%3Dpages_you_manage",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJO_e5v2apQjQRygVK1KVe_0c",
-    "google_rating": 5.0,
+    "google_rating": 5,
     "google_review_count": 96,
     "age_groups": [
       "children"
@@ -270,7 +270,7 @@
     "website": "https://gostar.tw/",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJZbeNhv6rQjQRHbZYmsoPFrw",
-    "google_rating": 5.0,
+    "google_rating": 5,
     "google_review_count": 51,
     "age_groups": [
       "children"
@@ -302,7 +302,7 @@
     "website": "https://www.gostar.tw/",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJyS5M7jOqQjQRnMEc-GnEpC4",
-    "google_rating": 5.0,
+    "google_rating": 5,
     "google_review_count": 78,
     "age_groups": [
       "children"
@@ -433,7 +433,7 @@
     "website": "https://www.goer.com.tw/",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJo3ClTZqpQjQRrhePBIuPVVA",
-    "google_rating": 5.0,
+    "google_rating": 5,
     "google_review_count": 21,
     "age_groups": [
       "children"
@@ -466,7 +466,7 @@
     "website": "https://www.goer.com.tw/",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJZw-FnICuQjQRRPsd4DTMSoE",
-    "google_rating": 5.0,
+    "google_rating": 5,
     "google_review_count": 9,
     "age_groups": [
       "children"
@@ -697,7 +697,7 @@
     "website": "https://lin.ee/O3lsNTw",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJR2tzFb2pQjQR2HCUnyq_Kwo",
-    "google_rating": 5.0,
+    "google_rating": 5,
     "google_review_count": 24,
     "age_groups": [
       "children"
@@ -754,14 +754,14 @@
     "name": "中央棋院（板橋院）",
     "chain": "中央棋院",
     "city": "新北",
-    "city_slug": "new-taipei",
+    "city_slug": "newtaipei",
     "district": "板橋區",
     "address": "新北市板橋區板新路20號",
     "phone": "0968-723-208",
     "website": "https://www.centralgo.com.tw/",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJPwXC6X-pQjQR05usV8k5Org",
-    "google_rating": 5.0,
+    "google_rating": 5,
     "google_review_count": 21,
     "age_groups": [
       "children"
@@ -858,7 +858,7 @@
     "website": "https://www.mingren.com.tw/classes/ntpc/38",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJQeGnReKoQjQRTgK7iSc6BAo",
-    "google_rating": 5.0,
+    "google_rating": 5,
     "google_review_count": 87,
     "age_groups": [
       "children"
@@ -922,7 +922,7 @@
     "website": "http://www.mingren.com.tw/",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJyy2EeLgCaDQRmYaYshwnUJ0",
-    "google_rating": 5.0,
+    "google_rating": 5,
     "google_review_count": 162,
     "age_groups": [
       "children"
@@ -954,7 +954,7 @@
     "website": "http://www.mingren.com.tw/",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJEbXNOPQBaDQRfMmKfmKttIA",
-    "google_rating": 5.0,
+    "google_rating": 5,
     "google_review_count": 167,
     "age_groups": [
       "children"
@@ -986,7 +986,7 @@
     "website": "http://www.mingren.com.tw/",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ2ZK8Z6ECaDQRNkOEBTtgRhc",
-    "google_rating": 5.0,
+    "google_rating": 5,
     "google_review_count": 353,
     "age_groups": [
       "children"
@@ -1018,7 +1018,7 @@
     "website": "http://www.mingren.com.tw/",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJqWFONeGpQjQRuJNqikoY1kQ",
-    "google_rating": 5.0,
+    "google_rating": 5,
     "google_review_count": 110,
     "age_groups": [
       "children"
@@ -1043,7 +1043,7 @@
     "name": "益園圍棋教室",
     "chain": "",
     "city": "新北",
-    "city_slug": "new-taipei",
+    "city_slug": "newtaipei",
     "district": "永和區",
     "address": "新北市永和區民權路1巷4號1樓",
     "phone": "(02) 2948-7838",
@@ -1075,14 +1075,14 @@
     "name": "碁人中華兒童棋院（新北北大(樹林)）",
     "chain": "碁人中華兒童棋院",
     "city": "新北",
-    "city_slug": "new-taipei",
+    "city_slug": "newtaipei",
     "district": "樹林區",
     "address": "新北市樹林區學府路288號",
     "phone": "(02) 3501-7364",
     "website": "https://www.goer.com.tw/",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJcQfvInMcaDQR720gjor64ag",
-    "google_rating": 5.0,
+    "google_rating": 5,
     "google_review_count": 2,
     "age_groups": [
       "children"
@@ -1115,7 +1115,7 @@
     "website": "http://www.kidsgo.com.tw/",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJe6WCiSJTXTQRx-X76VGnhe4",
-    "google_rating": 5.0,
+    "google_rating": 5,
     "google_review_count": 169,
     "age_groups": [
       "children"
@@ -1147,8 +1147,8 @@
     "website": "https://www.centralgo.com.tw/",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJY8c8vyEhaDQRbVva5SAf5-k",
-    "google_rating": 5.0,
-    "google_review_count": 6.0,
+    "google_rating": 5,
+    "google_review_count": 6,
     "age_groups": [
       "children"
     ],
@@ -1180,8 +1180,8 @@
     "website": "https://www.centralgo.com.tw/",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJzbYxHHMfaDQRK-FPTEWWLVE",
-    "google_rating": 5.0,
-    "google_review_count": 2.0,
+    "google_rating": 5,
+    "google_review_count": 2,
     "age_groups": [
       "children"
     ],
@@ -1213,8 +1213,8 @@
     "website": "https://www.centralgo.com.tw/",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJMxg6K6UjaDQRZ0eHF_i-cng",
-    "google_rating": 5.0,
-    "google_review_count": 117.0,
+    "google_rating": 5,
+    "google_review_count": 117,
     "age_groups": [
       "children"
     ],
@@ -1247,7 +1247,7 @@
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJF5y1niIlaDQRyS5gHsFzxoQ",
     "google_rating": 4.8,
-    "google_review_count": 83.0,
+    "google_review_count": 83,
     "age_groups": [
       "children"
     ],
@@ -1279,8 +1279,8 @@
     "website": "https://www.centralgo.com.tw/",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJiwfbevgeaDQRllLQq5K1sd8",
-    "google_rating": 5.0,
-    "google_review_count": 77.0,
+    "google_rating": 5,
+    "google_review_count": 77,
     "age_groups": [
       "children"
     ],
@@ -1312,8 +1312,8 @@
     "website": "https://www.centralgo.com.tw/",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJC86J2DwfaDQRBrWQ9pE6OHg",
-    "google_rating": 5.0,
-    "google_review_count": 14.0,
+    "google_rating": 5,
+    "google_review_count": 14,
     "age_groups": [
       "children"
     ],
@@ -1345,8 +1345,8 @@
     "website": "https://www.centralgo.com.tw/",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ4akSPg4haDQRMT9yFpoLkJQ",
-    "google_rating": 5.0,
-    "google_review_count": 40.0,
+    "google_rating": 5,
+    "google_review_count": 40,
     "age_groups": [
       "children"
     ],
@@ -1378,8 +1378,8 @@
     "website": null,
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJYVLCcrkfaDQRlUdWjYKfILQ",
-    "google_rating": 5.0,
-    "google_review_count": 40.0,
+    "google_rating": 5,
+    "google_review_count": 40,
     "age_groups": [
       "children"
     ],
@@ -1410,8 +1410,8 @@
     "website": "https://www.facebook.com/share/1ExBeHMrt7/%3Fmibextid%3DJRoKGi",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJKUWOMj4faDQRGn-4w4JEDKo",
-    "google_rating": 5.0,
-    "google_review_count": 145.0,
+    "google_rating": 5,
+    "google_review_count": 145,
     "age_groups": [
       "children"
     ],
@@ -1443,7 +1443,7 @@
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJPZSajrofaDQRh0q9s-BF0_8",
     "google_rating": 4.9,
-    "google_review_count": 89.0,
+    "google_review_count": 89,
     "age_groups": [
       "children"
     ],
@@ -1474,8 +1474,8 @@
     "website": "https://www.facebook.com/profile.php%3Fid%3D61558734477089%26mibextid%3DLQQJ4d",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJW_2A89IYaDQRZlzn8AFkOtQ",
-    "google_rating": 5.0,
-    "google_review_count": 274.0,
+    "google_rating": 5,
+    "google_review_count": 274,
     "age_groups": [
       "children"
     ],
@@ -1507,7 +1507,7 @@
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJY8wlrHugQjQR52Rs9buYYV4",
     "google_rating": 4.9,
-    "google_review_count": 74.0,
+    "google_review_count": 74,
     "age_groups": [
       "children"
     ],
@@ -1538,8 +1538,8 @@
     "website": "https://www.facebook.com/wisdom.go/%3Fref%3Daymt_homepage_panel",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJs1bDDE8eaDQRB9FN2yoJakc",
-    "google_rating": 5.0,
-    "google_review_count": 164.0,
+    "google_rating": 5,
+    "google_review_count": 164,
     "age_groups": [
       "children"
     ],
@@ -1570,8 +1570,8 @@
     "website": "https://www.facebook.com/share/q63tD87yH4Em7FNk/%3Fmibextid%3DLQQJ4d",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJjVUh0rojaDQRhfazqyZeLiY",
-    "google_rating": 5.0,
-    "google_review_count": 183.0,
+    "google_rating": 5,
+    "google_review_count": 183,
     "age_groups": [
       "children"
     ],
@@ -1602,7 +1602,7 @@
     "website": "https://www.centralgo.com.tw/",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJDY25RtA1aDQRyKkVRwKAsxs",
-    "google_rating": 5.0,
+    "google_rating": 5,
     "google_review_count": 22,
     "age_groups": [
       "children"
@@ -1635,7 +1635,7 @@
     "website": "https://www.centralgo.com.tw/",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJIVoWEq41aDQRM-sthcPZQE0",
-    "google_rating": 5.0,
+    "google_rating": 5,
     "google_review_count": 18,
     "age_groups": [
       "children"
@@ -1765,8 +1765,8 @@
     "website": "https://www.goer.com.tw/",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJu3Ql40kiaDQRYuGAvFegDWk",
-    "google_rating": 5.0,
-    "google_review_count": 1.0,
+    "google_rating": 5,
+    "google_review_count": 1,
     "age_groups": [
       "children"
     ],
@@ -1830,7 +1830,7 @@
     "website": "https://happygo1968.blogspot.com/",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ_bRO8Y83aDQR5zVc52smFmU",
-    "google_rating": 5.0,
+    "google_rating": 5,
     "google_review_count": 11,
     "age_groups": [
       "children"
@@ -1862,7 +1862,7 @@
     "website": "https://www.heijiajia.com.tw/",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJZeaqzj41aDQRxptAE5iecK0",
-    "google_rating": 5.0,
+    "google_rating": 5,
     "google_review_count": 904,
     "age_groups": [
       "children"
@@ -1894,7 +1894,7 @@
     "website": "https://www.heijiajia.com.tw/",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJayn1u-Q2aDQRnkos5DvNRP8",
-    "google_rating": 5.0,
+    "google_rating": 5,
     "google_review_count": 244,
     "age_groups": [
       "children"
@@ -1926,8 +1926,8 @@
     "website": "https://www.facebook.com/sakura195948/",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJTeyM8mIZaTQRsSG09ryMRw0",
-    "google_rating": 5.0,
-    "google_review_count": 12.0,
+    "google_rating": 5,
+    "google_review_count": 12,
     "age_groups": [
       "children"
     ],
@@ -1959,7 +1959,7 @@
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJIwe8q8kXaTQRdNCxMtTsjc4",
     "google_rating": 4.9,
-    "google_review_count": 59.0,
+    "google_review_count": 59,
     "age_groups": [
       "children"
     ],
@@ -2023,8 +2023,8 @@
     "website": "https://liangs-go.com",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJRWJ1ZVM9aTQR50vKFOXjWPo",
-    "google_rating": 5.0,
-    "google_review_count": 10.0,
+    "google_rating": 5,
+    "google_review_count": 10,
     "age_groups": [
       "children"
     ],
@@ -2056,8 +2056,8 @@
     "website": "https://www.forestgoschool.com/",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJjQYOwkkXaTQRwxUsagC7Hio",
-    "google_rating": 5.0,
-    "google_review_count": 12.0,
+    "google_rating": 5,
+    "google_review_count": 12,
     "age_groups": [
       "children"
     ],
@@ -2089,7 +2089,7 @@
     "website": null,
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJg360FGE9aTQRookxgeVSk3M",
-    "google_rating": 5.0,
+    "google_rating": 5,
     "google_review_count": 4,
     "age_groups": [
       "children"
@@ -2122,7 +2122,7 @@
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJDzpSD4s9aTQRI0ArQhJUiCs",
     "google_rating": 4.7,
-    "google_review_count": 18.0,
+    "google_review_count": 18,
     "age_groups": [
       "children"
     ],
@@ -2186,7 +2186,7 @@
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ9W_KFCcWaTQRl6oP6GdtMww",
     "google_rating": 4.7,
-    "google_review_count": 13.0,
+    "google_review_count": 13,
     "age_groups": [
       "children",
       "adults"
@@ -2220,7 +2220,7 @@
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJWyjo7gI9aTQRGY7Hjg8x5Mk",
     "google_rating": 4.6,
-    "google_review_count": 10.0,
+    "google_review_count": 10,
     "age_groups": [
       "children"
     ],
@@ -2251,7 +2251,7 @@
     "website": "https://www.sinyilovego.com/",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJkz0MpIaXbjQR2AZ1sTfej6s",
-    "google_rating": 5.0,
+    "google_rating": 5,
     "google_review_count": 94,
     "age_groups": [
       "children"
@@ -2284,7 +2284,7 @@
     "website": "https://www.sinyilovego.com/",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ-aUduk-bbjQRVLcr7Uawb-U",
-    "google_rating": 5.0,
+    "google_rating": 5,
     "google_review_count": 33,
     "age_groups": [
       "children"
@@ -2348,7 +2348,7 @@
     "website": "http://www.cheersgo.com.tw/",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ_1luLsaVbjQRf6VveOal-0Q",
-    "google_rating": 5.0,
+    "google_rating": 5,
     "google_review_count": 218,
     "age_groups": [
       "children"
@@ -2380,7 +2380,7 @@
     "website": "http://www.cheersgo.com.tw/news/details.php%3Fid%3D29046",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJYxmyV7KVbjQRvjyhrixle7U",
-    "google_rating": 5.0,
+    "google_rating": 5,
     "google_review_count": 44,
     "age_groups": [
       "children"
@@ -2509,7 +2509,7 @@
     "website": null,
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJxevWhT95bjQRYchq8xAvFrQ",
-    "google_rating": 5.0,
+    "google_rating": 5,
     "google_review_count": 20,
     "age_groups": [
       "children"
@@ -2541,7 +2541,7 @@
     "website": "http://www.whasheng.com.tw/",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJe_n325x2bjQR7mMxR7hIF80",
-    "google_rating": 5.0,
+    "google_rating": 5,
     "google_review_count": 34,
     "age_groups": [
       "children"
@@ -2638,8 +2638,8 @@
     "website": "https://www.mingren.com.tw/",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ7RoSdZQEbjQRru6W_vq4t2c",
-    "google_rating": 5.0,
-    "google_review_count": 185.0,
+    "google_rating": 5,
+    "google_review_count": 185,
     "age_groups": [
       "children"
     ],
@@ -2671,8 +2671,8 @@
     "website": "https://www.facebook.com/mingren2560",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJEQkpoE0FbjQR-h2Gwf-8dM8",
-    "google_rating": 5.0,
-    "google_review_count": 143.0,
+    "google_rating": 5,
+    "google_review_count": 143,
     "age_groups": [
       "children"
     ],
@@ -2703,8 +2703,8 @@
     "website": "https://www.facebook.com/%25E5%25A3%25AB%25E6%25B4%25AA%25E5%259C%258D%25E6%25A3%258B%25E6%2596%2587%25E7%2590%2586%25E8%25A3%259C%25E7%25BF%2592%25E7%258F%25AD-511075645638927/",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJB9jUmWMDbjQRImgZAKNremc",
-    "google_rating": 5.0,
-    "google_review_count": 12.0,
+    "google_rating": 5,
+    "google_review_count": 12,
     "age_groups": [
       "children"
     ],
@@ -2799,8 +2799,8 @@
     "website": "",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ5YA08YcEbjQRn95xU184IqI",
-    "google_rating": 5.0,
-    "google_review_count": 9.0,
+    "google_rating": 5,
+    "google_review_count": 9,
     "age_groups": [
       "children"
     ],
@@ -2833,7 +2833,7 @@
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ-Zm-j2QFbjQRUsxRyMV0cfg",
     "google_rating": 4.9,
-    "google_review_count": 14.0,
+    "google_review_count": 14,
     "age_groups": [
       "children"
     ],
@@ -2865,7 +2865,7 @@
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ-b4mGaoFbjQRyJGdQk90H54",
     "google_rating": 4.4,
-    "google_review_count": 7.0,
+    "google_review_count": 7,
     "age_groups": [
       "children"
     ],
@@ -2898,7 +2898,7 @@
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ5eiJIRUFbjQRTUPgzgeCyrg",
     "google_rating": 4.3,
-    "google_review_count": 3.0,
+    "google_review_count": 3,
     "age_groups": [
       "children"
     ],
@@ -2930,8 +2930,8 @@
     "website": "https://www.facebook.com/profile.php%3Fid%3D61558411977610",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJkTYZSwAFbjQR-9GZCaYXhSY",
-    "google_rating": 5.0,
-    "google_review_count": 29.0,
+    "google_rating": 5,
+    "google_review_count": 29,
     "age_groups": [
       "children"
     ],

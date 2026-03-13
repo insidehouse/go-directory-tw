@@ -2,10 +2,11 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import SchoolCard from '../../components/SchoolCard.astro';
 import schools from '../../data/schools.json';
+import cityContent from '../../data/city-content.json';
 
 const citySlugMap: Record<string, string> = {
   taipei: '台北',
-  'new-taipei': '新北',
+  newtaipei: '新北',
   taoyuan: '桃園',
   hsinchu: '新竹',
   taichung: '台中',
@@ -46,6 +47,8 @@ const cityName = isCity ? (citySlugMap[id!] ?? id) : '';
 const citySchools = isCity ? (schools as any[]).filter((s) => s.city_slug === id) : [];
 const school = !isCity ? (schools as any[]).find((s) => s.slug === id) : null;
 
+const cityInfo = isCity ? (cityContent as any)[id!] : null;
+
 const ageLabels: Record<string, string> = {
   children: '兒童',
   teenagers: '青少年',
@@ -58,24 +61,58 @@ function buildSchoolSchema(s: any) {
     '@type': 'EducationalOrganization',
     name: s.name,
     description: `${s.city}${s.district ?? ''}圍棋教室`,
+    areaServed: { '@type': 'City', name: s.city },
   };
   if (s.address) schema.address = { '@type': 'PostalAddress', streetAddress: s.address, addressLocality: s.city, addressCountry: 'TW' };
   if (s.phone) schema.telephone = s.phone;
   if (s.website) schema.url = s.website.startsWith('http') ? s.website : `https://${s.website}`;
   if (s.google_rating) schema.aggregateRating = { '@type': 'AggregateRating', ratingValue: s.google_rating, bestRating: 5, ratingCount: s.google_review_count || 1 };
+  if (s.lat && s.lng) schema.geo = { '@type': 'GeoCoordinates', latitude: s.lat, longitude: s.lng };
+  if (s.price_range) schema.priceRange = s.price_range;
   return schema;
 }
 
+function buildCityListSchema(name: string, items: any[]) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: `${name}圍棋教室`,
+    numberOfItems: items.length,
+    itemListElement: items.map((s, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      item: {
+        '@type': 'EducationalOrganization',
+        name: s.name,
+        url: `https://go-directory-tw.pages.dev/schools/${s.slug}/`,
+        ...(s.address ? { address: { '@type': 'PostalAddress', streetAddress: s.address, addressLocality: s.city, addressCountry: 'TW' } } : {}),
+        ...(s.google_rating ? { aggregateRating: { '@type': 'AggregateRating', ratingValue: s.google_rating, bestRating: 5, ratingCount: s.google_review_count || 1 } } : {}),
+      },
+    })),
+  };
+}
+
 const schoolSchema = school ? buildSchoolSchema(school) : undefined;
+const citySchema = isCity && citySchools.length > 0 ? buildCityListSchema(cityName, citySchools) : undefined;
+
+const sameCitySchools = school
+  ? (schools as any[]).filter((s) => s.city_slug === school.city_slug && s.slug !== school.slug).slice(0, 6)
+  : [];
+const sameChainSchools = school?.chain
+  ? (schools as any[]).filter((s) => s.chain === school.chain && s.slug !== school.slug).slice(0, 6)
+  : [];
 ---
 
 {isCity ? (
   <BaseLayout
-    title={`${cityName}圍棋教室`}
-    description={`${cityName}地區圍棋棋院、教室列表。共 ${citySchools.length} 個教學地點，含地址、電話、年齡層等完整資訊。`}
+    title={cityInfo?.title ?? `${cityName}圍棋教室`}
+    description={cityInfo?.description?.slice(0, 160) ?? `${cityName}地區圍棋棋院、教室列表。共 ${citySchools.length} 個教學地點，含地址、電話、年齡層等完整資訊。`}
+    schema={citySchema}
   >
     <div class="max-w-6xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
       <nav class="text-sm text-gray-500 mb-4">
+        <a href="/" class="hover:text-primary-600 transition-colors">首頁</a>
+        <span class="mx-1">/</span>
         <a href="/schools/" class="hover:text-primary-600 transition-colors">棋院教室</a>
         <span class="mx-1">/</span>
         <span class="text-gray-900">{cityName}</span>
@@ -91,6 +128,21 @@ const schoolSchema = school ? buildSchoolSchema(school) : undefined;
         </p>
       </div>
 
+      {cityInfo && (
+        <div class="mt-6 bg-white rounded-lg border border-gray-200 p-5">
+          <p class="text-sm text-gray-700 leading-relaxed">{cityInfo.description}</p>
+          {cityInfo.highlights && (
+            <div class="mt-3 flex flex-wrap gap-2">
+              {cityInfo.highlights.map((h: string) => (
+                <span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-primary-50 text-primary-700">
+                  {h}
+                </span>
+              ))}
+            </div>
+          )}
+        </div>
+      )}
+
       {citySchools.length > 0 ? (
         <div class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {citySchools.map((s: any) => (
@@ -104,7 +156,37 @@ const schoolSchema = school ? buildSchoolSchema(school) : undefined;
         </div>
       )}
 
-      <div class="mt-12 pt-8 border-t border-gray-200">
+      {cityInfo?.faq && cityInfo.faq.length > 0 && (
+        <section class="mt-12">
+          <h2 class="text-xl font-semibold text-gray-900">{cityName}學圍棋常見問題</h2>
+          <div class="mt-4 space-y-4">
+            {cityInfo.faq.map((faq: any) => (
+              <details class="group bg-white rounded-lg border border-gray-200 overflow-hidden">
+                <summary class="flex items-center justify-between cursor-pointer px-5 py-4 hover:bg-gray-50 transition-colors">
+                  <h3 class="text-base font-medium text-gray-900 pr-4">{faq.q}</h3>
+                  <svg class="w-5 h-5 text-gray-400 shrink-0 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </summary>
+                <div class="px-5 pb-4 text-sm text-gray-700 leading-relaxed">
+                  {faq.a}
+                </div>
+              </details>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <div class="mt-12 bg-gray-50 rounded-lg p-6">
+        <h2 class="text-lg font-semibold text-gray-900">開始學棋</h2>
+        <p class="mt-2 text-sm text-gray-600">
+          不確定怎麼選教室？參考我們的<a href="/guide/" class="text-primary-600 hover:text-primary-700 font-medium">學棋指南</a>了解選教室要點和費用行情，
+          或查看<a href="/faq/" class="text-primary-600 hover:text-primary-700 font-medium">常見問題</a>解答你的疑惑。
+          也可以透過<a href="/platforms/" class="text-primary-600 hover:text-primary-700 font-medium">線上平台</a>在家練棋。
+        </p>
+      </div>
+
+      <div class="mt-8 pt-8 border-t border-gray-200">
         <h2 class="text-lg font-semibold text-gray-900">其他地區</h2>
         <div class="mt-3 flex flex-wrap gap-2">
           {Object.entries(citySlugMap)
@@ -132,6 +214,8 @@ const schoolSchema = school ? buildSchoolSchema(school) : undefined;
   >
     <div class="max-w-3xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
       <nav class="text-sm text-gray-500 mb-4">
+        <a href="/" class="hover:text-primary-600 transition-colors">首頁</a>
+        <span class="mx-1">/</span>
         <a href="/schools/" class="hover:text-primary-600 transition-colors">棋院教室</a>
         <span class="mx-1">/</span>
         {school.city_slug && (
@@ -264,6 +348,63 @@ const schoolSchema = school ? buildSchoolSchema(school) : undefined;
             </svg>
           </a>
         )}
+      </div>
+
+      {sameChainSchools.length > 0 && (
+        <div class="mt-10 pt-8 border-t border-gray-200">
+          <h2 class="text-lg font-semibold text-gray-900">{school.chain}其他分校</h2>
+          <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-3">
+            {sameChainSchools.map((s: any) => (
+              <a
+                href={`/schools/${s.slug}/`}
+                class="flex items-center justify-between px-4 py-3 bg-white rounded-lg border border-gray-200 hover:border-primary-300 hover:bg-primary-50 transition-colors"
+              >
+                <div>
+                  <p class="text-sm font-medium text-gray-900">{s.name}</p>
+                  <p class="text-xs text-gray-500">{s.city}{s.district ?? ''}</p>
+                </div>
+                {s.google_rating && (
+                  <span class="text-xs text-gray-500">{s.google_rating}</span>
+                )}
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {sameCitySchools.length > 0 && (
+        <div class="mt-10 pt-8 border-t border-gray-200">
+          <h2 class="text-lg font-semibold text-gray-900">{school.city}其他圍棋教室</h2>
+          <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-3">
+            {sameCitySchools.map((s: any) => (
+              <a
+                href={`/schools/${s.slug}/`}
+                class="flex items-center justify-between px-4 py-3 bg-white rounded-lg border border-gray-200 hover:border-primary-300 hover:bg-primary-50 transition-colors"
+              >
+                <div>
+                  <p class="text-sm font-medium text-gray-900">{s.name}</p>
+                  <p class="text-xs text-gray-500">{s.district ?? ''}{s.chain ? ` · ${s.chain}` : ''}</p>
+                </div>
+                {s.google_rating && (
+                  <span class="text-xs text-gray-500">{s.google_rating}</span>
+                )}
+              </a>
+            ))}
+          </div>
+          <div class="mt-4">
+            <a href={`/schools/${school.city_slug}/`} class="text-sm text-primary-600 hover:text-primary-700 font-medium">
+              查看{school.city}全部教室 &rarr;
+            </a>
+          </div>
+        </div>
+      )}
+
+      <div class="mt-10 bg-gray-50 rounded-lg p-6">
+        <h2 class="text-lg font-semibold text-gray-900">不確定怎麼選？</h2>
+        <p class="mt-2 text-sm text-gray-600">
+          參考<a href="/guide/" class="text-primary-600 hover:text-primary-700 font-medium">學棋指南</a>了解選教室的要點，
+          或到<a href="/faq/" class="text-primary-600 hover:text-primary-700 font-medium">常見問題</a>看看其他家長常問的問題。
+        </p>
       </div>
 
       <div class="mt-8 text-xs text-gray-400">
