@@ -14,7 +14,7 @@ for (const s of schools as any[]) {
   <div class="max-w-6xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
     <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
       <div>
-        <h1 class="text-3xl font-bold text-gray-900">棋院教室</h1>
+        <h1 class="text-3xl font-bold text-gray-900 font-display">棋院教室</h1>
         <p class="mt-1 text-gray-600">全台圍棋棋院與教室列表</p>
       </div>
       <p class="text-sm text-gray-400" id="school-count">
@@ -24,20 +24,20 @@ for (const s of schools as any[]) {
 
     <!-- Filters -->
     <div class="mt-6 flex flex-wrap gap-3 items-center" id="filters">
-      <select id="filter-city" class="rounded-md border border-gray-300 bg-white px-3 py-2 text-sm text-gray-700 shadow-sm focus:border-primary-500 focus:ring-1 focus:ring-primary-500">
+      <select id="filter-city" class="rounded-md border border-gray-300 bg-white px-3 py-2 text-sm text-gray-700 shadow-sm focus:border-gold-600 focus:ring-1 focus:ring-gold-600">
         <option value="">所有縣市</option>
         {cities.map((c) => (
           <option value={c}>{c}</option>
         ))}
       </select>
 
-      <select id="filter-age" class="rounded-md border border-gray-300 bg-white px-3 py-2 text-sm text-gray-700 shadow-sm focus:border-primary-500 focus:ring-1 focus:ring-primary-500">
+      <select id="filter-age" class="rounded-md border border-gray-300 bg-white px-3 py-2 text-sm text-gray-700 shadow-sm focus:border-gold-600 focus:ring-1 focus:ring-gold-600">
         <option value="">所有年齡層</option>
         <option value="children">兒童</option>
         <option value="adults">成人</option>
       </select>
 
-      <button id="filter-reset" class="text-sm text-gray-500 hover:text-primary-600 transition-colors hidden">
+      <button id="filter-reset" class="text-sm text-gray-500 hover:text-gold-600 transition-colors hidden">
         清除篩選
       </button>
     </div>
@@ -49,7 +49,7 @@ for (const s of schools as any[]) {
         return (
           <a
             href={`/schools/${slug}/`}
-            class="inline-flex items-center gap-1 px-3 py-1 rounded-full text-xs font-medium bg-gray-100 text-gray-600 hover:bg-primary-50 hover:text-primary-700 transition-colors"
+            class="inline-flex items-center gap-1 px-3 py-1 rounded-full text-xs font-medium bg-gray-100 text-gray-600 hover:bg-gold-50 hover:text-gold-700 transition-colors"
           >
             {city} <span class="text-gray-400">({count})</span>
           </a>

@@ -111,16 +111,16 @@ const sameChainSchools = school?.chain
   >
     <div class="max-w-6xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
       <nav class="text-sm text-gray-500 mb-4">
-        <a href="/" class="hover:text-primary-600 transition-colors">首頁</a>
+        <a href="/" class="hover:text-gold-600 transition-colors">首頁</a>
         <span class="mx-1">/</span>
-        <a href="/schools/" class="hover:text-primary-600 transition-colors">棋院教室</a>
+        <a href="/schools/" class="hover:text-gold-600 transition-colors">棋院教室</a>
         <span class="mx-1">/</span>
         <span class="text-gray-900">{cityName}</span>
       </nav>
 
       <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
         <div>
-          <h1 class="text-3xl font-bold text-gray-900">{cityName}圍棋教室</h1>
+          <h1 class="text-3xl font-bold text-gray-900 font-display">{cityName}圍棋教室</h1>
           <p class="mt-1 text-gray-600">{cityName}地區圍棋棋院與教室列表</p>
         </div>
         <p class="text-sm text-gray-400">
@@ -134,7 +134,7 @@ const sameChainSchools = school?.chain
           {cityInfo.highlights && (
             <div class="mt-3 flex flex-wrap gap-2">
               {cityInfo.highlights.map((h: string) => (
-                <span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-primary-50 text-primary-700">
+                <span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-kaya-100 text-kaya-700">
                   {h}
                 </span>
               ))}
@@ -180,9 +180,9 @@ const sameChainSchools = school?.chain
       <div class="mt-12 bg-gray-50 rounded-lg p-6">
         <h2 class="text-lg font-semibold text-gray-900">開始學棋</h2>
         <p class="mt-2 text-sm text-gray-600">
-          不確定怎麼選教室？參考我們的<a href="/guide/" class="text-primary-600 hover:text-primary-700 font-medium">學棋指南</a>了解選教室要點和費用行情，
-          或查看<a href="/faq/" class="text-primary-600 hover:text-primary-700 font-medium">常見問題</a>解答你的疑惑。
-          也可以透過<a href="/platforms/" class="text-primary-600 hover:text-primary-700 font-medium">線上平台</a>在家練棋。
+          不確定怎麼選教室？參考我們的<a href="/guide/" class="text-gold-600 hover:text-gold-700 font-medium">學棋指南</a>了解選教室要點和費用行情，
+          或查看<a href="/faq/" class="text-gold-600 hover:text-gold-700 font-medium">常見問題</a>解答你的疑惑。
+          也可以透過<a href="/platforms/" class="text-gold-600 hover:text-gold-700 font-medium">線上平台</a>在家練棋。
         </p>
       </div>
 
@@ -196,7 +196,7 @@ const sameChainSchools = school?.chain
               return (
                 <a
                   href={`/schools/${slug}/`}
-                  class="inline-flex items-center gap-1 px-3 py-1.5 rounded-full text-sm bg-gray-100 text-gray-600 hover:bg-primary-50 hover:text-primary-700 transition-colors"
+                  class="inline-flex items-center gap-1 px-3 py-1.5 rounded-full text-sm bg-gray-100 text-gray-600 hover:bg-gold-50 hover:text-gold-700 transition-colors"
                 >
                   {name} <span class="text-gray-400">({count})</span>
                 </a>
@@ -214,20 +214,20 @@ const sameChainSchools = school?.chain
   >
     <div class="max-w-3xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
       <nav class="text-sm text-gray-500 mb-4">
-        <a href="/" class="hover:text-primary-600 transition-colors">首頁</a>
+        <a href="/" class="hover:text-gold-600 transition-colors">首頁</a>
         <span class="mx-1">/</span>
-        <a href="/schools/" class="hover:text-primary-600 transition-colors">棋院教室</a>
+        <a href="/schools/" class="hover:text-gold-600 transition-colors">棋院教室</a>
         <span class="mx-1">/</span>
         {school.city_slug && (
           <>
-            <a href={`/schools/${school.city_slug}/`} class="hover:text-primary-600 transition-colors">{school.city}</a>
+            <a href={`/schools/${school.city_slug}/`} class="hover:text-gold-600 transition-colors">{school.city}</a>
             <span class="mx-1">/</span>
           </>
         )}
         <span class="text-gray-900">{school.name}</span>
       </nav>
 
-      <h1 class="text-3xl font-bold text-gray-900">{school.name}</h1>
+      <h1 class="text-3xl font-bold text-gray-900 font-display">{school.name}</h1>
       {school.chain && (
         <p class="mt-1 text-gray-500">{school.chain} 體系</p>
       )}
@@ -253,7 +253,7 @@ const sameChainSchools = school?.chain
             </svg>
             <div>
               <p class="text-sm font-medium text-gray-500">電話</p>
-              <a href={`tel:${school.phone.replace(/[\s()-]/g, '')}`} class="text-primary-600 hover:text-primary-700 transition-colors">
+              <a href={`tel:${school.phone.replace(/[\s()-]/g, '')}`} class="text-gold-600 hover:text-gold-700 transition-colors">
                 {school.phone}
               </a>
             </div>
@@ -314,7 +314,7 @@ const sameChainSchools = school?.chain
             href={school.website.startsWith('http') ? school.website : `https://${school.website}`}
             target="_blank"
             rel="noopener noreferrer"
-            class="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg bg-primary-600 text-white text-sm font-medium hover:bg-primary-700 transition-colors"
+            class="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg bg-gold-600 text-white text-sm font-medium hover:bg-gold-600 transition-colors"
           >
             官方網站
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -357,7 +357,7 @@ const sameChainSchools = school?.chain
             {sameChainSchools.map((s: any) => (
               <a
                 href={`/schools/${s.slug}/`}
-                class="flex items-center justify-between px-4 py-3 bg-white rounded-lg border border-gray-200 hover:border-primary-300 hover:bg-primary-50 transition-colors"
+                class="flex items-center justify-between px-4 py-3 bg-white rounded-lg border border-gray-200 hover:border-gold-300 hover:bg-gold-50 transition-colors"
               >
                 <div>
                   <p class="text-sm font-medium text-gray-900">{s.name}</p>
@@ -379,7 +379,7 @@ const sameChainSchools = school?.chain
             {sameCitySchools.map((s: any) => (
               <a
                 href={`/schools/${s.slug}/`}
-                class="flex items-center justify-between px-4 py-3 bg-white rounded-lg border border-gray-200 hover:border-primary-300 hover:bg-primary-50 transition-colors"
+                class="flex items-center justify-between px-4 py-3 bg-white rounded-lg border border-gray-200 hover:border-gold-300 hover:bg-gold-50 transition-colors"
               >
                 <div>
                   <p class="text-sm font-medium text-gray-900">{s.name}</p>
@@ -392,7 +392,7 @@ const sameChainSchools = school?.chain
             ))}
           </div>
           <div class="mt-4">
-            <a href={`/schools/${school.city_slug}/`} class="text-sm text-primary-600 hover:text-primary-700 font-medium">
+            <a href={`/schools/${school.city_slug}/`} class="text-sm text-gold-600 hover:text-gold-700 font-medium">
               查看{school.city}全部教室 &rarr;
             </a>
           </div>
@@ -402,8 +402,8 @@ const sameChainSchools = school?.chain
       <div class="mt-10 bg-gray-50 rounded-lg p-6">
         <h2 class="text-lg font-semibold text-gray-900">不確定怎麼選？</h2>
         <p class="mt-2 text-sm text-gray-600">
-          參考<a href="/guide/" class="text-primary-600 hover:text-primary-700 font-medium">學棋指南</a>了解選教室的要點，
-          或到<a href="/faq/" class="text-primary-600 hover:text-primary-700 font-medium">常見問題</a>看看其他家長常問的問題。
+          參考<a href="/guide/" class="text-gold-600 hover:text-gold-700 font-medium">學棋指南</a>了解選教室的要點，
+          或到<a href="/faq/" class="text-gold-600 hover:text-gold-700 font-medium">常見問題</a>看看其他家長常問的問題。
         </p>
       </div>
 
@@ -418,7 +418,7 @@ const sameChainSchools = school?.chain
     <div class="max-w-3xl mx-auto px-4 sm:px-6 py-16 text-center">
       <h1 class="text-2xl font-bold text-gray-900">找不到頁面</h1>
       <p class="mt-2 text-gray-600">
-        <a href="/schools/" class="text-primary-600 hover:text-primary-700">返回棋院列表</a>
+        <a href="/schools/" class="text-gold-600 hover:text-gold-700">返回棋院列表</a>
       </p>
     </div>
   </BaseLayout>

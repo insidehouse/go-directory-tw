@@ -33,14 +33,14 @@ const levelColors: Record<string, string> = {
 >
   <div class="max-w-6xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
     <nav class="text-sm text-gray-500 mb-4">
-      <a href="/" class="hover:text-primary-600 transition-colors">首頁</a>
+      <a href="/" class="hover:text-gold-600 transition-colors">首頁</a>
       <span class="mx-1">/</span>
       <span class="text-gray-900">比賽賽事</span>
     </nav>
 
     <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
       <div>
-        <h1 class="text-3xl font-bold text-gray-900">圍棋比賽賽事</h1>
+        <h1 class="text-3xl font-bold text-gray-900 font-display">圍棋比賽賽事</h1>
         <p class="mt-1 text-gray-600">台灣圍棋賽事總覽，從職業頭銜賽到棋院內部賽</p>
       </div>
       <p class="text-sm text-gray-400">共 {tournaments.length} 項賽事</p>
@@ -79,7 +79,7 @@ const levelColors: Record<string, string> = {
                     href={t.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    class="text-sm text-primary-600 hover:text-primary-700 transition-colors inline-flex items-center gap-1"
+                    class="text-sm text-gold-600 hover:text-gold-700 transition-colors inline-flex items-center gap-1"
                   >
                     主辦單位網站
                     <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -97,7 +97,7 @@ const levelColors: Record<string, string> = {
     <section class="mt-12 bg-gray-50 rounded-lg p-6">
       <h2 class="text-lg font-semibold text-gray-900">想參加比賽？</h2>
       <ul class="mt-3 space-y-2 text-sm text-gray-700">
-        <li><strong>完全新手</strong>：先到<a href="/schools/" class="text-primary-600 hover:text-primary-700 font-medium">棋院教室</a>學習基礎，參加棋院內部賽累積經驗。</li>
+        <li><strong>完全新手</strong>：先到<a href="/schools/" class="text-gold-600 hover:text-gold-700 font-medium">棋院教室</a>學習基礎，參加棋院內部賽累積經驗。</li>
         <li><strong>有級位</strong>：報名全國段位賽，取得段位證書。</li>
         <li><strong>有段位</strong>：挑戰升段賽，或參加各縣市錦標賽。</li>
         <li><strong>志在職業</strong>：加入海峰棋院院生體系，準備職業資格考試。</li>

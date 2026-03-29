@@ -26,7 +26,7 @@
       "web_research",
       "outscraper"
     ],
-    "last_verified": "2026-03-13",
+    "last_verified": "2026-03-29",
     "lat": 25.033158099999998,
     "lng": 121.54329449999999,
     "place_id": "ChIJlfi1ZdOrQjQR4IiJkgXZAwU",
@@ -59,7 +59,7 @@
       "web_research",
       "outscraper"
     ],
-    "last_verified": "2026-03-13",
+    "last_verified": "2026-03-29",
     "lat": 25.023695999999997,
     "lng": 121.52523099999999,
     "place_id": "ChIJN5RMH5CpQjQR62KLPrOhcTs",
@@ -77,9 +77,9 @@
     "phone": "(02) 2362-3225",
     "website": "https://www.mingren.com.tw/",
     "facebook_url": "",
-    "google_maps_url": "",
-    "google_rating": null,
-    "google_review_count": 0,
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJIZ7dGpuuQjQRwDPuRz8ydV4",
+    "google_rating": 4.6,
+    "google_review_count": 7,
     "age_groups": [
       "children"
     ],
@@ -91,10 +91,10 @@
     "data_sources": [
       "web_research"
     ],
-    "last_verified": "2026-02-07",
-    "lat": null,
-    "lng": null,
-    "place_id": "",
+    "last_verified": "2026-03-29",
+    "lat": 25.1070331,
+    "lng": 121.5289586,
+    "place_id": "ChIJIZ7dGpuuQjQRwDPuRz8ydV4",
     "has_trial": false,
     "line_id": ""
   },
@@ -109,9 +109,9 @@
     "phone": "(02) 2362-3225",
     "website": "https://www.mingren.com.tw/",
     "facebook_url": "",
-    "google_maps_url": "",
-    "google_rating": null,
-    "google_review_count": 0,
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJpQHCZ5uuQjQRiHfEfzFRd7Q",
+    "google_rating": 4.8,
+    "google_review_count": 21,
     "age_groups": [
       "children"
     ],
@@ -123,10 +123,10 @@
     "data_sources": [
       "web_research"
     ],
-    "last_verified": "2026-02-07",
-    "lat": null,
-    "lng": null,
-    "place_id": "",
+    "last_verified": "2026-03-29",
+    "lat": 25.106916,
+    "lng": 121.531342,
+    "place_id": "ChIJpQHCZ5uuQjQRiHfEfzFRd7Q",
     "has_trial": false,
     "line_id": ""
   },
@@ -141,9 +141,9 @@
     "phone": "(02) 2362-3225",
     "website": "https://www.mingren.com.tw/",
     "facebook_url": "",
-    "google_maps_url": "",
-    "google_rating": null,
-    "google_review_count": 0,
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ23Jv2tCrQjQRKLKO5tEqcVE",
+    "google_rating": 4.8,
+    "google_review_count": 48,
     "age_groups": [
       "children"
     ],
@@ -155,10 +155,10 @@
     "data_sources": [
       "web_research"
     ],
-    "last_verified": "2026-02-07",
-    "lat": null,
-    "lng": null,
-    "place_id": "",
+    "last_verified": "2026-03-29",
+    "lat": 25.0397231,
+    "lng": 121.5434452,
+    "place_id": "ChIJ23Jv2tCrQjQRKLKO5tEqcVE",
     "has_trial": false,
     "line_id": ""
   },
@@ -187,7 +187,7 @@
     "data_sources": [
       "outscraper"
     ],
-    "last_verified": "2026-02-10",
+    "last_verified": "2026-03-29",
     "lat": 25.0397231,
     "lng": 121.5434452,
     "place_id": "ChIJ23Jv2tCrQjQRKLKO5tEqcVE",
@@ -205,9 +205,9 @@
     "phone": "(02) 2362-3225",
     "website": "https://www.mingren.com.tw/",
     "facebook_url": "",
-    "google_maps_url": "",
-    "google_rating": null,
-    "google_review_count": 0,
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJO_e5v2apQjQRygVK1KVe_0c",
+    "google_rating": 5.0,
+    "google_review_count": 97,
     "age_groups": [
       "children"
     ],
@@ -219,10 +219,10 @@
     "data_sources": [
       "web_research"
     ],
-    "last_verified": "2026-02-07",
-    "lat": null,
-    "lng": null,
-    "place_id": "",
+    "last_verified": "2026-03-29",
+    "lat": 25.0516562,
+    "lng": 121.5299417,
+    "place_id": "ChIJO_e5v2apQjQRygVK1KVe_0c",
     "has_trial": false,
     "line_id": ""
   },
@@ -235,7 +235,7 @@
     "district": "中山區",
     "address": "臺北市中山區吉林路36號4樓",
     "phone": "+886 2 2567 2468",
-    "website": "https://www.facebook.com/mingren2468/%3Fref%3Dpages_you_manage",
+    "website": "https://www.facebook.com/mingren2468/",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJO_e5v2apQjQRygVK1KVe_0c",
     "google_rating": 5,
@@ -251,7 +251,7 @@
     "data_sources": [
       "outscraper"
     ],
-    "last_verified": "2026-02-10",
+    "last_verified": "2026-03-29",
     "lat": 25.0516562,
     "lng": 121.5299417,
     "place_id": "ChIJO_e5v2apQjQRygVK1KVe_0c",
@@ -283,7 +283,7 @@
     "data_sources": [
       "outscraper"
     ],
-    "last_verified": "2026-02-10",
+    "last_verified": "2026-03-29",
     "lat": 25.0346343,
     "lng": 121.5503734,
     "place_id": "ChIJZbeNhv6rQjQRHbZYmsoPFrw",
@@ -316,7 +316,7 @@
       "web_research",
       "outscraper"
     ],
-    "last_verified": "2026-03-13",
+    "last_verified": "2026-03-29",
     "lat": 25.024414,
     "lng": 121.553303,
     "place_id": "ChIJyS5M7jOqQjQRnMEc-GnEpC4",
@@ -348,7 +348,7 @@
     "data_sources": [
       "outscraper"
     ],
-    "last_verified": "2026-02-10",
+    "last_verified": "2026-03-29",
     "lat": 25.0238759,
     "lng": 121.554075,
     "place_id": "ChIJ1-ClB5KrQjQRutfjl_bon30",
@@ -364,7 +364,7 @@
     "district": "大安區",
     "address": "臺北市大安區復興南路二段200號3樓",
     "phone": "+886 2 2754 8848",
-    "website": "https://www.facebook.com/%25E6%25A3%258B%25E8%2581%2596%25E6%25A8%25A1%25E7%25AF%2584%25E6%25A3%258B%25E9%2599%25A2-728738673950354/%3Fref%3Dbookmarks",
+    "website": "https://www.facebook.com/%E6%A3%8B%E8%81%96%E6%A8%A1%E7%AF%84%E6%A3%8B%E9%99%A2-728738673950354/",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJoY2fDyyqQjQRtdpCWjVV4dI",
     "google_rating": 4.5,
@@ -380,7 +380,7 @@
     "data_sources": [
       "outscraper"
     ],
-    "last_verified": "2026-02-10",
+    "last_verified": "2026-03-29",
     "lat": 25.0268351,
     "lng": 121.54323869999999,
     "place_id": "ChIJoY2fDyyqQjQRtdpCWjVV4dI",
@@ -414,7 +414,7 @@
       "web_research",
       "outscraper"
     ],
-    "last_verified": "2026-03-13",
+    "last_verified": "2026-03-29",
     "lat": 25.028485,
     "lng": 121.5491728,
     "place_id": "ChIJM76flzKqQjQRkekL1q_RHXI",
@@ -447,7 +447,7 @@
       "web_research",
       "outscraper"
     ],
-    "last_verified": "2026-03-13",
+    "last_verified": "2026-03-29",
     "lat": 25.028205999999997,
     "lng": 121.52188199999999,
     "place_id": "ChIJo3ClTZqpQjQRrhePBIuPVVA",
@@ -480,7 +480,7 @@
       "web_research",
       "outscraper"
     ],
-    "last_verified": "2026-03-13",
+    "last_verified": "2026-03-29",
     "lat": 25.118252899999998,
     "lng": 121.53328889999999,
     "place_id": "ChIJZw-FnICuQjQRRPsd4DTMSoE",
@@ -513,7 +513,7 @@
       "web_research",
       "outscraper"
     ],
-    "last_verified": "2026-03-13",
+    "last_verified": "2026-03-29",
     "lat": 25.137230799999998,
     "lng": 121.5004628,
     "place_id": "ChIJXwyzr1quQjQR8lIGr3V3MzA",
@@ -529,7 +529,7 @@
     "district": "內湖區",
     "address": "台北市內湖區成功路四段62號3樓",
     "phone": "(02) 8791-7890",
-    "website": "https://www.kidsgo.com.tw/",
+    "website": null,
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJFbghSI2sQjQR4qLCK6TsLws",
     "google_rating": 4.8,
@@ -546,7 +546,7 @@
       "web_research",
       "outscraper"
     ],
-    "last_verified": "2026-03-13",
+    "last_verified": "2026-03-29",
     "lat": 25.0827071,
     "lng": 121.5925068,
     "place_id": "ChIJFbghSI2sQjQR4qLCK6TsLws",
@@ -562,7 +562,7 @@
     "district": "中山區",
     "address": "台北市中山區明水路397巷19弄26號1樓",
     "phone": "(02) 2533-7533",
-    "website": "https://www.kidsgo.com.tw/",
+    "website": null,
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ-W8_RA-sQjQRZdjqJ7RMvco",
     "google_rating": 4.4,
@@ -579,7 +579,7 @@
       "web_research",
       "outscraper"
     ],
-    "last_verified": "2026-03-13",
+    "last_verified": "2026-03-29",
     "lat": 25.0775784,
     "lng": 121.55080969999999,
     "place_id": "ChIJ-W8_RA-sQjQRZdjqJ7RMvco",
@@ -595,7 +595,7 @@
     "district": "大安區",
     "address": "台北市大安區忠孝東路四段293號4樓",
     "phone": "(02) 2731-5000",
-    "website": "https://www.kidsgo.com.tw/",
+    "website": null,
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJc_QM9sWrQjQRiPCKJ1F8gk0",
     "google_rating": 4.6,
@@ -612,7 +612,7 @@
       "web_research",
       "outscraper"
     ],
-    "last_verified": "2026-03-13",
+    "last_verified": "2026-03-29",
     "lat": 25.041628,
     "lng": 121.55488199999999,
     "place_id": "ChIJc_QM9sWrQjQRiPCKJ1F8gk0",
@@ -628,7 +628,7 @@
     "district": "文山區",
     "address": "台北市文山區木新路3段161號2樓",
     "phone": "(02) 2937-7807",
-    "website": "https://www.kidsgo.com.tw/",
+    "website": null,
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJU5kxN94BaDQRIXtbULVU1W4",
     "google_rating": 4.8,
@@ -645,7 +645,7 @@
       "web_research",
       "outscraper"
     ],
-    "last_verified": "2026-03-13",
+    "last_verified": "2026-03-29",
     "lat": 24.9814917,
     "lng": 121.5609882,
     "place_id": "ChIJU5kxN94BaDQRIXtbULVU1W4",
@@ -661,7 +661,7 @@
     "district": "中正區",
     "address": "台北市中正區信義路二段271號3樓",
     "phone": "(02) 2391-1100",
-    "website": "https://www.kidsgo.com.tw/",
+    "website": null,
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ27zT_IGpQjQRFB7WUQpaFl0",
     "google_rating": 4.9,
@@ -678,7 +678,7 @@
       "web_research",
       "outscraper"
     ],
-    "last_verified": "2026-03-13",
+    "last_verified": "2026-03-29",
     "lat": 25.0337958,
     "lng": 121.5320905,
     "place_id": "ChIJ27zT_IGpQjQRFB7WUQpaFl0",
@@ -710,7 +710,7 @@
     "data_sources": [
       "outscraper"
     ],
-    "last_verified": "2026-02-10",
+    "last_verified": "2026-03-29",
     "lat": 25.062478199999997,
     "lng": 121.4979887,
     "place_id": "ChIJR2tzFb2pQjQR2HCUnyq_Kwo",
@@ -742,7 +742,7 @@
     "data_sources": [
       "outscraper"
     ],
-    "last_verified": "2026-02-10",
+    "last_verified": "2026-03-29",
     "lat": 24.9980661,
     "lng": 121.5013113,
     "place_id": "ChIJFzzw6ZIDaDQRuRPsqodgbVo",
@@ -775,7 +775,7 @@
       "web_research",
       "outscraper"
     ],
-    "last_verified": "2026-03-13",
+    "last_verified": "2026-03-29",
     "lat": 25.013475099999997,
     "lng": 121.4743724,
     "place_id": "ChIJPwXC6X-pQjQR05usV8k5Org",
@@ -807,7 +807,7 @@
     "data_sources": [
       "outscraper"
     ],
-    "last_verified": "2026-02-10",
+    "last_verified": "2026-03-29",
     "lat": 24.9922337,
     "lng": 121.42313089999999,
     "place_id": "ChIJHwmAGxYdaDQRMR_nPI_UhzI",
@@ -839,7 +839,7 @@
     "data_sources": [
       "outscraper"
     ],
-    "last_verified": "2026-02-10",
+    "last_verified": "2026-03-29",
     "lat": 25.084083999999997,
     "lng": 121.45696269999999,
     "place_id": "ChIJyxlOh7GoQjQRc3Kx6KgKBko",
@@ -871,7 +871,7 @@
     "data_sources": [
       "outscraper"
     ],
-    "last_verified": "2026-02-10",
+    "last_verified": "2026-03-29",
     "lat": 25.058109299999998,
     "lng": 121.48925799999999,
     "place_id": "ChIJQeGnReKoQjQRTgK7iSc6BAo",
@@ -903,7 +903,7 @@
     "data_sources": [
       "outscraper"
     ],
-    "last_verified": "2026-02-10",
+    "last_verified": "2026-03-29",
     "lat": 24.997691,
     "lng": 121.50687099999999,
     "place_id": "ChIJE6cYn9ipQjQRwffUPRZT5yc",
@@ -935,7 +935,7 @@
     "data_sources": [
       "outscraper"
     ],
-    "last_verified": "2026-02-10",
+    "last_verified": "2026-03-29",
     "lat": 24.987401,
     "lng": 121.459363,
     "place_id": "ChIJyy2EeLgCaDQRmYaYshwnUJ0",
@@ -967,7 +967,7 @@
     "data_sources": [
       "outscraper"
     ],
-    "last_verified": "2026-02-10",
+    "last_verified": "2026-03-29",
     "lat": 24.972371799999998,
     "lng": 121.54081869999999,
     "place_id": "ChIJEbXNOPQBaDQRfMmKfmKttIA",
@@ -999,7 +999,7 @@
     "data_sources": [
       "outscraper"
     ],
-    "last_verified": "2026-02-10",
+    "last_verified": "2026-03-29",
     "lat": 25.00267,
     "lng": 121.464292,
     "place_id": "ChIJ2ZK8Z6ECaDQRNkOEBTtgRhc",
@@ -1031,7 +1031,7 @@
     "data_sources": [
       "outscraper"
     ],
-    "last_verified": "2026-02-10",
+    "last_verified": "2026-03-29",
     "lat": 25.0000189,
     "lng": 121.5183751,
     "place_id": "ChIJqWFONeGpQjQRuJNqikoY1kQ",
@@ -1063,7 +1063,7 @@
     "data_sources": [
       "web_research"
     ],
-    "last_verified": "2026-02-07",
+    "last_verified": "2026-03-29",
     "lat": null,
     "lng": null,
     "place_id": "",
@@ -1096,7 +1096,7 @@
       "web_research",
       "outscraper"
     ],
-    "last_verified": "2026-03-13",
+    "last_verified": "2026-03-29",
     "lat": 24.949987999999998,
     "lng": 121.378338,
     "place_id": "ChIJcQfvInMcaDQR720gjor64ag",
@@ -1112,7 +1112,7 @@
     "district": "汐止區",
     "address": "新北市汐止區大同路二段240號9樓之一",
     "phone": "+886 2 2648 2728",
-    "website": "http://www.kidsgo.com.tw/",
+    "website": null,
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJe6WCiSJTXTQRx-X76VGnhe4",
     "google_rating": 5,
@@ -1128,7 +1128,7 @@
     "data_sources": [
       "outscraper"
     ],
-    "last_verified": "2026-02-10",
+    "last_verified": "2026-03-29",
     "lat": 25.06549,
     "lng": 121.65409299999999,
     "place_id": "ChIJe6WCiSJTXTQRx-X76VGnhe4",
@@ -1161,7 +1161,7 @@
       "web_research",
       "outscraper"
     ],
-    "last_verified": "2026-03-13",
+    "last_verified": "2026-03-29",
     "lat": 24.975369,
     "lng": 121.248323,
     "place_id": "ChIJY8c8vyEhaDQRbVva5SAf5-k",
@@ -1194,7 +1194,7 @@
       "web_research",
       "outscraper"
     ],
-    "last_verified": "2026-03-13",
+    "last_verified": "2026-03-29",
     "lat": 24.9726391,
     "lng": 121.29985169999999,
     "place_id": "ChIJzbYxHHMfaDQRK-FPTEWWLVE",
@@ -1227,7 +1227,7 @@
       "web_research",
       "outscraper"
     ],
-    "last_verified": "2026-03-13",
+    "last_verified": "2026-03-29",
     "lat": 24.9514393,
     "lng": 121.2027986,
     "place_id": "ChIJMxg6K6UjaDQRZ0eHF_i-cng",
@@ -1260,7 +1260,7 @@
       "web_research",
       "outscraper"
     ],
-    "last_verified": "2026-03-13",
+    "last_verified": "2026-03-29",
     "lat": 24.909415199999998,
     "lng": 121.1588386,
     "place_id": "ChIJF5y1niIlaDQRyS5gHsFzxoQ",
@@ -1293,7 +1293,7 @@
       "web_research",
       "outscraper"
     ],
-    "last_verified": "2026-03-13",
+    "last_verified": "2026-03-29",
     "lat": 24.9987797,
     "lng": 121.3177285,
     "place_id": "ChIJiwfbevgeaDQRllLQq5K1sd8",
@@ -1326,7 +1326,7 @@
       "web_research",
       "outscraper"
     ],
-    "last_verified": "2026-03-13",
+    "last_verified": "2026-03-29",
     "lat": 25.0146007,
     "lng": 121.2951727,
     "place_id": "ChIJC86J2DwfaDQRBrWQ9pE6OHg",
@@ -1359,7 +1359,7 @@
       "web_research",
       "outscraper"
     ],
-    "last_verified": "2026-03-13",
+    "last_verified": "2026-03-29",
     "lat": 25.0099828,
     "lng": 121.214939,
     "place_id": "ChIJ4akSPg4haDQRMT9yFpoLkJQ",
@@ -1391,7 +1391,7 @@
     "data_sources": [
       "outscraper"
     ],
-    "last_verified": "2026-02-10",
+    "last_verified": "2026-03-29",
     "lat": 25.022006899999997,
     "lng": 121.2934677,
     "place_id": "ChIJYVLCcrkfaDQRlUdWjYKfILQ",
@@ -1407,7 +1407,7 @@
     "district": "桃園區",
     "address": "桃園市桃園區國聖一街196號",
     "phone": "+886 3 360 1701",
-    "website": "https://www.facebook.com/share/1ExBeHMrt7/%3Fmibextid%3DJRoKGi",
+    "website": "https://www.facebook.com/share/1ExBeHMrt7/",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJKUWOMj4faDQRGn-4w4JEDKo",
     "google_rating": 5,
@@ -1423,7 +1423,7 @@
     "data_sources": [
       "outscraper"
     ],
-    "last_verified": "2026-02-10",
+    "last_verified": "2026-03-29",
     "lat": 24.9840266,
     "lng": 121.28845179999999,
     "place_id": "ChIJKUWOMj4faDQRGn-4w4JEDKo",
@@ -1455,7 +1455,7 @@
     "data_sources": [
       "outscraper"
     ],
-    "last_verified": "2026-02-10",
+    "last_verified": "2026-03-29",
     "lat": 25.017063399999998,
     "lng": 121.29598209999999,
     "place_id": "ChIJPZSajrofaDQRh0q9s-BF0_8",
@@ -1471,7 +1471,7 @@
     "district": "八德區",
     "address": "桃園市八德區廣福路24號2 樓",
     "phone": "+886 3 361 1771",
-    "website": "https://www.facebook.com/profile.php%3Fid%3D61558734477089%26mibextid%3DLQQJ4d",
+    "website": "https://www.facebook.com/profile.php",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJW_2A89IYaDQRZlzn8AFkOtQ",
     "google_rating": 5,
@@ -1487,7 +1487,7 @@
     "data_sources": [
       "outscraper"
     ],
-    "last_verified": "2026-02-10",
+    "last_verified": "2026-03-29",
     "lat": 24.958828699999998,
     "lng": 121.29859019999999,
     "place_id": "ChIJW_2A89IYaDQRZlzn8AFkOtQ",
@@ -1503,7 +1503,7 @@
     "district": "蘆竹區",
     "address": "4桃園市蘆竹區仁愛路三段一號4樓",
     "phone": "+886 3 312 0489",
-    "website": "https://www.facebook.com/profile.php%3Fid%3D61558752924570",
+    "website": "https://www.facebook.com/profile.php",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJY8wlrHugQjQR52Rs9buYYV4",
     "google_rating": 4.9,
@@ -1519,7 +1519,7 @@
     "data_sources": [
       "outscraper"
     ],
-    "last_verified": "2026-02-10",
+    "last_verified": "2026-03-29",
     "lat": 25.053312899999998,
     "lng": 121.3001475,
     "place_id": "ChIJY8wlrHugQjQR52Rs9buYYV4",
@@ -1535,7 +1535,7 @@
     "district": "桃園區",
     "address": "桃園市桃園區大有路487號3樓-1",
     "phone": "+886 3 315 1058",
-    "website": "https://www.facebook.com/wisdom.go/%3Fref%3Daymt_homepage_panel",
+    "website": "https://www.facebook.com/wisdom.go/",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJs1bDDE8eaDQRB9FN2yoJakc",
     "google_rating": 5,
@@ -1551,7 +1551,7 @@
     "data_sources": [
       "outscraper"
     ],
-    "last_verified": "2026-02-10",
+    "last_verified": "2026-03-29",
     "lat": 25.012793,
     "lng": 121.3183076,
     "place_id": "ChIJs1bDDE8eaDQRB9FN2yoJakc",
@@ -1567,7 +1567,7 @@
     "district": "平鎮區",
     "address": "桃園市平鎮區文化街220號",
     "phone": "+886 3 491 0886",
-    "website": "https://www.facebook.com/share/q63tD87yH4Em7FNk/%3Fmibextid%3DLQQJ4d",
+    "website": "https://www.facebook.com/share/q63tD87yH4Em7FNk/",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJjVUh0rojaDQRhfazqyZeLiY",
     "google_rating": 5,
@@ -1583,7 +1583,7 @@
     "data_sources": [
       "outscraper"
     ],
-    "last_verified": "2026-02-10",
+    "last_verified": "2026-03-29",
     "lat": 24.951759199999998,
     "lng": 121.20316869999999,
     "place_id": "ChIJjVUh0rojaDQRhfazqyZeLiY",
@@ -1616,7 +1616,7 @@
       "web_research",
       "outscraper"
     ],
-    "last_verified": "2026-03-13",
+    "last_verified": "2026-03-29",
     "lat": 24.8118436,
     "lng": 120.9606692,
     "place_id": "ChIJDY25RtA1aDQRyKkVRwKAsxs",
@@ -1649,7 +1649,7 @@
       "web_research",
       "outscraper"
     ],
-    "last_verified": "2026-03-13",
+    "last_verified": "2026-03-29",
     "lat": 24.799456,
     "lng": 120.981701,
     "place_id": "ChIJIVoWEq41aDQRM-sthcPZQE0",
@@ -1682,7 +1682,7 @@
       "web_research",
       "outscraper"
     ],
-    "last_verified": "2026-03-13",
+    "last_verified": "2026-03-29",
     "lat": 24.8436958,
     "lng": 120.9961024,
     "place_id": "ChIJOXXhHIw3aDQRYwqoOHWbAT4",
@@ -1714,7 +1714,7 @@
     "data_sources": [
       "outscraper"
     ],
-    "last_verified": "2026-02-10",
+    "last_verified": "2026-03-29",
     "lat": 24.806538,
     "lng": 120.971998,
     "place_id": "ChIJYSEdlcM1aDQR8SfS-6otbFo",
@@ -1746,7 +1746,7 @@
     "data_sources": [
       "outscraper"
     ],
-    "last_verified": "2026-02-10",
+    "last_verified": "2026-03-29",
     "lat": 24.806538,
     "lng": 120.971998,
     "place_id": "ChIJYSEdlcM1aDQR8SfS-6otbFo",
@@ -1779,7 +1779,7 @@
       "web_research",
       "outscraper"
     ],
-    "last_verified": "2026-03-13",
+    "last_verified": "2026-03-29",
     "lat": 24.957157,
     "lng": 121.223337,
     "place_id": "ChIJu3Ql40kiaDQRYuGAvFegDWk",
@@ -1811,7 +1811,7 @@
     "data_sources": [
       "outscraper"
     ],
-    "last_verified": "2026-02-10",
+    "last_verified": "2026-03-29",
     "lat": 24.8076869,
     "lng": 121.0282132,
     "place_id": "ChIJbWC9BxE3aDQRWLIhYyBtL4U",
@@ -1843,7 +1843,7 @@
     "data_sources": [
       "outscraper"
     ],
-    "last_verified": "2026-02-10",
+    "last_verified": "2026-03-29",
     "lat": 24.8317595,
     "lng": 121.00591499999999,
     "place_id": "ChIJ_bRO8Y83aDQR5zVc52smFmU",
@@ -1875,7 +1875,7 @@
     "data_sources": [
       "outscraper"
     ],
-    "last_verified": "2026-02-10",
+    "last_verified": "2026-03-29",
     "lat": 24.808268299999998,
     "lng": 120.97824019999999,
     "place_id": "ChIJZeaqzj41aDQRxptAE5iecK0",
@@ -1907,7 +1907,7 @@
     "data_sources": [
       "outscraper"
     ],
-    "last_verified": "2026-02-10",
+    "last_verified": "2026-03-29",
     "lat": 24.822757,
     "lng": 121.02668299999999,
     "place_id": "ChIJayn1u-Q2aDQRnkos5DvNRP8",
@@ -1939,7 +1939,7 @@
     "data_sources": [
       "outscraper"
     ],
-    "last_verified": "2026-02-10",
+    "last_verified": "2026-03-29",
     "lat": 24.172311999999998,
     "lng": 120.7194323,
     "place_id": "ChIJTeyM8mIZaTQRsSG09ryMRw0",
@@ -1955,7 +1955,7 @@
     "district": "太平區",
     "address": "臺中市太平區新興二街60號1樓",
     "phone": "",
-    "website": "https://www.facebook.com/share/16jqthkv46/%3Fmibextid%3DwwXIfr",
+    "website": "https://www.facebook.com/share/16jqthkv46/",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJIwe8q8kXaTQRdNCxMtTsjc4",
     "google_rating": 4.9,
@@ -1971,7 +1971,7 @@
     "data_sources": [
       "outscraper"
     ],
-    "last_verified": "2026-02-10",
+    "last_verified": "2026-03-29",
     "lat": 24.161756999999998,
     "lng": 120.705715,
     "place_id": "ChIJIwe8q8kXaTQRdNCxMtTsjc4",
@@ -1986,7 +1986,7 @@
     "city_slug": "taichung",
     "district": "",
     "address": "台中市",
-    "phone": "",
+    "phone": "0930-981-018",
     "website": "",
     "facebook_url": "https://www.facebook.com/fangyuanGo",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ49qNGWY9aTQRa8QIGslJMbM",
@@ -2004,7 +2004,7 @@
       "web_research",
       "outscraper"
     ],
-    "last_verified": "2026-03-13",
+    "last_verified": "2026-03-29",
     "lat": 24.125163699999998,
     "lng": 120.6791622,
     "place_id": "ChIJ49qNGWY9aTQRa8QIGslJMbM",
@@ -2037,7 +2037,7 @@
       "web_research",
       "outscraper"
     ],
-    "last_verified": "2026-03-13",
+    "last_verified": "2026-03-29",
     "lat": 24.163515099999998,
     "lng": 120.65473949999999,
     "place_id": "ChIJRWJ1ZVM9aTQR50vKFOXjWPo",
@@ -2070,7 +2070,7 @@
       "web_research",
       "outscraper"
     ],
-    "last_verified": "2026-03-13",
+    "last_verified": "2026-03-29",
     "lat": 24.170793699999997,
     "lng": 120.6945123,
     "place_id": "ChIJjQYOwkkXaTQRwxUsagC7Hio",
@@ -2102,7 +2102,7 @@
     "data_sources": [
       "outscraper"
     ],
-    "last_verified": "2026-02-10",
+    "last_verified": "2026-03-29",
     "lat": 24.1544416,
     "lng": 120.6737239,
     "place_id": "ChIJg360FGE9aTQRookxgeVSk3M",
@@ -2134,7 +2134,7 @@
     "data_sources": [
       "outscraper"
     ],
-    "last_verified": "2026-02-10",
+    "last_verified": "2026-03-29",
     "lat": 24.131048,
     "lng": 120.66651519999999,
     "place_id": "ChIJDzpSD4s9aTQRI0ArQhJUiCs",
@@ -2148,13 +2148,13 @@
     "city": "台中",
     "city_slug": "taichung",
     "district": "",
-    "address": "台中市",
-    "phone": "",
+    "address": "台中市西區三民西路63號",
+    "phone": "04-2375-9308",
     "website": "",
     "facebook_url": "https://www.facebook.com/IGOYEH",
-    "google_maps_url": "",
-    "google_rating": null,
-    "google_review_count": 0,
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJDzpSD4s9aTQRI0ArQhJUiCs",
+    "google_rating": 4.7,
+    "google_review_count": 18,
     "age_groups": [
       "children"
     ],
@@ -2166,10 +2166,10 @@
     "data_sources": [
       "web_research"
     ],
-    "last_verified": "2026-02-09",
-    "lat": null,
-    "lng": null,
-    "place_id": "",
+    "last_verified": "2026-03-29",
+    "lat": 24.131048,
+    "lng": 120.6665152,
+    "place_id": "ChIJDzpSD4s9aTQRI0ArQhJUiCs",
     "has_trial": false,
     "line_id": ""
   },
@@ -2200,7 +2200,7 @@
       "web_research",
       "outscraper"
     ],
-    "last_verified": "2026-03-13",
+    "last_verified": "2026-03-29",
     "lat": 24.167505,
     "lng": 120.66534399999999,
     "place_id": "ChIJ9W_KFCcWaTQRl6oP6GdtMww",
@@ -2232,7 +2232,7 @@
     "data_sources": [
       "outscraper"
     ],
-    "last_verified": "2026-02-10",
+    "last_verified": "2026-03-29",
     "lat": 24.1369079,
     "lng": 120.67307459999999,
     "place_id": "ChIJWyjo7gI9aTQRGY7Hjg8x5Mk",
@@ -2246,8 +2246,8 @@
     "city": "嘉義",
     "city_slug": "chiayi",
     "district": "",
-    "address": "",
-    "phone": "",
+    "address": "嘉義市西區玉山路262號",
+    "phone": "0937-759-522",
     "website": "https://www.sinyilovego.com/",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJkz0MpIaXbjQR2AZ1sTfej6s",
@@ -2265,7 +2265,7 @@
       "web_research",
       "outscraper"
     ],
-    "last_verified": "2026-03-13",
+    "last_verified": "2026-03-29",
     "lat": 23.4716556,
     "lng": 120.42369679999999,
     "place_id": "ChIJkz0MpIaXbjQR2AZ1sTfej6s",
@@ -2297,7 +2297,7 @@
     "data_sources": [
       "outscraper"
     ],
-    "last_verified": "2026-02-10",
+    "last_verified": "2026-03-29",
     "lat": 23.462385599999998,
     "lng": 120.27749949999999,
     "place_id": "ChIJ-aUduk-bbjQRVLcr7Uawb-U",
@@ -2312,7 +2312,7 @@
     "city_slug": "chiayi",
     "district": "",
     "address": "",
-    "phone": "",
+    "phone": "05-274-0188",
     "website": "https://www.cheersgo.com.tw/",
     "facebook_url": "",
     "google_maps_url": "",
@@ -2329,7 +2329,7 @@
     "data_sources": [
       "web_research"
     ],
-    "last_verified": "2026-02-07",
+    "last_verified": "2026-03-29",
     "lat": null,
     "lng": null,
     "place_id": "",
@@ -2361,7 +2361,7 @@
     "data_sources": [
       "outscraper"
     ],
-    "last_verified": "2026-02-10",
+    "last_verified": "2026-03-29",
     "lat": 23.4941787,
     "lng": 120.4557925,
     "place_id": "ChIJ_1luLsaVbjQRf6VveOal-0Q",
@@ -2393,7 +2393,7 @@
     "data_sources": [
       "outscraper"
     ],
-    "last_verified": "2026-02-10",
+    "last_verified": "2026-03-29",
     "lat": 23.4747147,
     "lng": 120.4447084,
     "place_id": "ChIJYxmyV7KVbjQRvjyhrixle7U",
@@ -2425,7 +2425,7 @@
     "data_sources": [
       "outscraper"
     ],
-    "last_verified": "2026-02-10",
+    "last_verified": "2026-03-29",
     "lat": 23.306948,
     "lng": 120.2965464,
     "place_id": "ChIJt2qqY4KFbjQR3cU4zfmE6Uw",
@@ -2458,7 +2458,7 @@
       "web_research",
       "outscraper"
     ],
-    "last_verified": "2026-03-13",
+    "last_verified": "2026-03-29",
     "lat": 22.994106499999997,
     "lng": 120.2336486,
     "place_id": "ChIJhegDmed3bjQRIdvm_TI-LDw",
@@ -2490,7 +2490,7 @@
     "data_sources": [
       "outscraper"
     ],
-    "last_verified": "2026-02-10",
+    "last_verified": "2026-03-29",
     "lat": 22.996169,
     "lng": 120.21118779999999,
     "place_id": "ChIJ6Yb5iWJ2bjQR1quLvVRlCQI",
@@ -2522,7 +2522,7 @@
     "data_sources": [
       "outscraper"
     ],
-    "last_verified": "2026-02-10",
+    "last_verified": "2026-03-29",
     "lat": 23.065792599999998,
     "lng": 120.2299345,
     "place_id": "ChIJxevWhT95bjQRYchq8xAvFrQ",
@@ -2555,7 +2555,7 @@
       "web_research",
       "outscraper"
     ],
-    "last_verified": "2026-03-13",
+    "last_verified": "2026-03-29",
     "lat": 22.9799749,
     "lng": 120.21774359999999,
     "place_id": "ChIJe_n325x2bjQR7mMxR7hIF80",
@@ -2587,7 +2587,7 @@
     "data_sources": [
       "web_research"
     ],
-    "last_verified": "2026-02-07",
+    "last_verified": "2026-03-29",
     "lat": null,
     "lng": null,
     "place_id": "",
@@ -2619,7 +2619,7 @@
     "data_sources": [
       "web_research"
     ],
-    "last_verified": "2026-02-07",
+    "last_verified": "2026-03-29",
     "lat": null,
     "lng": null,
     "place_id": "",
@@ -2652,7 +2652,7 @@
       "web_research",
       "outscraper"
     ],
-    "last_verified": "2026-03-13",
+    "last_verified": "2026-03-29",
     "lat": 22.630717999999998,
     "lng": 120.314831,
     "place_id": "ChIJ7RoSdZQEbjQRru6W_vq4t2c",
@@ -2684,7 +2684,7 @@
     "data_sources": [
       "outscraper"
     ],
-    "last_verified": "2026-02-10",
+    "last_verified": "2026-03-29",
     "lat": 22.6541498,
     "lng": 120.29569629999999,
     "place_id": "ChIJEQkpoE0FbjQR-h2Gwf-8dM8",
@@ -2700,7 +2700,7 @@
     "district": "",
     "address": "No. 333-8, 民權二路前鎮區高雄市806",
     "phone": "+886 7 537 1200",
-    "website": "https://www.facebook.com/%25E5%25A3%25AB%25E6%25B4%25AA%25E5%259C%258D%25E6%25A3%258B%25E6%2596%2587%25E7%2590%2586%25E8%25A3%259C%25E7%25BF%2592%25E7%258F%25AD-511075645638927/",
+    "website": "https://www.facebook.com/%E5%A3%AB%E6%B4%AA%E5%9C%8D%E6%A3%8B%E6%96%87%E7%90%86%E8%A3%9C%E7%BF%92%E7%8F%AD-511075645638927/",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJB9jUmWMDbjQRImgZAKNremc",
     "google_rating": 5,
@@ -2716,7 +2716,7 @@
     "data_sources": [
       "outscraper"
     ],
-    "last_verified": "2026-02-10",
+    "last_verified": "2026-03-29",
     "lat": 22.609466899999997,
     "lng": 120.3124802,
     "place_id": "ChIJB9jUmWMDbjQRImgZAKNremc",
@@ -2731,7 +2731,7 @@
     "city_slug": "kaohsiung",
     "district": "仁武區",
     "address": "高雄市仁武區",
-    "phone": "",
+    "phone": "07-537-1200",
     "website": "",
     "facebook_url": "https://www.facebook.com/100064182393772",
     "google_maps_url": "",
@@ -2748,9 +2748,9 @@
     "data_sources": [
       "web_research"
     ],
-    "last_verified": "2026-02-09",
-    "lat": null,
-    "lng": null,
+    "last_verified": "2026-03-29",
+    "lat": 22.6094962,
+    "lng": 120.3124892,
     "place_id": "",
     "has_trial": false,
     "line_id": ""
@@ -2763,7 +2763,7 @@
     "city_slug": "kaohsiung",
     "district": "",
     "address": "高雄市",
-    "phone": "",
+    "phone": "07-350-3656",
     "website": "",
     "facebook_url": "https://www.facebook.com/wiki.khh",
     "google_maps_url": "",
@@ -2780,7 +2780,7 @@
     "data_sources": [
       "web_research"
     ],
-    "last_verified": "2026-02-09",
+    "last_verified": "2026-03-29",
     "lat": null,
     "lng": null,
     "place_id": "",
@@ -2813,7 +2813,7 @@
       "web_research",
       "outscraper"
     ],
-    "last_verified": "2026-03-13",
+    "last_verified": "2026-03-29",
     "lat": 22.626379399999998,
     "lng": 120.2979474,
     "place_id": "ChIJ5YA08YcEbjQRn95xU184IqI",
@@ -2829,7 +2829,7 @@
     "district": "三民區",
     "address": "高雄市三民區大豐二路102號",
     "phone": "+886 988 760 342",
-    "website": "https://www.facebook.com/profile.php%3Fid%3D100089920664394",
+    "website": "https://www.facebook.com/profile.php",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ-Zm-j2QFbjQRUsxRyMV0cfg",
     "google_rating": 4.9,
@@ -2845,7 +2845,7 @@
     "data_sources": [
       "outscraper"
     ],
-    "last_verified": "2026-02-10",
+    "last_verified": "2026-03-29",
     "lat": 22.6459159,
     "lng": 120.3285695,
     "place_id": "ChIJ-Zm-j2QFbjQRUsxRyMV0cfg",
@@ -2878,7 +2878,7 @@
       "web_research",
       "outscraper"
     ],
-    "last_verified": "2026-03-13",
+    "last_verified": "2026-03-29",
     "lat": 22.666935199999998,
     "lng": 120.2950949,
     "place_id": "ChIJ-b4mGaoFbjQRyJGdQk90H54",
@@ -2911,7 +2911,7 @@
       "web_research",
       "outscraper"
     ],
-    "last_verified": "2026-03-13",
+    "last_verified": "2026-03-29",
     "lat": 22.6147436,
     "lng": 120.338912,
     "place_id": "ChIJ5eiJIRUFbjQRTUPgzgeCyrg",
@@ -2927,7 +2927,7 @@
     "district": "左營區",
     "address": "高雄市左營區修明街132號",
     "phone": "+886 7 550 6263",
-    "website": "https://www.facebook.com/profile.php%3Fid%3D61558411977610",
+    "website": "https://www.facebook.com/profile.php",
     "facebook_url": "",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJkTYZSwAFbjQR-9GZCaYXhSY",
     "google_rating": 5,
@@ -2943,7 +2943,7 @@
     "data_sources": [
       "outscraper"
     ],
-    "last_verified": "2026-02-10",
+    "last_verified": "2026-03-29",
     "lat": 22.6594628,
     "lng": 120.30404329999999,
     "place_id": "ChIJkTYZSwAFbjQR-9GZCaYXhSY",
@@ -2975,9 +2975,9 @@
     "data_sources": [
       "web_research"
     ],
-    "last_verified": "2026-02-07",
-    "lat": null,
-    "lng": null,
+    "last_verified": "2026-03-29",
+    "lat": 23.9740265,
+    "lng": 121.6010488,
     "place_id": "",
     "has_trial": false,
     "line_id": ""

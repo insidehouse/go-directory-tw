@@ -1,0 +1,28 @@
+=== School Verification Report ===
+Date: 2026-03-29
+Total schools: 92
+Mode: live, web checks: skip
+
+[INCOMPLETE] 益園圍棋教室 (新北) — missing: rating, geo, place_id
+[INCOMPLETE] 中央棋院（竹北院） (新竹) — missing: rating
+[INCOMPLETE] 太平棋院 (台中) — missing: phone
+[INCOMPLETE] 方圓圍棋教室 (台中) — missing: rating
+[INCOMPLETE] 森圍棋藝術 (台中) — missing: phone
+[INCOMPLETE] 棋而思Cheers圍棋教室 (嘉義) — missing: address, rating, geo, place_id
+[INCOMPLETE] 華聲少年圍棋學院（東區棋院） (台南) — missing: rating, geo, place_id
+[INCOMPLETE] 傑克圍棋教室 (高雄) — missing: rating, geo, place_id
+[INCOMPLETE] 士洪圍棋文理補習班 (高雄) — missing: rating, place_id
+[INCOMPLETE] 大局觀圍棋 (高雄) — missing: rating, geo, place_id
+[INCOMPLETE] 大師棋院 (高雄) — missing: phone
+[INCOMPLETE] 中央棋院（花蓮院） (花蓮) — missing: rating, place_id
+
+--- Website Issues ---
+  None
+
+--- Google Maps Issues ---
+  None
+
+--- Summary ---
+  Fully verified: 80/92
+  Website issues: 0
+  Maps issues: 0

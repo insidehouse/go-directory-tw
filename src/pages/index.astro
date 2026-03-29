@@ -20,79 +20,134 @@ const websiteSchema = {
 ---
 
 <BaseLayout title="首頁" description="台灣圍棋棋院、教室、比賽、線上平台完整目錄。幫助家長和棋友快速找到適合的圍棋學習資源。" schema={websiteSchema}>
-  <section class="bg-gradient-to-b from-primary-50 to-white">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-16 sm:py-24">
+  <!-- Hero -->
+  <section class="relative overflow-hidden bg-kaya-100/40">
+    <div class="absolute inset-0 go-grid-bg"></div>
+
+    <!-- Decorative floating stones -->
+    <div class="float-stone stone-black w-10 h-10 top-[18%] left-[7%] opacity-50 animate-fade-in animate-delay-4 hidden sm:block" aria-hidden="true"></div>
+    <div class="float-stone stone-white w-7 h-7 top-[28%] right-[11%] opacity-40 animate-fade-in animate-delay-6 hidden sm:block" aria-hidden="true"></div>
+    <div class="float-stone stone-black w-5 h-5 bottom-[22%] right-[16%] opacity-30 animate-fade-in animate-delay-5 hidden lg:block" aria-hidden="true"></div>
+    <div class="float-stone stone-white w-11 h-11 bottom-[18%] left-[5%] opacity-25 animate-fade-in animate-delay-8 hidden sm:block" aria-hidden="true"></div>
+
+    <div class="relative max-w-6xl mx-auto px-4 sm:px-6 py-20 sm:py-28 lg:py-32">
       <div class="text-center">
-        <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 tracking-tight">
-          找到適合的<span class="text-primary-600">圍棋教室</span>
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black text-ink-950 tracking-tight font-display leading-[1.15] animate-fade-in-up" style="text-wrap: balance;">
+          找到適合的<span class="text-kaya-600">圍棋教室</span>
         </h1>
-        <p class="mt-4 text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto">
-          台灣最完整的圍棋資源目錄。收錄 {totalCities} 個縣市、{totalLocations} 個教學地點，一站查詢。
+        <p class="mt-5 text-lg sm:text-xl text-ink-500 max-w-xl mx-auto opacity-0 animate-fade-in-up animate-delay-2">
+          台灣最完整的圍棋資源目錄
         </p>
-        <div class="mt-8 flex flex-col sm:flex-row items-center justify-center gap-3">
+
+        <!-- Stats -->
+        <div class="mt-10 inline-flex items-center gap-6 sm:gap-10 opacity-0 animate-fade-in-up animate-delay-3">
+          <div class="text-center">
+            <p class="text-2xl sm:text-3xl font-bold text-ink-900 font-display">{totalCities}</p>
+            <p class="text-xs sm:text-sm text-ink-400 mt-0.5">個縣市</p>
+          </div>
+          <div class="w-px h-8 bg-kaya-300/50"></div>
+          <div class="text-center">
+            <p class="text-2xl sm:text-3xl font-bold text-ink-900 font-display">{totalLocations}</p>
+            <p class="text-xs sm:text-sm text-ink-400 mt-0.5">個教學地點</p>
+          </div>
+          <div class="w-px h-8 bg-kaya-300/50"></div>
+          <div class="text-center">
+            <p class="text-2xl sm:text-3xl font-bold text-ink-900 font-display">10</p>
+            <p class="text-xs sm:text-sm text-ink-400 mt-0.5">線上平台</p>
+          </div>
+        </div>
+
+        <div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-3 opacity-0 animate-fade-in-up animate-delay-4">
           <a
             href="/schools/"
-            class="w-full sm:w-auto inline-flex items-center justify-center px-6 py-3 rounded-lg bg-primary-600 text-white font-medium hover:bg-primary-700 transition-colors shadow-sm"
+            class="w-full sm:w-auto inline-flex items-center justify-center px-7 py-3.5 rounded-lg bg-ink-900 text-kaya-50 font-medium hover:bg-ink-800 transition-colors shadow-sm"
           >
             瀏覽棋院教室
           </a>
           <a
-            href="/about/"
-            class="w-full sm:w-auto inline-flex items-center justify-center px-6 py-3 rounded-lg bg-white text-gray-700 font-medium hover:bg-gray-50 transition-colors border border-gray-300"
+            href="/guide/"
+            class="w-full sm:w-auto inline-flex items-center justify-center px-7 py-3.5 rounded-lg bg-white text-ink-700 font-medium hover:bg-kaya-100 transition-colors border border-kaya-200"
           >
-            關於本站
+            學棋指南
           </a>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="max-w-6xl mx-auto px-4 sm:px-6 py-16">
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-      <div class="text-center">
-        <div class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center mx-auto">
-          <svg class="w-6 h-6 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-          </svg>
+  <!-- Features -->
+  <section class="max-w-6xl mx-auto px-4 sm:px-6 py-16 sm:py-20">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+      <!-- 棋院教室 — black stone icon -->
+      <a href="/schools/" class="group bg-white rounded-xl border border-kaya-200/60 p-6 hover:border-kaya-300 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300">
+        <div class="w-12 h-12 rounded-full stone-black flex items-center justify-center">
+          <div class="w-3 h-3 rounded-full bg-white/10 -mt-1 -ml-1"></div>
         </div>
-        <h2 class="mt-4 text-lg font-semibold text-gray-900">棋院教室</h2>
-        <p class="mt-2 text-sm text-gray-500">
+        <h2 class="mt-5 text-xl font-bold text-ink-900 group-hover:text-kaya-700 transition-colors font-display">棋院教室</h2>
+        <p class="mt-2 text-sm text-ink-500 leading-relaxed">
           收錄全台 {totalLocations} 個教學地點，依縣市、年齡層快速篩選，找到離你最近的棋院。
         </p>
-        <a href="/schools/" class="mt-3 inline-block text-sm text-primary-600 hover:text-primary-700 font-medium">
-          查看全部 &rarr;
-        </a>
-      </div>
+        <span class="mt-4 inline-flex items-center text-sm font-medium text-gold-600 group-hover:text-gold-700">
+          查看全部
+          <svg class="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
+        </span>
+      </a>
 
-      <div class="text-center">
-        <div class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center mx-auto">
-          <svg class="w-6 h-6 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+      <!-- 比賽賽事 — black & white stones -->
+      <a href="/tournaments/" class="group bg-white rounded-xl border border-kaya-200/60 p-6 hover:border-kaya-300 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300">
+        <div class="w-12 h-12 rounded-full bg-kaya-100 flex items-center justify-center">
+          <svg class="w-8 h-8" viewBox="0 0 32 32" fill="none">
+            <circle cx="12" cy="16" r="6" fill="url(#feat-bs)" />
+            <circle cx="20" cy="16" r="6" fill="url(#feat-ws)" stroke="#d3b888" stroke-width="0.5" />
+            <defs>
+              <radialGradient id="feat-bs" cx="0.38" cy="0.35">
+                <stop offset="0%" stop-color="#555" />
+                <stop offset="100%" stop-color="#1a1816" />
+              </radialGradient>
+              <radialGradient id="feat-ws" cx="0.38" cy="0.35">
+                <stop offset="0%" stop-color="#fff" />
+                <stop offset="100%" stop-color="#e6ddd0" />
+              </radialGradient>
+            </defs>
           </svg>
         </div>
-        <h2 class="mt-4 text-lg font-semibold text-gray-900">比賽賽事</h2>
-        <p class="mt-2 text-sm text-gray-500">
+        <h2 class="mt-5 text-xl font-bold text-ink-900 group-hover:text-kaya-700 transition-colors font-display">比賽賽事</h2>
+        <p class="mt-2 text-sm text-ink-500 leading-relaxed">
           台灣圍棋比賽日曆，包含升段賽、公開賽等各級賽事資訊。
         </p>
-        <a href="/tournaments/" class="mt-3 inline-block text-sm text-primary-600 hover:text-primary-700 font-medium">
-          查看全部 &rarr;
-        </a>
-      </div>
+        <span class="mt-4 inline-flex items-center text-sm font-medium text-gold-600 group-hover:text-gold-700">
+          查看全部
+          <svg class="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
+        </span>
+      </a>
 
-      <div class="text-center">
-        <div class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center mx-auto">
-          <svg class="w-6 h-6 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+      <!-- 線上平台 — mini board icon -->
+      <a href="/platforms/" class="group bg-white rounded-xl border border-kaya-200/60 p-6 hover:border-kaya-300 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300">
+        <div class="w-12 h-12 rounded-lg bg-kaya-100 flex items-center justify-center">
+          <svg class="w-7 h-7" viewBox="0 0 28 28" fill="none">
+            <rect x="2" y="2" width="24" height="24" rx="2" stroke="#77542e" stroke-width="1.5" />
+            <line x1="2" y1="10" x2="26" y2="10" stroke="#d3b888" stroke-width="0.75" />
+            <line x1="2" y1="18" x2="26" y2="18" stroke="#d3b888" stroke-width="0.75" />
+            <line x1="10" y1="2" x2="10" y2="26" stroke="#d3b888" stroke-width="0.75" />
+            <line x1="18" y1="2" x2="18" y2="26" stroke="#d3b888" stroke-width="0.75" />
+            <circle cx="14" cy="14" r="2.5" fill="#e6ddd0" stroke="#b9b4ae" stroke-width="0.5" />
           </svg>
         </div>
-        <h2 class="mt-4 text-lg font-semibold text-gray-900">線上平台</h2>
-        <p class="mt-2 text-sm text-gray-500">
+        <h2 class="mt-5 text-xl font-bold text-ink-900 group-hover:text-kaya-700 transition-colors font-display">線上平台</h2>
+        <p class="mt-2 text-sm text-ink-500 leading-relaxed">
           線上對弈、學習、AI 分析平台整理，隨時隨地精進棋力。
         </p>
-        <a href="/platforms/" class="mt-3 inline-block text-sm text-primary-600 hover:text-primary-700 font-medium">
-          查看全部 &rarr;
-        </a>
-      </div>
+        <span class="mt-4 inline-flex items-center text-sm font-medium text-gold-600 group-hover:text-gold-700">
+          查看全部
+          <svg class="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
+        </span>
+      </a>
     </div>
   </section>
 </BaseLayout>

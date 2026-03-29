@@ -36,14 +36,14 @@ const schema = {
 >
   <div class="max-w-6xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
     <nav class="text-sm text-gray-500 mb-4">
-      <a href="/" class="hover:text-primary-600 transition-colors">首頁</a>
+      <a href="/" class="hover:text-gold-600 transition-colors">首頁</a>
       <span class="mx-1">/</span>
       <span class="text-gray-900">線上平台</span>
     </nav>
 
     <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
       <div>
-        <h1 class="text-3xl font-bold text-gray-900">線上圍棋平台</h1>
+        <h1 class="text-3xl font-bold text-gray-900 font-display">線上圍棋平台</h1>
         <p class="mt-1 text-gray-600">精選對弈、教學與 AI 分析工具，隨時隨地精進棋力</p>
       </div>
       <p class="text-sm text-gray-400">共 {platforms.length} 個平台</p>
@@ -53,17 +53,17 @@ const schema = {
       <section class="mt-10">
         <h2 class="text-xl font-semibold text-gray-900 flex items-center gap-2">
           {type === '對弈' && (
-            <svg class="w-5 h-5 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg class="w-5 h-5 text-gold-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
             </svg>
           )}
           {type === '教學' && (
-            <svg class="w-5 h-5 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg class="w-5 h-5 text-gold-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
             </svg>
           )}
           {type === 'AI 工具' && (
-            <svg class="w-5 h-5 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg class="w-5 h-5 text-gold-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
             </svg>
           )}
@@ -83,7 +83,7 @@ const schema = {
               </div>
               <p class="mt-2 text-sm text-gray-600">{p.description}</p>
               <div class="mt-3 flex flex-wrap gap-1.5">
-                <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-primary-50 text-primary-700">
+                <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-kaya-100 text-kaya-700">
                   {p.pricing}
                 </span>
                 <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-600">
@@ -98,7 +98,7 @@ const schema = {
                   href={p.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="text-sm text-primary-600 hover:text-primary-700 transition-colors inline-flex items-center gap-1"
+                  class="text-sm text-gold-600 hover:text-gold-700 transition-colors inline-flex items-center gap-1"
                 >
                   前往平台
                   <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -125,7 +125,7 @@ const schema = {
     <div class="mt-8 text-center">
       <p class="text-sm text-gray-500">
         找不到附近的實體教室？先從線上平台開始吧！或者看看
-        <a href="/schools/adults/" class="text-primary-600 hover:text-primary-700 font-medium">成人可學的教室</a>。
+        <a href="/schools/adults/" class="text-gold-600 hover:text-gold-700 font-medium">成人可學的教室</a>。
       </p>
     </div>
   </div>

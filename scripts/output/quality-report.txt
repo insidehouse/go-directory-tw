@@ -1,0 +1,74 @@
+=== Data Quality Report ===
+Generated: 2026-03-29 22:02
+Total schools: 92
+
+--- Field Fill Rates ---
+Field                  Filled   Rate  Priority
+-------------------------------------------------------
+Slug                    92/92  100.0%  required
+Name                    92/92  100.0%  required
+Chain                   53/92   57.6%  optional
+City                    92/92  100.0%  required
+City Slug               92/92  100.0%  required
+District                74/92   80.4%  important !!!
+Address                 91/92   98.9%  required
+Phone                   89/92   96.7%  important
+Website                 71/92   77.2%  important !!!
+Facebook                 4/92    4.3%  optional
+Google Maps URL         85/92   92.4%  important
+Google Rating           83/92   90.2%  important
+Review Count            92/92  100.0%  optional
+Latitude                87/92   94.6%  important
+Longitude               87/92   94.6%  important
+Place ID                85/92   92.4%  important
+Age Groups              92/92  100.0%  required
+Price Public            50/92   54.3%  optional
+Price Range             50/92   54.3%  high_value
+Has Trial                0/92    0.0%  optional
+LINE ID                  1/92    1.1%  optional
+Last Verified           92/92  100.0%  required
+
+--- Per-City Breakdown ---
+City     Count  Rating  Lat/Lng  Phone   Web  Price
+-------------------------------------------------------
+台北          21  21/21    21/21   21/21  16/21  14/21
+新北          14  13/14    13/14   14/14  11/14   9/14
+桃園          14  14/14    14/14   14/14  13/14  13/14
+高雄          11   8/11     9/11   10/11   6/11   3/11
+新竹          10   9/10    10/10   10/10  10/10   7/10
+台中          10   9/10    10/10    8/10   6/10   1/10
+台南           6   5/6      5/6     6/6    3/6    2/6 
+嘉義           5   4/5      4/5     5/5    5/5    0/5 
+花蓮           1   0/1      1/1     1/1    1/1    1/1 
+
+--- High-Value Missing Data ---
+Schools missing google_rating, lat/lng, or phone:
+
+  益園圍棋教室 (新北) — missing: rating, lat/lng, place_id
+  中央棋院（竹北院） (新竹) — missing: rating
+  太平棋院 (台中) — missing: phone
+  方圓圍棋教室 (台中) — missing: rating
+  森圍棋藝術 (台中) — missing: phone
+  棋而思Cheers圍棋教室 (嘉義) — missing: rating, lat/lng, place_id
+  華聲少年圍棋學院（東區棋院） (台南) — missing: rating, lat/lng, place_id
+  傑克圍棋教室 (高雄) — missing: rating, lat/lng, place_id
+  士洪圍棋文理補習班 (高雄) — missing: rating, place_id
+  大局觀圍棋 (高雄) — missing: rating, lat/lng, place_id
+  大師棋院 (高雄) — missing: phone
+  中央棋院（花蓮院） (花蓮) — missing: rating, place_id
+
+--- Chain Analysis ---
+  名人兒童棋院: 15 schools in 台北, 新北, 高雄
+  中央棋院: 12 schools in 新北, 新竹, 桃園, 花蓮
+  黑嘉嘉圍棋: 11 schools in 台中, 新北, 新竹, 桃園, 高雄
+  長清兒童棋院: 5 schools in 台北
+  碁人中華兒童棋院: 4 schools in 台北, 新北, 新竹
+  棋而思圍棋: 2 schools in 嘉義
+  華聲少年圍棋學院: 2 schools in 台南
+  智多星圍棋: 1 schools in 台北
+  碁人圍棋: 1 schools in 新竹
+
+--- Summary ---
+  google_rating coverage: 90.2% (target: >= 90%)
+  lat/lng coverage: 94.6% (target: >= 90%)
+  price_range coverage: 54.3% (target: >= 20%)

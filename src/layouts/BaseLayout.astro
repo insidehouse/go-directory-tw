@@ -19,10 +19,14 @@ const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
+    <meta name="google-site-verification" content="s_I_T-jTzyAgAvLxlio11FGl5igwumNQJoQdtQRVOlw" />
     <meta name="generator" content={Astro.generator} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="canonical" href={canonicalUrl} />
     <link rel="sitemap" href="/sitemap-index.xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@700;900&display=swap" rel="stylesheet" />
 
     <meta property="og:type" content="website" />
     <meta property="og:title" content={fullTitle} />
@@ -36,8 +40,42 @@ const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
     {schema && (
       <script type="application/ld+json" set:html={JSON.stringify(schema)} />
     )}
+
+    <style is:global>
+      .go-grid-bg {
+        background-image:
+          linear-gradient(rgba(148, 107, 55, 0.06) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(148, 107, 55, 0.06) 1px, transparent 1px);
+        background-size: 44px 44px;
+      }
+
+      .stone-black {
+        border-radius: 50%;
+        background: radial-gradient(circle at 38% 35%, #555, #1a1816);
+        box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.2);
+      }
+
+      .stone-white {
+        border-radius: 50%;
+        background: radial-gradient(circle at 38% 35%, #fff, #e6ddd0);
+        box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.08);
+      }
+
+      .float-stone {
+        position: absolute;
+        pointer-events: none;
+      }
+
+      .animate-delay-1 { animation-delay: 100ms; }
+      .animate-delay-2 { animation-delay: 200ms; }
+      .animate-delay-3 { animation-delay: 300ms; }
+      .animate-delay-4 { animation-delay: 400ms; }
+      .animate-delay-5 { animation-delay: 500ms; }
+      .animate-delay-6 { animation-delay: 600ms; }
+      .animate-delay-8 { animation-delay: 800ms; }
+    </style>
   </head>
-  <body class="min-h-screen flex flex-col bg-gray-50 font-sans text-gray-900 antialiased">
+  <body class="min-h-screen flex flex-col bg-kaya-50 font-sans text-ink-900 antialiased leading-relaxed">
     <Header />
     <main class="flex-1">
       <slot />
