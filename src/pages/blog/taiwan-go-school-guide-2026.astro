@@ -1,0 +1,202 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import schools from '../../data/schools.json';
+
+const totalSchools = schools.length;
+const totalCities = new Set((schools as any[]).map((s) => s.city)).size;
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: '2026 台灣圍棋教室推薦：完整選校指南與學費比較',
+  description: '全台 90+ 間圍棋教室怎麼選？五大連鎖品牌比較、各縣市學費行情、線上 vs 實體教學分析。',
+  author: { '@type': 'Organization', name: '台灣圍棋目錄' },
+  publisher: { '@type': 'Organization', name: '台灣圍棋目錄' },
+  datePublished: '2026-03-29',
+  dateModified: '2026-03-29',
+};
+---
+
+<BaseLayout
+  title="2026 台灣圍棋教室推薦：完整選校指南與學費比較"
+  description="全台 90+ 間圍棋教室怎麼選？五大連鎖品牌比較、各縣市學費行情、線上 vs 實體教學分析。"
+  schema={schema}
+>
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
+    <nav class="text-sm text-ink-500 mb-4">
+      <a href="/" class="hover:text-gold-600 transition-colors">首頁</a>
+      <span class="mx-1">/</span>
+      <a href="/blog/" class="hover:text-gold-600 transition-colors">部落格</a>
+      <span class="mx-1">/</span>
+      <span class="text-ink-900">圍棋教室推薦</span>
+    </nav>
+
+    <time class="text-sm text-ink-400">2026-03-29</time>
+    <h1 class="mt-1 text-3xl font-bold text-ink-900 font-display leading-tight">2026 台灣圍棋教室推薦：完整選校指南與學費比較</h1>
+    <p class="mt-3 text-ink-500">全台超過 {totalSchools} 間圍棋教室、{totalCities} 個縣市，該怎麼選？</p>
+
+    <article class="mt-8 prose prose-gray max-w-none">
+      <p>
+        圍棋，這項有四千年歷史的智力運動，近年在台灣掀起新一波學習熱潮。從 AlphaGo 震撼世界、到台灣職業棋手黑嘉嘉在國際賽場上的亮眼表現，越來越多家長開始考慮讓孩子學圍棋，培養邏輯思維與專注力。
+      </p>
+      <p>
+        但面對全台超過 90 間圍棋教室，該怎麼選？學費行情是多少？線上和實體哪個適合我的孩子？這篇文章整理了 2026 年最新的台灣圍棋教室資訊，幫助你做出最適合的選擇。
+      </p>
+      <p>
+        想直接查詢住家附近的教室，可以到<a href="/schools/">圍棋教室搜尋頁</a>依縣市篩選。
+      </p>
+
+      <h2>如何選擇圍棋教室？5 個關鍵考量</h2>
+      <p>選圍棋教室不只是比價格，以下五個面向是家長最常忽略、卻影響學習成效最深的因素。</p>
+
+      <h3>1. 師資背景與教學經驗</h3>
+      <p>
+        圍棋老師的棋力和教學能力是兩回事。一位職業九段不見得會教入門班，而一位業餘五段可能是帶小朋友的高手。選校時要留意：
+      </p>
+      <ul>
+        <li>老師是否具有中華民國圍棋協會認證的教師資格</li>
+        <li>教學年資多長，是否有帶領學生升段的實績</li>
+        <li>課堂中老師對學生的比例（理想是 1:8 到 1:12）</li>
+      </ul>
+      <p>建議親自帶孩子旁聽一堂課，觀察老師與學生的互動方式，比任何廣告文宣都來得真實。</p>
+
+      <h3>2. 課程分級制度</h3>
+      <p>
+        好的圍棋教室會有清楚的分級制度。一般分為啟蒙班（完全零基礎）、入門班（會下但還不太懂佈局）、初級班（15 級到 10 級）、中級班（10 級到 1 級）、高級班（段位以上）。
+      </p>
+      <p>如果一間教室把所有棋力的學生混在一起上課，學習效果會大打折扣。</p>
+
+      <h3>3. 教學理念與目標設定</h3>
+      <p>
+        有些教室偏向競賽導向，積極鼓勵學生參加比賽升段；有些教室走興趣培養路線，著重圍棋文化和思維訓練。兩種路線沒有好壞之分，但要和你對孩子的期待一致。
+      </p>
+
+      <h3>4. 地理位置與時間安排</h3>
+      <p>
+        圍棋學習需要長期堅持，通常至少半年到一年才能看到明顯進步。如果教室離家太遠，很容易中途放棄。建議選擇車程 20 分鐘以內的教室。
+      </p>
+
+      <h3>5. 對弈與實戰機會</h3>
+      <p>
+        圍棋不能只學不下。好的教室會安排固定的對弈時間，甚至定期舉辦內部比賽。越來越多教室開始結合線上平台，讓學生回家後也能練習，這類混合模式值得優先考慮。
+      </p>
+      <p>
+        更多新手入門建議，請參考我們的<a href="/guide/">學棋指南</a>。
+      </p>
+
+      <h2>台灣五大連鎖圍棋品牌介紹</h2>
+
+      <h3><a href="/chains/mingren/">名人兒童棋院</a>（15 所分校）</h3>
+      <p>
+        台灣歷史最悠久、規模最大的兒童圍棋連鎖品牌，分校遍布台北、新北、高雄。教學體系成熟，分級制度完善，Google 評價普遍在 4.8 到 5.0 之間。學費約 TWD 2,500 到 3,500 元/月。
+      </p>
+      <p><strong>適合對象</strong>：希望孩子系統化學棋、有升段目標的家庭。</p>
+
+      <h3><a href="/chains/central/">中央棋院</a>（12 所分校）</h3>
+      <p>
+        覆蓋範圍最廣的品牌，在新北、桃園、新竹、高雄、花蓮都有據點。學費相對親民，團體班約 TWD 2,000 到 3,500 元/月。部分分校同時提供成人班。
+      </p>
+      <p><strong>適合對象</strong>：重視性價比、或居住在非六都地區的家庭。</p>
+
+      <h3><a href="/chains/heijiaijia/">黑嘉嘉圍棋</a>（11 所分校）</h3>
+      <p>
+        以職業棋士黑嘉嘉為品牌核心，近年快速擴張。除了實體教室，也積極發展線上教學 App。學費偏高，團體班約 TWD 2,800 到 4,000 元/月，但教材設計現代化。
+      </p>
+      <p><strong>適合對象</strong>：喜歡現代化教學方式、願意搭配線上工具學習的家庭。</p>
+
+      <h3>長清兒童棋院（5 所分校）</h3>
+      <p>
+        深耕台北市多年，在內湖、大直、忠孝、木柵、東門設有分院。學費約 TWD 3,000 到 4,000 元/月，特色是小班制教學。
+      </p>
+
+      <h3>碁人中華兒童棋院（4 所分校）</h3>
+      <p>
+        源自歷史悠久的中華棋院，分校集中在台北和新竹。提供單堂 TWD 500 元或 6 堂套裝 TWD 2,400 元的選項，適合想先試水溫的家長。
+      </p>
+
+      <p>
+        除了連鎖品牌，各縣市也有許多優質的獨立圍棋教室。完整教室清單可到<a href="/schools/">教室搜尋頁</a>查詢。
+      </p>
+
+      <h2>各縣市學費行情比較</h2>
+
+      <div class="not-prose overflow-x-auto">
+        <table class="min-w-full text-sm border border-kaya-200 rounded-lg overflow-hidden">
+          <thead class="bg-kaya-100/60">
+            <tr>
+              <th class="px-4 py-3 text-left font-medium text-ink-700">地區</th>
+              <th class="px-4 py-3 text-left font-medium text-ink-700">月費範圍</th>
+              <th class="px-4 py-3 text-left font-medium text-ink-700">說明</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-kaya-100">
+            <tr><td class="px-4 py-3 text-ink-900">台北市</td><td class="px-4 py-3 text-ink-700">TWD 2,500 - 4,000</td><td class="px-4 py-3 text-ink-500">教室密度最高，選擇最多</td></tr>
+            <tr><td class="px-4 py-3 text-ink-900">新北市</td><td class="px-4 py-3 text-ink-700">TWD 2,000 - 3,500</td><td class="px-4 py-3 text-ink-500">部分地區與台北價格接近</td></tr>
+            <tr><td class="px-4 py-3 text-ink-900">桃園市</td><td class="px-4 py-3 text-ink-700">TWD 2,000 - 4,000</td><td class="px-4 py-3 text-ink-500">黑嘉嘉、中央棋院競爭激烈</td></tr>
+            <tr><td class="px-4 py-3 text-ink-900">新竹市</td><td class="px-4 py-3 text-ink-700">TWD 2,500 - 4,000</td><td class="px-4 py-3 text-ink-500">竹科家庭需求旺盛</td></tr>
+            <tr><td class="px-4 py-3 text-ink-900">台中市</td><td class="px-4 py-3 text-ink-700">TWD 2,800 - 4,000</td><td class="px-4 py-3 text-ink-500">教室數量成長中</td></tr>
+            <tr><td class="px-4 py-3 text-ink-900">台南市</td><td class="px-4 py-3 text-ink-700">TWD 2,000 - 3,000</td><td class="px-4 py-3 text-ink-500">教室較少，學費親民</td></tr>
+            <tr><td class="px-4 py-3 text-ink-900">高雄市</td><td class="px-4 py-3 text-ink-700">TWD 2,500 - 3,500</td><td class="px-4 py-3 text-ink-500">名人兒童棋院為主力品牌</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>個別指導課的費用通常是團體班的 2 到 3 倍，約在 TWD 800 到 1,500 元/堂。</p>
+
+      <h2>線上 vs 實體教學比較</h2>
+
+      <h3>實體教學的優勢</h3>
+      <ul>
+        <li>面對面互動即時，老師能觀察孩子的反應並及時調整教學節奏</li>
+        <li>實際拿棋子落子對初學者的空間感培養很重要</li>
+        <li>社交功能——認識同齡棋友，建立友誼和良性競爭關係</li>
+        <li>適合自制力較弱的低齡學生</li>
+      </ul>
+
+      <h3>線上教學的優勢</h3>
+      <ul>
+        <li>不受地理限制，偏遠地區的學生也能學到好老師的課</li>
+        <li>時間彈性高，錄播課程可反覆觀看</li>
+        <li>費用通常比實體低 30% 到 50%</li>
+        <li>可搭配 AI 對弈練習，學習效率高</li>
+      </ul>
+
+      <p>
+        目前最理想的學習方式是「實體課為主、線上工具為輔」。每週到教室上 1 到 2 堂課；平日在家用線上平台做題、對弈。更多線上資源可參考<a href="/platforms/">圍棋平台總覽</a>。
+      </p>
+
+      <h2>常見問題 FAQ</h2>
+
+      <h3>幾歲可以開始學圍棋？</h3>
+      <p>
+        一般建議 5 到 6 歲開始接觸。這個年齡的孩子已有基本的數字概念和耐心。部分教室提供 4 歲幼兒啟蒙班，以遊戲化方式進行。成人初學者可到<a href="/schools/">教室搜尋頁</a>篩選有成人班的教室。
+      </p>
+
+      <h3>學圍棋需要多少預算？</h3>
+      <p>
+        一個月的團體班費用約 TWD 2,000 到 4,000 元。加上棋具和偶爾的比賽報名費，一年總花費約 TWD 25,000 到 50,000 元。相較鋼琴、小提琴等才藝，圍棋的學費門檻相當親民。
+      </p>
+
+      <h3>學圍棋對課業有幫助嗎？</h3>
+      <p>
+        多項教育研究指出，圍棋訓練能有效提升兒童的邏輯推理能力、專注力和抗挫折能力。建議一週 1 到 2 堂課就足夠，重點是持之以恆。
+      </p>
+
+      <h3>要學多久才能達到初段？</h3>
+      <p>
+        每週上課 1 到 2 次、課後有練習的話，多數孩子約需 2 到 3 年從零基礎達到初段。天份好且練習量大的孩子可能 1 年半內達標。
+      </p>
+    </article>
+
+    <div class="mt-12 bg-kaya-100/40 rounded-xl p-6 text-center">
+      <h2 class="text-lg font-semibold text-ink-900">找到離你最近的圍棋教室</h2>
+      <p class="mt-1 text-sm text-ink-500">全台 {totalCities} 個縣市、{totalSchools} 個教學地點</p>
+      <a
+        href="/schools/"
+        class="mt-4 inline-flex items-center px-5 py-2.5 rounded-lg bg-ink-900 text-kaya-50 text-sm font-medium hover:bg-ink-800 transition-colors"
+      >
+        瀏覽棋院教室
+      </a>
+    </div>
+  </div>
+</BaseLayout>

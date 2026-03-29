@@ -1,0 +1,112 @@
+[
+  {
+    "name": "名人兒童棋院",
+    "slug": "mingren",
+    "school_count": 15,
+    "cities": [
+      "台北",
+      "新北",
+      "高雄"
+    ],
+    "avg_rating": 4.9,
+    "rated_count": 15,
+    "description": "名人兒童棋院是台灣最大的圍棋連鎖教育品牌，分院遍及台北、新北、高雄三大都會區。以標準化教材和系統化教學著稱，適合初學兒童入門。"
+  },
+  {
+    "name": "中央棋院",
+    "slug": "central",
+    "school_count": 12,
+    "cities": [
+      "新北",
+      "新竹",
+      "桃園",
+      "花蓮"
+    ],
+    "avg_rating": 5.0,
+    "rated_count": 10,
+    "description": "中央棋院在桃園、新竹、花蓮等地設有多個分院，提供兒童圍棋教學。教學體系完整，從啟蒙到段位班皆有規劃。"
+  },
+  {
+    "name": "黑嘉嘉圍棋",
+    "slug": "heijiaijia",
+    "school_count": 11,
+    "cities": [
+      "台中",
+      "新北",
+      "新竹",
+      "桃園",
+      "高雄"
+    ],
+    "avg_rating": 4.9,
+    "rated_count": 11,
+    "description": "黑嘉嘉圍棋以職業棋士黑嘉嘉為品牌代言，在新北、桃園、新竹、台中、高雄等地展店。品牌知名度高，吸引許多因黑嘉嘉而認識圍棋的家長。"
+  },
+  {
+    "name": "長清兒童棋院",
+    "slug": "changqing",
+    "school_count": 5,
+    "cities": [
+      "台北"
+    ],
+    "avg_rating": 4.7,
+    "rated_count": 5,
+    "description": "長清兒童棋院深耕台北市多年，在內湖、大直、忠孝、木柵、東門等地設有分院。教學風格穩健，口碑良好。"
+  },
+  {
+    "name": "碁人中華兒童棋院",
+    "slug": "qiren",
+    "school_count": 4,
+    "cities": [
+      "台北",
+      "新北",
+      "新竹"
+    ],
+    "avg_rating": 5.0,
+    "rated_count": 4,
+    "description": "碁人中華兒童棋院在台北、新北、新竹設有分校，提供系統化的兒童圍棋教育。"
+  },
+  {
+    "name": "棋而思圍棋",
+    "slug": "cheers",
+    "school_count": 2,
+    "cities": [
+      "嘉義"
+    ],
+    "avg_rating": 5.0,
+    "rated_count": 2,
+    "description": "棋而思圍棋推廣中心在嘉義地區深耕，提供兒童及青少年圍棋教學。"
+  },
+  {
+    "name": "華聲少年圍棋學院",
+    "slug": "huasheng",
+    "school_count": 2,
+    "cities": [
+      "台南"
+    ],
+    "avg_rating": 5.0,
+    "rated_count": 1,
+    "description": "華聲少年圍棋學院在台南設有中山和東區兩個棋院，是台南地區知名的圍棋教學機構。"
+  },
+  {
+    "name": "智多星圍棋",
+    "slug": "zhiduoxing",
+    "school_count": 1,
+    "cities": [
+      "台北"
+    ],
+    "avg_rating": 5.0,
+    "rated_count": 1,
+    "description": "智多星圍棋在台北提供圍棋教學服務。"
+  },
+  {
+    "name": "碁人圍棋",
+    "slug": "qirengo",
+    "school_count": 1,
+    "cities": [
+      "新竹"
+    ],
+    "avg_rating": 4.9,
+    "rated_count": 1,
+    "description": "碁人圍棋在桃園提供兒童圍棋教學。"
+  }
+]

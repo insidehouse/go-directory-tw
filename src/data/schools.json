@@ -2116,41 +2116,9 @@
     "city": "台中",
     "city_slug": "taichung",
     "district": "",
-    "address": "臺中市西區三民西路63號",
+    "address": "台中市西區三民西路63號",
     "phone": "+886 4 2375 9308",
     "website": "https://www.facebook.com/IGOYEH/",
-    "facebook_url": "",
-    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJDzpSD4s9aTQRI0ArQhJUiCs",
-    "google_rating": 4.7,
-    "google_review_count": 18,
-    "age_groups": [
-      "children"
-    ],
-    "price_public": false,
-    "price_range": null,
-    "is_chain": false,
-    "school_type": "classroom",
-    "notes": "",
-    "data_sources": [
-      "outscraper"
-    ],
-    "last_verified": "2026-03-29",
-    "lat": 24.131048,
-    "lng": 120.66651519999999,
-    "place_id": "ChIJDzpSD4s9aTQRI0ArQhJUiCs",
-    "has_trial": false,
-    "line_id": ""
-  },
-  {
-    "slug": "葉老師圍棋專業教學中心",
-    "name": "葉老師圍棋專業教學中心",
-    "chain": "",
-    "city": "台中",
-    "city_slug": "taichung",
-    "district": "",
-    "address": "台中市西區三民西路63號",
-    "phone": "04-2375-9308",
-    "website": "",
     "facebook_url": "https://www.facebook.com/IGOYEH",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJDzpSD4s9aTQRI0ArQhJUiCs",
     "google_rating": 4.7,
@@ -2164,11 +2132,11 @@
     "school_type": "classroom",
     "notes": "1985年創立，台中資深圍棋教學中心。",
     "data_sources": [
-      "web_research"
+      "outscraper"
     ],
     "last_verified": "2026-03-29",
     "lat": 24.131048,
-    "lng": 120.6665152,
+    "lng": 120.66651519999999,
     "place_id": "ChIJDzpSD4s9aTQRI0ArQhJUiCs",
     "has_trial": false,
     "line_id": ""

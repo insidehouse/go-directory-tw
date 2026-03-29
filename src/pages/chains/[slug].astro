@@ -1,0 +1,118 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SchoolCard from '../../components/SchoolCard.astro';
+import schools from '../../data/schools.json';
+import chains from '../../data/chains.json';
+
+export function getStaticPaths() {
+  return (chains as any[]).map((chain) => ({
+    params: { slug: chain.slug },
+  }));
+}
+
+const { slug } = Astro.params;
+const chain = (chains as any[]).find((c) => c.slug === slug);
+const chainSchools = (schools as any[]).filter((s) => s.chain === chain?.name);
+
+const avgRating = chain?.avg_rating;
+const cities = chain?.cities ?? [];
+const priceSchools = chainSchools.filter((s: any) => s.price_range);
+const priceSet = [...new Set(priceSchools.map((s: any) => s.price_range))];
+
+const schema = chain ? {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: chain.name,
+  description: chain.description,
+  numberOfEmployees: { '@type': 'QuantitativeValue', value: chain.school_count },
+  areaServed: cities.map((c: string) => ({ '@type': 'City', name: c })),
+} : undefined;
+---
+
+{chain ? (
+  <BaseLayout
+    title={`${chain.name} — 全部分校`}
+    description={`${chain.name}全台 ${chain.school_count} 間分校完整列表。涵蓋${cities.join('、')}，含地址、電話、評價、學費資訊。`}
+    schema={schema}
+  >
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
+      <nav class="text-sm text-ink-500 mb-4">
+        <a href="/" class="hover:text-gold-600 transition-colors">首頁</a>
+        <span class="mx-1">/</span>
+        <a href="/schools/" class="hover:text-gold-600 transition-colors">棋院教室</a>
+        <span class="mx-1">/</span>
+        <span class="text-ink-900">{chain.name}</span>
+      </nav>
+
+      <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+        <div>
+          <h1 class="text-3xl font-bold text-ink-900 font-display">{chain.name}</h1>
+          <p class="mt-1 text-ink-500">全台 {chain.school_count} 間分校</p>
+        </div>
+        {avgRating && (
+          <div class="flex items-center gap-2 px-4 py-2 bg-white rounded-lg border border-kaya-200/60">
+            <svg class="w-5 h-5 text-gold-400" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+            </svg>
+            <span class="text-sm font-medium text-ink-700">平均 {avgRating} / 5</span>
+            <span class="text-xs text-ink-400">({chain.rated_count} 間有評分)</span>
+          </div>
+        )}
+      </div>
+
+      {chain.description && (
+        <div class="mt-6 bg-white rounded-xl border border-kaya-200/60 p-5">
+          <p class="text-sm text-ink-600 leading-relaxed">{chain.description}</p>
+          <div class="mt-3 flex flex-wrap gap-2">
+            {cities.map((city: string) => {
+              const count = chainSchools.filter((s: any) => s.city === city).length;
+              return (
+                <span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-medium bg-kaya-100 text-kaya-700">
+                  {city} ({count})
+                </span>
+              );
+            })}
+          </div>
+          {priceSet.length > 0 && (
+            <p class="mt-3 text-sm text-ink-500">
+              學費範圍：{priceSet.join('、')}
+            </p>
+          )}
+        </div>
+      )}
+
+      <!-- Schools by city -->
+      {cities.map((city: string) => {
+        const citySchools = chainSchools.filter((s: any) => s.city === city);
+        return (
+          <section class="mt-8">
+            <h2 class="text-xl font-semibold text-ink-900 font-display">{city}（{citySchools.length} 間）</h2>
+            <div class="mt-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+              {citySchools.map((s: any) => (
+                <SchoolCard {...s} />
+              ))}
+            </div>
+          </section>
+        );
+      })}
+
+      <div class="mt-12 bg-kaya-100/40 rounded-xl p-6">
+        <h2 class="text-lg font-semibold text-ink-900">找其他棋院？</h2>
+        <p class="mt-2 text-sm text-ink-500">
+          除了{chain.name}，台灣還有許多優質圍棋教室。
+          <a href="/schools/" class="text-gold-600 hover:text-gold-700 font-medium">瀏覽全部棋院</a>，
+          或參考<a href="/guide/" class="text-gold-600 hover:text-gold-700 font-medium">學棋指南</a>了解選教室要點。
+        </p>
+      </div>
+    </div>
+  </BaseLayout>
+) : (
+  <BaseLayout title="找不到品牌">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 py-16 text-center">
+      <h1 class="text-2xl font-bold text-ink-900">找不到此品牌</h1>
+      <p class="mt-2 text-ink-500">
+        <a href="/schools/" class="text-gold-600 hover:text-gold-700">返回棋院列表</a>
+      </p>
+    </div>
+  </BaseLayout>
+)}

@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import SchoolCard from '../../components/SchoolCard.astro';
 import schools from '../../data/schools.json';
+import chains from '../../data/chains.json';
 
 const cities = [...new Set(schools.map((s: any) => s.city))].filter(Boolean).sort();
 const citySlugMap: Record<string, string> = {};
@@ -61,6 +62,18 @@ for (const s of schools as any[]) {
       >
         成人可學
       </a>
+    </div>
+
+    <!-- Chain quick links -->
+    <div class="mt-3 flex flex-wrap gap-2">
+      {(chains as any[]).filter((c: any) => c.school_count >= 2).map((c: any) => (
+        <a
+          href={`/chains/${c.slug}/`}
+          class="inline-flex items-center gap-1 px-3 py-1 rounded-full text-xs font-medium bg-kaya-100 text-kaya-700 hover:bg-kaya-200 transition-colors"
+        >
+          {c.name} <span class="text-kaya-400">({c.school_count})</span>
+        </a>
+      ))}
     </div>
 
     <!-- School grid -->

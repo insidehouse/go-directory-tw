@@ -1,0 +1,35 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const posts = [
+  {
+    slug: 'taiwan-go-school-guide-2026',
+    title: '2026 台灣圍棋教室推薦：完整選校指南與學費比較',
+    description: '全台 90+ 間圍棋教室怎麼選？五大連鎖品牌比較、各縣市學費行情、線上 vs 實體教學分析。',
+    date: '2026-03-29',
+  },
+];
+---
+
+<BaseLayout title="部落格" description="台灣圍棋學習相關文章、教室推薦、學棋指南。">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
+    <h1 class="text-3xl font-bold text-ink-900 font-display">部落格</h1>
+    <p class="mt-1 text-ink-500">圍棋學習相關文章與資訊</p>
+
+    <div class="mt-8 space-y-6">
+      {posts.map((post) => (
+        <a href={`/blog/${post.slug}/`} class="block group bg-white rounded-xl border border-kaya-200/60 p-6 hover:border-kaya-300 hover:shadow-md transition-all duration-200">
+          <time class="text-xs text-ink-400">{post.date}</time>
+          <h2 class="mt-1 text-xl font-bold text-ink-900 group-hover:text-kaya-700 transition-colors font-display">{post.title}</h2>
+          <p class="mt-2 text-sm text-ink-500 leading-relaxed">{post.description}</p>
+          <span class="mt-3 inline-flex items-center text-sm font-medium text-gold-600 group-hover:text-gold-700">
+            閱讀全文
+            <svg class="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </span>
+        </a>
+      ))}
+    </div>
+  </div>
+</BaseLayout>
