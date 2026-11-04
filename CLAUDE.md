@@ -5,7 +5,9 @@ Taiwan Go (圍棋) school directory — Astro 5.3 + Tailwind static site.
 ## Build / Dev
 
 - `npm run dev` — dev server
-- `npm run build` — production build (~1.5s, 61 pages)
+- `npm run build` — production build (~1.5s, 119 pages)
+- `npm run check` — build + 驗證所有網址指向 `site`（scripts/check-site-urls.mjs），改網址相關程式碼後必跑
+- 正式網域由 `astro.config.mjs` 的 `site` 決定；切換步驟見 docs/domain-cutover.md
 
 ## Architecture
 

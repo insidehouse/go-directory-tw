@@ -84,7 +84,7 @@ function buildCityListSchema(name: string, items: any[]) {
       item: {
         '@type': 'EducationalOrganization',
         name: s.name,
-        url: `https://go-directory-tw.pages.dev/schools/${s.slug}/`,
+        url: new URL(`/schools/${s.slug}/`, Astro.site).href,
         ...(s.address ? { address: { '@type': 'PostalAddress', streetAddress: s.address, addressLocality: s.city, addressCountry: 'TW' } } : {}),
         ...(s.google_rating ? { aggregateRating: { '@type': 'AggregateRating', ratingValue: s.google_rating, bestRating: 5, ratingCount: s.google_review_count || 1 } } : {}),
       },

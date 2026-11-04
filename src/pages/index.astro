@@ -9,11 +9,11 @@ const websiteSchema = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
   name: '台灣圍棋目錄',
-  url: 'https://go-directory-tw.pages.dev',
+  url: new URL('/', Astro.site).href,
   description: '台灣圍棋棋院、教室、比賽、線上平台完整目錄。',
   potentialAction: {
     '@type': 'SearchAction',
-    target: 'https://go-directory-tw.pages.dev/schools/?q={search_term_string}',
+    target: `${new URL('/schools/', Astro.site).href}?q={search_term_string}`,
     'query-input': 'required name=search_term_string',
   },
 };
