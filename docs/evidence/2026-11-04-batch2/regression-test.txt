@@ -1,0 +1,5 @@
+regression: --skip-web（完全不做網路檢查）時被更新 last_verified 的筆數
+  origin/main 版腳本: 91 / 91
+  本 PR 版腳本:       0 / 91
+PASS
+exit=0
