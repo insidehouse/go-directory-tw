@@ -1,0 +1,75 @@
+=== School Verification Report ===
+Date: 2026-11-04
+Total schools: 91
+Mode: live, web checks: enabled
+
+[ISSUE] 三重棋院（小小林圍棋） (新北)
+  - website redirects to another host: https://line.me/R/ti/p/@308ngrth?oat_content=url&ts=03141250
+[ISSUE] 上善若水圍棋教室 (新北)
+  - website 404: Not Found
+[INCOMPLETE] 益園圍棋教室 (新北) — missing: rating, geo, place_id
+[INCOMPLETE] 中央棋院（竹北院） (新竹) — missing: rating
+[ISSUE] 黑嘉嘉圍棋（新竹巨城分校） (新竹)
+  - website redirects to another host: https://www.heijiajia.com/zh-hant
+[ISSUE] 黑嘉嘉圍棋（新竹竹北分校） (新竹)
+  - website redirects to another host: https://www.heijiajia.com/zh-hant
+[INCOMPLETE] 太平棋院 (台中) — missing: phone
+[INCOMPLETE] 方圓圍棋教室 (台中) — missing: rating
+[INCOMPLETE] 森圍棋藝術 (台中) — missing: phone
+[ISSUE] 蘇老師櫻花圍棋教室 (台中)
+  - website 404: Not Found
+[ISSUE] 心弈圍棋苑 (嘉義)
+  - website 0: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1035)
+[ISSUE] 心弈圍棋苑（嘉科分苑） (嘉義)
+  - website 0: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1035)
+[INCOMPLETE] 棋而思Cheers圍棋教室 (嘉義) — missing: address, rating, geo, place_id
+[INCOMPLETE] 華聲少年圍棋學院（東區棋院） (台南) — missing: rating, geo, place_id
+[INCOMPLETE] 傑克圍棋教室 (高雄) — missing: rating, geo, place_id
+[INCOMPLETE] 士洪圍棋文理補習班 (高雄) — missing: rating, place_id
+[INCOMPLETE] 大局觀圍棋 (高雄) — missing: rating, geo, place_id
+[INCOMPLETE] 大師棋院 (高雄) — missing: phone
+[INCOMPLETE] 中央棋院（花蓮院） (花蓮) — missing: rating, place_id
+
+--- Website Issues ---
+  上善若水圍棋教室 (新北): https://gogohappy123.weebly.com/ -> 404 Not Found
+  蘇老師櫻花圍棋教室 (台中): https://sakurago.weebly.com -> 404 Not Found
+  心弈圍棋苑 (嘉義): https://www.sinyilovego.com/ -> 0 [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1035)
+  心弈圍棋苑（嘉科分苑） (嘉義): https://www.sinyilovego.com/ -> 0 [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1035)
+
+--- Website Redirects To Another Host (manual review) ---
+  三重棋院（小小林圍棋） (新北): https://lin.ee/O3lsNTw -> https://line.me/R/ti/p/@308ngrth?oat_content=url&ts=03141250
+  黑嘉嘉圍棋（新竹巨城分校） (新竹): https://www.heijiajia.com.tw/ -> https://www.heijiajia.com/zh-hant
+  黑嘉嘉圍棋（新竹竹北分校） (新竹): https://www.heijiajia.com.tw/ -> https://www.heijiajia.com/zh-hant
+
+--- Not Auto-Verifiable (no website; last_verified unchanged) ---
+  長清兒童棋院（內湖院） (台北)
+  長清兒童棋院（大直院） (台北)
+  長清兒童棋院（忠孝院） (台北)
+  長清兒童棋院（木柵院） (台北)
+  長清兒童棋院（東門(古亭)院） (台北)
+  佑林棋院 (新北)
+  益園圍棋教室 (新北)
+  黑嘉嘉圍棋（新北汐止分校） (新北)
+  新銳圍棋莊敬道場 (桃園)
+  方圓圍棋教室 (台中)
+  洪門棋院 (台中)
+  黑嘉嘉圍棋（台中西區分校） (台中)
+  同心圓兒童棋院 (台南)
+  棋飛圍棋 (台南)
+  立光圍棋碁院 (台南)
+  傑克圍棋教室 (高雄)
+  士洪圍棋文理補習班 (高雄)
+  大局觀圍棋 (高雄)
+  大師棋院 (高雄)
+  睿弈圍棋道場 (高雄)
+
+--- Google Maps Issues (reachability only; not proof of existence) ---
+  None
+
+--- Summary ---
+  Fully verified: 72/91
+  Website issues: 4
+  Redirects to another host: 3
+  Not auto-verifiable: 20
+  Maps issues: 0
+  last_verified updated: 64

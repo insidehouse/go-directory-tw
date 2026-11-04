@@ -1,0 +1,57 @@
+site: https://weiqi.tw
+HTML 頁數: 119；sitemap 頁數: 0；檢查檔案數: 124
+baseline: docs/evidence/2026-11-04-batch1/baseline-pages.txt
+
+FAIL 364 項：
+  [no-old-domain] about/index.html 含有 pages.dev
+  [no-old-domain] blog/index.html 含有 pages.dev
+  [no-old-domain] blog/taiwan-go-school-guide-2026/index.html 含有 pages.dev
+  [no-old-domain] chains/central/index.html 含有 pages.dev
+  [no-old-domain] chains/changqing/index.html 含有 pages.dev
+  [no-old-domain] chains/cheers/index.html 含有 pages.dev
+  [no-old-domain] chains/heijiaijia/index.html 含有 pages.dev
+  [no-old-domain] chains/huasheng/index.html 含有 pages.dev
+  [no-old-domain] chains/mingren/index.html 含有 pages.dev
+  [no-old-domain] chains/qiren/index.html 含有 pages.dev
+  [no-old-domain] chains/qirengo/index.html 含有 pages.dev
+  [no-old-domain] chains/zhiduoxing/index.html 含有 pages.dev
+  [no-old-domain] faq/index.html 含有 pages.dev
+  [no-old-domain] guide/index.html 含有 pages.dev
+  [no-old-domain] index.html 含有 pages.dev
+  [no-old-domain] platforms/index.html 含有 pages.dev
+  [no-old-domain] robots.txt 含有 go-directory.tw
+  [no-old-domain] schools/adults/index.html 含有 pages.dev
+  [no-old-domain] schools/chiayi/index.html 含有 pages.dev
+  [no-old-domain] schools/hsinchu/index.html 含有 pages.dev
+  [no-old-domain] schools/hualien/index.html 含有 pages.dev
+  [no-old-domain] schools/index.html 含有 pages.dev
+  [no-old-domain] schools/kaohsiung/index.html 含有 pages.dev
+  [no-old-domain] schools/newtaipei/index.html 含有 pages.dev
+  [no-old-domain] schools/taichung/index.html 含有 pages.dev
+  [no-old-domain] schools/tainan/index.html 含有 pages.dev
+  [no-old-domain] schools/taipei/index.html 含有 pages.dev
+  [no-old-domain] schools/taoyuan/index.html 含有 pages.dev
+  [no-old-domain] schools/三重棋院（小小林圍棋）/index.html 含有 pages.dev
+  [no-old-domain] schools/上善若水圍棋教室/index.html 含有 pages.dev
+  [no-old-domain] schools/中央棋院-內壢院/index.html 含有 pages.dev
+  [no-old-domain] schools/中央棋院-八德院/index.html 含有 pages.dev
+  [no-old-domain] schools/中央棋院-北門院/index.html 含有 pages.dev
+  [no-old-domain] schools/中央棋院-平鎮院/index.html 含有 pages.dev
+  [no-old-domain] schools/中央棋院-板橋院/index.html 含有 pages.dev
+  [no-old-domain] schools/中央棋院-棋藝國/index.html 含有 pages.dev
+  [no-old-domain] schools/中央棋院-楊梅院/index.html 含有 pages.dev
+  [no-old-domain] schools/中央棋院-為光院/index.html 含有 pages.dev
+  [no-old-domain] schools/中央棋院-竹北院/index.html 含有 pages.dev
+  [no-old-domain] schools/中央棋院-花蓮院/index.html 含有 pages.dev
+  [no-old-domain] schools/中央棋院-藝文院/index.html 含有 pages.dev
+  [no-old-domain] schools/中央棋院-青埔院/index.html 含有 pages.dev
+  [no-old-domain] schools/中華棋院暨兒童圍棋道場/index.html 含有 pages.dev
+  [no-old-domain] schools/中華民國圍棋協會/index.html 含有 pages.dev
+  [no-old-domain] schools/佑林棋院/index.html 含有 pages.dev
+  [no-old-domain] schools/傑克圍棋教室/index.html 含有 pages.dev
+  [no-old-domain] schools/卓奕佳貝圍棋教育中心/index.html 含有 pages.dev
+  [no-old-domain] schools/只想下棋兒童棋院/index.html 含有 pages.dev
+  [no-old-domain] schools/同心圓兒童棋院/index.html 含有 pages.dev
+  [no-old-domain] schools/名人兒童棋院-古亭總院/index.html 含有 pages.dev
+  …另有 314 項
+exit=1

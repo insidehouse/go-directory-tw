@@ -1,0 +1,171 @@
+
+> go-directory-tw@0.0.1 check:cutover
+> astro build && node scripts/check-site-urls.mjs --baseline docs/evidence/2026-11-04-batch1/baseline-pages.txt
+
+09:09:26 [content] Syncing content
+09:09:26 [content] Astro config changed
+09:09:26 [content] Clearing content store
+09:09:26 [content] Synced content
+09:09:26 [types] Generated 41ms
+09:09:26 [build] output: "static"
+09:09:26 [build] mode: "static"
+09:09:26 [build] directory: /home/user/go-directory-tw/dist/
+09:09:26 [build] Collecting build info...
+09:09:26 [build] ✓ Completed in 73ms.
+09:09:26 [build] Building static entrypoints...
+Browserslist: browsers data (caniuse-lite) is 10 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+09:09:27 [vite] ✓ built in 1.06s
+09:09:27 [build] ✓ Completed in 1.08s.
+
+ building client (vite) 
+09:09:27 [vite] transforming...
+09:09:27 [vite] ✓ 2 modules transformed.
+09:09:27 [vite] rendering chunks...
+09:09:27 [vite] ✓ built in 17ms
+
+ generating static routes 
+09:09:27 ▶ src/pages/about.astro
+09:09:27   └─ /about/index.html (+6ms) 
+09:09:27 ▶ src/pages/blog/taiwan-go-school-guide-2026.astro
+09:09:27   └─ /blog/taiwan-go-school-guide-2026/index.html (+2ms) 
+09:09:27 ▶ src/pages/blog/index.astro
+09:09:27   └─ /blog/index.html (+2ms) 
+09:09:27 ▶ src/pages/chains/[slug].astro
+09:09:27   ├─ /chains/mingren/index.html (+4ms) 
+09:09:27   ├─ /chains/central/index.html (+2ms) 
+09:09:27   ├─ /chains/heijiaijia/index.html (+2ms) 
+09:09:27   ├─ /chains/changqing/index.html (+4ms) 
+09:09:27   ├─ /chains/qiren/index.html (+2ms) 
+09:09:27   ├─ /chains/cheers/index.html (+2ms) 
+09:09:27   ├─ /chains/huasheng/index.html (+1ms) 
+09:09:27   ├─ /chains/zhiduoxing/index.html (+1ms) 
+09:09:27   └─ /chains/qirengo/index.html (+1ms) 
+09:09:27 ▶ src/pages/faq.astro
+09:09:27   └─ /faq/index.html (+1ms) 
+09:09:27 ▶ src/pages/guide.astro
+09:09:27   └─ /guide/index.html (+1ms) 
+09:09:27 ▶ src/pages/platforms.astro
+09:09:27   └─ /platforms/index.html (+2ms) 
+09:09:27 λ src/pages/robots.txt.ts
+09:09:27   └─ /robots.txt (+1ms) 
+09:09:27 ▶ src/pages/schools/adults.astro
+09:09:27   └─ /schools/adults/index.html (+1ms) 
+09:09:27 ▶ src/pages/schools/[id].astro
+09:09:27   ├─ /schools/taipei/index.html (+7ms) 
+09:09:27   ├─ /schools/newtaipei/index.html (+2ms) 
+09:09:27   ├─ /schools/taoyuan/index.html (+4ms) 
+09:09:27   ├─ /schools/hsinchu/index.html (+2ms) 
+09:09:27   ├─ /schools/taichung/index.html (+1ms) 
+09:09:27   ├─ /schools/chiayi/index.html (+1ms) 
+09:09:27   ├─ /schools/tainan/index.html (+1ms) 
+09:09:27   ├─ /schools/kaohsiung/index.html (+1ms) 
+09:09:27   ├─ /schools/hualien/index.html (+1ms) 
+09:09:27   ├─ /schools/中華棋院暨兒童圍棋道場/index.html (+2ms) 
+09:09:27   ├─ /schools/名人兒童棋院-古亭總院/index.html (+1ms) 
+09:09:27   ├─ /schools/名人兒童棋院-天母德行分院/index.html (+1ms) 
+09:09:27   ├─ /schools/名人兒童棋院-天母忠誠分院/index.html (+1ms) 
+09:09:27   ├─ /schools/名人兒童棋院-忠孝分院/index.html (+1ms) 
+09:09:27   ├─ /schools/名人兒童棋院（忠孝分院）/index.html (+1ms) 
+09:09:27   ├─ /schools/名人兒童棋院-長安分院/index.html (+1ms) 
+09:09:27   ├─ /schools/名人兒童棋院（長安分院）/index.html (+1ms) 
+09:09:27   ├─ /schools/智多星圍棋（仁愛分校）/index.html (+1ms) 
+09:09:27   ├─ /schools/智多星圍棋教室/index.html (+1ms) 
+09:09:27   ├─ /schools/棋品空間/index.html (+1ms) 
+09:09:27   ├─ /schools/棋聖模範棋院/index.html (+3ms) 
+09:09:27   ├─ /schools/海峰棋院/index.html (+1ms) 
+09:09:27   ├─ /schools/碁人中華兒童棋院-台北古亭/index.html (+1ms) 
+09:09:27   ├─ /schools/碁人中華兒童棋院-台北天母/index.html (+1ms) 
+09:09:27   ├─ /schools/繽紛兒童棋院/index.html (+1ms) 
+09:09:27   ├─ /schools/長清兒童棋院-內湖院/index.html (+1ms) 
+09:09:27   ├─ /schools/長清兒童棋院-大直院/index.html (+1ms) 
+09:09:27   ├─ /schools/長清兒童棋院-忠孝院/index.html (+1ms) 
+09:09:27   ├─ /schools/長清兒童棋院-木柵院/index.html (+1ms) 
+09:09:27   ├─ /schools/長清兒童棋院-東門古亭院/index.html (+1ms) 
+09:09:27   ├─ /schools/三重棋院（小小林圍棋）/index.html (+1ms) 
+09:09:27   ├─ /schools/上善若水圍棋教室/index.html (+1ms) 
+09:09:27   ├─ /schools/中央棋院-板橋院/index.html (+1ms) 
+09:09:27   ├─ /schools/佑林棋院/index.html (+1ms) 
+09:09:27   ├─ /schools/只想下棋兒童棋院/index.html (+1ms) 
+09:09:27   ├─ /schools/名人兒童棋院（三重重新分院）/index.html (+1ms) 
+09:09:27   ├─ /schools/名人兒童棋院（中和景安分院）/index.html (+1ms) 
+09:09:27   ├─ /schools/名人兒童棋院（土城青雲分院）/index.html (+1ms) 
+09:09:27   ├─ /schools/名人兒童棋院（新店中正分院）/index.html (+1ms) 
+09:09:27   ├─ /schools/名人兒童棋院（板橋實踐分院）/index.html (+1ms) 
+09:09:27   ├─ /schools/名人兒童棋院（永和得和分院）/index.html (+1ms) 
+09:09:27   ├─ /schools/益園圍棋教室/index.html (+1ms) 
+09:09:27   ├─ /schools/碁人中華兒童棋院-新北北大樹林/index.html (+1ms) 
+09:09:27   ├─ /schools/黑嘉嘉圍棋（新北汐止分校）/index.html (+3ms) 
+09:09:27   ├─ /schools/中央棋院-內壢院/index.html (+1ms) 
+09:09:27   ├─ /schools/中央棋院-八德院/index.html (+1ms) 
+09:09:27   ├─ /schools/中央棋院-平鎮院/index.html (+1ms) 
+09:09:27   ├─ /schools/中央棋院-楊梅院/index.html (+1ms) 
+09:09:27   ├─ /schools/中央棋院-為光院/index.html (+1ms) 
+09:09:27   ├─ /schools/中央棋院-藝文院/index.html (+1ms) 
+09:09:27   ├─ /schools/中央棋院-青埔院/index.html (+1ms) 
+09:09:27   ├─ /schools/新銳圍棋莊敬道場/index.html (+1ms) 
+09:09:27   ├─ /schools/黑嘉嘉圍棋（桃園中山分校）/index.html (+1ms) 
+09:09:27   ├─ /schools/黑嘉嘉圍棋（桃園中正分校）/index.html (+1ms) 
+09:09:27   ├─ /schools/黑嘉嘉圍棋（桃園八德分校）/index.html (+1ms) 
+09:09:27   ├─ /schools/黑嘉嘉圍棋（桃園南崁分校）/index.html (+1ms) 
+09:09:27   ├─ /schools/黑嘉嘉圍棋（桃園大有分校）/index.html (+1ms) 
+09:09:27   ├─ /schools/黑嘉嘉圍棋（桃園平鎮分校）/index.html (+1ms) 
+09:09:27   ├─ /schools/中央棋院-北門院/index.html (+1ms) 
+09:09:27   ├─ /schools/中央棋院-棋藝國/index.html (+1ms) 
+09:09:27   ├─ /schools/中央棋院-竹北院/index.html (+1ms) 
+09:09:27   ├─ /schools/中華民國圍棋協會/index.html (+1ms) 
+09:09:27   ├─ /schools/圍棋協會新竹推廣中心（新竹兒童棋院）/index.html (+1ms) 
+09:09:27   ├─ /schools/碁人中華兒童棋院-新竹竹北/index.html (+1ms) 
+09:09:28   ├─ /schools/碁人圍棋（竹北分校）/index.html (+1ms) 
+09:09:28   ├─ /schools/竹北兒童棋院/index.html (+1ms) 
+09:09:28   ├─ /schools/黑嘉嘉圍棋（新竹巨城分校）/index.html (+1ms) 
+09:09:28   ├─ /schools/黑嘉嘉圍棋（新竹竹北分校）/index.html (+1ms) 
+09:09:28   ├─ /schools/卓奕佳貝圍棋教育中心/index.html (+1ms) 
+09:09:28   ├─ /schools/太平棋院/index.html (+1ms) 
+09:09:28   ├─ /schools/方圓圍棋教室/index.html (+1ms) 
+09:09:28   ├─ /schools/梁老師圍棋學院/index.html (+1ms) 
+09:09:28   ├─ /schools/森圍棋藝術/index.html (+1ms) 
+09:09:28   ├─ /schools/洪門棋院/index.html (+1ms) 
+09:09:28   ├─ /schools/葉大明老師圍棋/index.html (+1ms) 
+09:09:28   ├─ /schools/蘇老師櫻花圍棋教室/index.html (+1ms) 
+09:09:28   ├─ /schools/黑嘉嘉圍棋（台中西區分校）/index.html (+1ms) 
+09:09:28   ├─ /schools/心弈圍棋苑/index.html (+1ms) 
+09:09:28   ├─ /schools/心弈圍棋苑（嘉科分苑）/index.html (+1ms) 
+09:09:28   ├─ /schools/棋而思cheers圍棋教室/index.html (+1ms) 
+09:09:28   ├─ /schools/棋而思圍棋推廣中心（東區本部）/index.html (+1ms) 
+09:09:28   ├─ /schools/棋而思圍棋推廣中心（西區分部）/index.html (+1ms) 
+09:09:28   ├─ /schools/同心圓兒童棋院/index.html (+1ms) 
+09:09:28   ├─ /schools/棋飛圍棋/index.html (+1ms) 
+09:09:28   ├─ /schools/碁世界圍棋/index.html (+1ms) 
+09:09:28   ├─ /schools/立光圍棋碁院/index.html (+1ms) 
+09:09:28   ├─ /schools/華聲少年圍棋學院-中山棋院/index.html (+1ms) 
+09:09:28   ├─ /schools/華聲少年圍棋學院-東區棋院/index.html (+1ms) 
+09:09:28   ├─ /schools/傑克圍棋教室/index.html (+1ms) 
+09:09:28   ├─ /schools/名人兒童棋院-高雄新興中正分院/index.html (+1ms) 
+09:09:28   ├─ /schools/名人兒童棋院（鼓山大順分院）/index.html (+1ms) 
+09:09:28   ├─ /schools/士洪圍棋教室/index.html (+1ms) 
+09:09:28   ├─ /schools/士洪圍棋文理補習班/index.html (+3ms) 
+09:09:28   ├─ /schools/大局觀圍棋/index.html (+1ms) 
+09:09:28   ├─ /schools/大師棋院/index.html (+1ms) 
+09:09:28   ├─ /schools/棋樂圍棋/index.html (+1ms) 
+09:09:28   ├─ /schools/睿弈圍棋道場/index.html (+1ms) 
+09:09:28   ├─ /schools/碁林棋苑/index.html (+1ms) 
+09:09:28   ├─ /schools/黑嘉嘉圍棋（高雄左營分校）/index.html (+1ms) 
+09:09:28   └─ /schools/中央棋院-花蓮院/index.html (+1ms) 
+09:09:28 ▶ src/pages/schools/index.astro
+09:09:28   └─ /schools/index.html (+4ms) 
+09:09:28 ▶ src/pages/tournaments.astro
+09:09:28   └─ /tournaments/index.html (+1ms) 
+09:09:28 ▶ src/pages/index.astro
+09:09:28   └─ /index.html (+1ms) 
+09:09:28 ✓ Completed in 183ms.
+
+09:09:28 [@astrojs/sitemap] `sitemap-index.xml` created at `dist`
+09:09:28 [build] 119 page(s) built in 1.49s
+09:09:28 [build] Complete!
+site: https://weiqi.tw
+HTML 頁數: 119；sitemap 頁數: 119；檢查檔案數: 124
+baseline: docs/evidence/2026-11-04-batch1/baseline-pages.txt
+PASS 全部規則通過
+exit=0

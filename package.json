@@ -6,7 +6,9 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "check": "astro build && node scripts/check-site-urls.mjs",
+    "check:cutover": "astro build && node scripts/check-site-urls.mjs --baseline docs/evidence/2026-11-04-batch1/baseline-pages.txt"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.0",

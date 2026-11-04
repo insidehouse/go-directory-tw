@@ -5,5 +5,6 @@ import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
   integrations: [tailwind(), sitemap()],
-  site: 'https://go-directory-tw.pages.dev',
+  // 正式網域：換網域只改這一行，再跑 npm run check
+  site: 'https://weiqi.tw',
 });
